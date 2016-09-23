@@ -5,13 +5,16 @@
  */
 package com.hugopham.mailmodules;
 
+import java.io.File;
 import jodd.mail.EmailAddress;
+import jodd.mail.EmailAttachment;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 /**
  *
@@ -40,7 +43,15 @@ public class SendModuleTest {
                 "JAVAbean517!");
         s = new SendModule(c);
         e = new ExtendedEmail();
-        e.from(c.getEmailSend());
+        e.from(c.getEmailSend()).subject("Test Sending")
+            .to("hugo.sender.not.a.bot@gmail.com")
+            .addHtml("<html><META http-equiv=Content-Type "
+                        + "content=\"text/html; charset=utf-8\">"
+                        + "<body><h1>Here is my photograph embedded in "
+                        + "this email.</h1><img src='cid:test.png'>"
+                        + "<h2>THIS IS A TEST</h2></body></html>")
+            .embed(EmailAttachment.attachment()
+                .bytes(new File("test.png")));
     }
     
     @After
@@ -50,30 +61,31 @@ public class SendModuleTest {
     /**
      * Test of sendEmail method, of class SendModule.
      */
+    /*
     @Test
     public void testSendEmail_0args() {
         System.out.println("sendEmail");
-        SendModule instance = new SendModule();
         ExtendedEmail expResult = null;
         ExtendedEmail result = instance.sendEmail();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+        //fail("The test case is a prototype.");
+    }*/
 
     /**
      * Test of sendEmail method, of class SendModule.
      */
+    //@Ignore("Working")
     @Test
     public void testSendEmail_ExtendedEmail() {
-        System.out.println("sendEmail");
-        ExtendedEmail mail = null;
-        SendModule instance = new SendModule();
-        ExtendedEmail expResult = null;
-        ExtendedEmail result = instance.sendEmail(mail);
-        assertEquals(expResult, result);
+        System.out.println("sendEmail with ExtendedEmail param");
+        
+        ExtendedEmail test = s.sendEmail(e);
+        
+        assertNotNull("",test);
+        
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,39 +94,10 @@ public class SendModuleTest {
     @Test
     public void testReceiveEmail() {
         System.out.println("receiveEmail");
-        SendModule instance = new SendModule();
-        ExtendedEmail[] expResult = null;
-        ExtendedEmail[] result = instance.receiveEmail();
-        assertArrayEquals(expResult, result);
+        ExtendedEmail[] test = s.receiveEmail();
+        
+        assertNotNull("",test);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
-
-    /**
-     * Test of setConfigEmail method, of class SendModule.
-     */
-    @Test
-    public void testSetConfigEmail() {
-        System.out.println("setConfigEmail");
-        ConfigEmail c = null;
-        SendModule instance = new SendModule();
-        instance.setConfigEmail(c);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of getConfigEmail method, of class SendModule.
-     */
-    @Test
-    public void testGetConfigEmail() {
-        System.out.println("getConfigEmail");
-        SendModule instance = new SendModule();
-        ConfigEmail expResult = null;
-        ConfigEmail result = instance.getConfigEmail();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
 }

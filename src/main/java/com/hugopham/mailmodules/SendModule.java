@@ -17,6 +17,7 @@ import org.slf4j.LoggerFactory;
 
 import jodd.mail.Email;
 import jodd.mail.EmailAddress;
+import jodd.mail.EmailAttachment;
 import jodd.mail.EmailFilter;
 import jodd.mail.EmailMessage;
 import jodd.mail.ReceiveMailSession;
@@ -38,12 +39,15 @@ public class SendModule implements Mailer{
     private String smtpServerName;
     private String imapServerName;
     
-    //private ConfigEmail c;
+    private ConfigEmail c;
+    
+    private final String inboxFolder = "Inbox";
+    private final String sentFolder = "Sent";
     
     public SendModule(){}
     
     public SendModule(ConfigEmail c){
-        //this.c = c;
+        this.c = c;
         this.senderEmail = c.getEmailSend();
         this.senderPwd = c.getEmailSendPwd();
         this.smtpServerName = c.getSmtpServerName();
@@ -78,6 +82,7 @@ public class SendModule implements Mailer{
         // session
         session.open();
         session.sendMail(email);
+        email.setFolder(sentFolder);
         session.close();
         
         return email;
@@ -99,6 +104,7 @@ public class SendModule implements Mailer{
         // session
         session.open();
         session.sendMail(mail);
+        mail.setFolder(sentFolder);
         session.close();
         
         return mail;
@@ -113,16 +119,17 @@ public class SendModule implements Mailer{
                 senderEmail, senderPwd);
 
         // Display the converstaion between the application and the imap server
-        imapSslServer.setProperty("mail.debug", "true");
+        //imapSslServer.setProperty("mail.debug", "true");
 
         // A session is the object responsible for communicating with the server
         ReceiveMailSession session = imapSslServer.createSession();
         session.open();
 
         // We only want messages that have not be read yet.
-        // Messages that are delivered are then marked as read on the server
-        ReceivedEmail[] emails = session.receiveEmailAndMarkSeen(EmailFilter
-                .filter().flag(Flags.Flag.SEEN, false));
+        //ReceivedEmail[] emails = session.receiveEmailAndMarkSeen(EmailFilter
+        //        .filter().flag(Flags.Flag.SEEN, false));
+        ReceivedEmail[] emails = session.receiveEmail(EmailFilter
+                .filter().flag(Flags.Flag.SEEN, false)); //Receive all emails
         session.close();
         
         // Converts the retrieved emails into ExtendedEmail
@@ -131,29 +138,35 @@ public class SendModule implements Mailer{
 
     @Override
     public void setConfigEmail(ConfigEmail c) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.c = c;
         
     }
 
     @Override
     public ConfigEmail getConfigEmail() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return c;
     }
     
     private ExtendedEmail[] convertToExtended(ReceivedEmail[] r) {
-        ExtendedEmail[] converted = new ExtendedEmail[r.length];
-        for(int i=0; i < r.length; i++) {
-            converted[i] = new ExtendedEmail();
-            converted[i].setBcc(r[i].getBcc());
-            converted[i].setCc(r[i].getCc());
-            converted[i].setFrom(r[i].getFrom());
-            converted[i].setSubject(r[i].getSubject());
-            converted[i].setTo(r[i].getTo());
-            for(EmailMessage message : r[i].getAllMessages()){
-                converted[i].addMessage(message);
+        ExtendedEmail[] converted = null;
+        if(r != null){
+            converted = new ExtendedEmail[r.length];
+            for(int i=0; i < r.length; i++) {
+                converted[i] = new ExtendedEmail();
+                converted[i].setBcc(r[i].getBcc());
+                converted[i].setCc(r[i].getCc());
+                converted[i].setFrom(r[i].getFrom());
+                converted[i].setSubject(r[i].getSubject());
+                converted[i].setTo(r[i].getTo());
+                for(EmailMessage message : r[i].getAllMessages()){
+                    converted[i].addMessage(message);
+                }
+                for(EmailAttachment attachment : r[i].getAttachments()){
+                    converted[i].attach(attachment);
+                }
+                converted[i].setFolder(inboxFolder);
+
             }
-            
-            
         }
         return converted;
     }
