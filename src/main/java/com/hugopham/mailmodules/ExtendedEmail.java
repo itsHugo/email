@@ -1,0 +1,192 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.hugopham.mailmodules;
+
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
+import jodd.mail.Email;
+import jodd.mail.EmailAttachment;
+import jodd.mail.EmailMessage;
+import jodd.mail.MailAddress;
+import jodd.mail.ReceivedEmail;
+import jodd.mail.EmailFilter;
+/**
+ * Cast Email.create to ExtendedEmail
+ * @author 1334944
+ */
+public class ExtendedEmail extends Email {
+    private String folder;
+    private EmailFilter flag;
+    
+    
+    public ExtendedEmail() {
+        super();
+    }
+    
+    /**
+     * Sets the folder for the email.
+     * @param folder
+     * @return 
+     */
+    public ExtendedEmail folder(String folder) {
+        setFolder(folder);
+        return this;
+    }
+    
+    /**
+     * Gets folder name.
+     * @return 
+     */
+    public String getFolder(){
+        return folder;
+    }
+    
+    /**
+     * Sets folder name.
+     * @param folder 
+     */
+    public void setFolder(String folder){
+        this.folder = folder;
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 79 * hash + Objects.hashCode(this.from);
+        hash = 79 * hash + Arrays.deepHashCode(this.to);
+        hash = 79 * hash + Arrays.deepHashCode(this.cc);
+        hash = 79 * hash + Objects.hashCode(this.subject);
+        hash = 79 * hash + Objects.hashCode(this.messages);
+        hash = 79 * hash + Objects.hashCode(this.attachments);
+        hash = 79 * hash + Objects.hashCode(this.folder);
+        return hash;
+    }
+    
+    /**
+     * Compare the attachments between 2 ExtendedEmails. 
+     * using the attachment's name.
+     * @param email object to compare
+     * @return true if the list of attachments is the same.
+     */
+    public boolean compareAttachment(ExtendedEmail email){
+        boolean bool = true;
+        
+        if(this.attachments != null && email.attachments != null){
+            if(this.attachments.size() != email.attachments.size()){
+                bool = false;
+            } else {
+                for(int i=0; i < this.attachments.size(); i++) {
+                    if(!this.attachments.get(i).getName()
+                            .equals(email.attachments.get(i).getName()))
+                        bool = false;
+                }
+            }
+        }
+        return bool;
+    }
+    
+    /**
+     * Compares the list of recipients in the Cc field between 2 ExtendedEmails.
+     * @param email object to compare
+     * @return true if contacts in both lists are the same.
+     */
+    public boolean compareCc(ExtendedEmail email) {
+        boolean bool = true;
+        
+        if(this.cc.length != email.cc.length){
+            bool = false;
+        } else {
+            for(int i=0; i < this.cc.length; i++){
+                if(!this.cc[i].getEmail().equals(email.cc[i].getEmail()))
+                    bool = false;
+            }
+        }
+
+        return bool;
+    }
+    
+    /**
+     * Compares the sending email address between 2 ExtendedEmails.
+     * @param email object to compare
+     * @return true if the sender is the same.
+     */
+    public boolean compareFrom(ExtendedEmail email) {
+        boolean bool = true;
+        
+        if (this.from.getEmail()
+                .compareToIgnoreCase(email.from.getEmail()) != 0) {
+            return false;
+        }
+        
+        return bool;
+    }
+    
+    /**
+     * Compares the message between 2 ExtendedEmails.
+     * @param email object to compare
+     * @return true if the messages have the same content.
+     */
+    public boolean compareMessage(ExtendedEmail email){
+        boolean bool = true;
+        
+        for(int i=0; i < this.getAllMessages().size(); i++){
+            if(!this.getAllMessages().get(i).getContent()
+                    .equals(email.getAllMessages().get(i).getContent())){
+                bool=false;
+            }
+        }
+        return bool;
+    }
+    
+    /**
+     * Compares the subject between 2 ExtendedEmails.
+     * @param email object to compare
+     * @return true if the subject line is the same.
+     */
+    public boolean compareSubject(ExtendedEmail email){
+        boolean bool = true;
+        
+        if(!this.getSubject().equals(email.getSubject()))
+            bool = false;
+        
+        return bool;
+    }
+    /**
+     * Compares the list of recipient(s) between 2 ExtendedEmails.
+     * @param email object to compare
+     * @return true if contacts in both lists are the same.
+     */
+    public boolean compareTos(ExtendedEmail email){
+        boolean bool = true;
+        if(this.to.length != email.to.length){
+            bool = false;
+        } else {
+            for(int i=0; i < this.to.length; i++){
+                if(!this.to[i].getEmail().equals(email.to[i].getEmail()))
+                    bool = false;
+            }
+        }
+        return bool;
+    }
+    /*
+    private void sortArray(Object[] array) {
+        if(array.length == 0 || array == null)
+            return;
+        Object[] temp = new Object[array.length];
+        for(int i=0; i < array.length; i++){
+            
+        }
+        for(Object element : array) {
+            for(int i=1; i < array.length; i++){
+                if(element>)
+            }
+        }
+    }*/
+    
+}

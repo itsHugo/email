@@ -1,0 +1,6 @@
+com\hugopham\mailmodules\FXMLController.class
+com\hugopham\mailmodulesinterfaces\Mailer.class
+com\hugopham\mailmodules\ExtendedEmail.class
+com\hugopham\mailmodules\MainApp.class
+com\hugopham\mailmodules\SendModule.class
+com\hugopham\mailmodules\ConfigEmail.class

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.hugopham.mailmodules.SendModuleTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.125 sec <<< FAILURE! - in com.hugopham.mailmodules.SendModuleTest
+testGetConfigEmail(com.hugopham.mailmodules.SendModuleTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at com.hugopham.mailmodules.SendModuleTest.testGetConfigEmail(SendModuleTest.java:112)
+
+testSendEmail_ExtendedEmail(com.hugopham.mailmodules.SendModuleTest)  Time elapsed: 0.062 sec  <<< ERROR!
+jodd.mail.MailException: Failed to connect; <--- javax.mail.AuthenticationFailedException: failed to connect, no user name specified?
+	at com.hugopham.mailmodules.SendModuleTest.testSendEmail_ExtendedEmail(SendModuleTest.java:71)
+Caused by: javax.mail.AuthenticationFailedException: failed to connect, no user name specified?
+	at com.hugopham.mailmodules.SendModuleTest.testSendEmail_ExtendedEmail(SendModuleTest.java:71)
+
+testSendEmail_0args(com.hugopham.mailmodules.SendModuleTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.hugopham.mailmodules.SendModuleTest.testSendEmail_0args(SendModuleTest.java:56)
+
+testReceiveEmail(com.hugopham.mailmodules.SendModuleTest)  Time elapsed: 0.016 sec  <<< ERROR!
+jodd.mail.MailException: Open session error; <--- javax.mail.AuthenticationFailedException: failed to connect, no user name specified?
+	at com.hugopham.mailmodules.SendModuleTest.testReceiveEmail(SendModuleTest.java:85)
+Caused by: javax.mail.AuthenticationFailedException: failed to connect, no user name specified?
+	at com.hugopham.mailmodules.SendModuleTest.testReceiveEmail(SendModuleTest.java:85)
+
+testSetConfigEmail(com.hugopham.mailmodules.SendModuleTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not supported yet.
+	at com.hugopham.mailmodules.SendModuleTest.testSetConfigEmail(SendModuleTest.java:99)
+
