@@ -27,7 +27,10 @@ import jodd.mail.SmtpServer;
 import jodd.mail.SmtpSslServer;
 import jodd.mail.ImapSslServer;
 /**
- *
+ * Module for sending and receiving emails using the Jodd API and 
+ * the ExtendedEmail class that extends Email.
+ * Implements the Mailer interface.
+ * 
  * @author 1334944
  */
 public class SendModule implements Mailer{
@@ -44,6 +47,7 @@ public class SendModule implements Mailer{
     private final String inboxFolder = "Inbox";
     private final String sentFolder = "Sent";
     
+    //Default constructor
     public SendModule(){}
     
     public SendModule(ConfigEmail c){
@@ -54,15 +58,10 @@ public class SendModule implements Mailer{
         this.imapServerName = c.getImapServerName();
     }
     
-    /*
-    public SendModule(String senderEmail, String senderPwd, 
-            EmailAddress[] emailReceive, String subject, String html) {
-        this.senderEmail = senderEmail;
-        this.emailReceive = emailReceive;
-        this.subject = subject;
-        this.html = html;
-    }*/
-    
+    /**
+     * Sends an email
+     * @return 
+     */
     public ExtendedEmail sendEmail() {
         // Create am SMTP server object
         SmtpServer<SmtpSslServer> smtpServer = SmtpSslServer
@@ -88,7 +87,13 @@ public class SendModule implements Mailer{
         return email;
         
     }
-
+    
+    /**
+     * Send an email with an existing ExtendedEmail object
+     * 
+     * @param mail Email to send
+     * @return the email sent
+     */
     @Override
     public ExtendedEmail sendEmail(ExtendedEmail mail) {
        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -110,7 +115,10 @@ public class SendModule implements Mailer{
         return mail;
     }
     
-
+    /**
+     * Retrieves unread emails.
+     * @return array of ExtendedEmail
+     */
     @Override
     public ExtendedEmail[] receiveEmail() {
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -126,10 +134,8 @@ public class SendModule implements Mailer{
         session.open();
 
         // We only want messages that have not be read yet.
-        //ReceivedEmail[] emails = session.receiveEmailAndMarkSeen(EmailFilter
-        //        .filter().flag(Flags.Flag.SEEN, false));
         ReceivedEmail[] emails = session.receiveEmail(EmailFilter
-                .filter().flag(Flags.Flag.SEEN, false)); //Receive all emails
+                .filter().flag(Flags.Flag.SEEN, false));
         session.close();
         
         // Converts the retrieved emails into ExtendedEmail
@@ -147,6 +153,7 @@ public class SendModule implements Mailer{
         return c;
     }
     
+    // Converts ReceivedEmail to ExtendedEmail
     private ExtendedEmail[] convertToExtended(ReceivedEmail[] r) {
         ExtendedEmail[] converted = null;
         if(r != null){
@@ -165,7 +172,6 @@ public class SendModule implements Mailer{
                     converted[i].attach(attachment);
                 }
                 converted[i].setFolder(inboxFolder);
-
             }
         }
         return converted;
