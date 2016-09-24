@@ -14,7 +14,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Ignore;
+
 
 /**
  *
@@ -45,32 +45,20 @@ public class SendModuleTest {
         e = new ExtendedEmail();
         e.from(c.getEmailSend()).subject("Test Sending")
             .to("hugo.sender.not.a.bot@gmail.com")
+            .cc("hugo.pham@hotmail.com")
+            .bcc("z0mg_a_hugz@hotmail.com")
             .addHtml("<html><META http-equiv=Content-Type "
                         + "content=\"text/html; charset=utf-8\">"
                         + "<body><h1>Here is my photograph embedded in "
                         + "this email.</h1><img src='cid:test.png'>"
                         + "<h2>THIS IS A TEST</h2></body></html>")
-            .embed(EmailAttachment.attachment()
-                .bytes(new File("test.png")));
+            .embed(EmailAttachment.attachment().bytes(new File("test.png")))
+            .attach(EmailAttachment.attachment().file("test.png"));
     }
     
     @After
     public void tearDown() {
     }
-
-    /**
-     * Test of sendEmail method, of class SendModule.
-     */
-    /*
-    @Test
-    public void testSendEmail_0args() {
-        System.out.println("sendEmail");
-        ExtendedEmail expResult = null;
-        ExtendedEmail result = instance.sendEmail();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }*/
 
     /**
      * Test of sendEmail method, of class SendModule.
@@ -83,9 +71,6 @@ public class SendModuleTest {
         ExtendedEmail test = s.sendEmail(e);
         
         assertNotNull("",test);
-        
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 
     /**
@@ -97,7 +82,5 @@ public class SendModuleTest {
         ExtendedEmail[] test = s.receiveEmail();
         
         assertNotNull("",test);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
     }
 }
