@@ -6,8 +6,6 @@
 package com.hugopham.mailmodules;
 
 import com.hugopham.mailmodulesinterfaces.Mailer;
-
-import java.io.File;
 import java.util.List;
 
 import javax.mail.Flags;
@@ -26,6 +24,7 @@ import jodd.mail.SendMailSession;
 import jodd.mail.SmtpServer;
 import jodd.mail.SmtpSslServer;
 import jodd.mail.ImapSslServer;
+import jodd.mail.MailAddress;
 /**
  * Module for sending and receiving emails using the Jodd API and 
  * the ExtendedEmail class that extends Email.
@@ -43,6 +42,8 @@ public class SendModule implements Mailer{
     private String imapServerName;
     
     private ConfigEmail c;
+    private final Logger logger = 
+            LoggerFactory.getLogger(this.getClass().getName());
     
     private final String inboxFolder = "Inbox";
     private final String sentFolder = "Sent";
@@ -96,6 +97,8 @@ public class SendModule implements Mailer{
      */
     @Override
     public ExtendedEmail sendEmail(ExtendedEmail mail) {
+        //Used to get attachments from sent email, since they disappear afte sending
+        List<EmailAttachment> emailAttachments = mail.getAttachments();
        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
        // Create am SMTP server object
         SmtpServer<SmtpSslServer> smtpServer = SmtpSslServer
@@ -110,8 +113,18 @@ public class SendModule implements Mailer{
         session.open();
         session.sendMail(mail);
         mail.setFolder(sentFolder);
+        
+        
+        
+        
         session.close();
         
+        //reinsert attachments into mail object
+        for (EmailAttachment attachment : emailAttachments) 
+           //mail.attach(attachment);
+        //Log sent email
+        logger.info("-------Sent an email: --------");
+        logEmail(mail);
         return mail;
     }
     
@@ -153,10 +166,11 @@ public class SendModule implements Mailer{
         return c;
     }
     
-    // Converts ReceivedEmail to ExtendedEmail
+    // Converts ReceivedEmail array to ExtendedEmail array
     private ExtendedEmail[] convertToExtended(ReceivedEmail[] r) {
         ExtendedEmail[] converted = null;
         if(r != null){
+            logger.info("-------Converting ReceivedEmail to ExtendedEmail-------");
             converted = new ExtendedEmail[r.length];
             for(int i=0; i < r.length; i++) {
                 converted[i] = new ExtendedEmail();
@@ -173,9 +187,50 @@ public class SendModule implements Mailer{
                 }
                 converted[i].setSentDate(r[i].getSentDate());
                 converted[i].setFolder(inboxFolder);
+                logEmail(converted[i]);
             }
         }
         return converted;
+    }
+    
+    //Method for logging an email's details (from, to, cc, etc.)
+    private void logEmail(ExtendedEmail mail){
+        // common info
+        logger.info("FROM:" + mail.getFrom());
+        for (MailAddress email : mail.getTo()){
+            logger.info("TO:" + email);
+        }
+        for (MailAddress email : mail.getCc()){
+            logger.info("CC:" + email);
+        }
+        for (MailAddress email : mail.getBcc()){
+            logger.info("BCC:" + email);
+        }
+        logger.info("SUBJECT:" + mail.getSubject());
+        logger.info("PRIORITY:" + mail.getPriority());
+        logger.info("SENT DATE:" + mail.getSentDate());
+
+        // Messages may be multi-part so they are stored in an array
+        List<EmailMessage> messages = mail.getAllMessages();
+        for (EmailMessage msg : messages) {
+            logger.info("------------");
+            logger.info(msg.getEncoding());
+            logger.info(msg.getMimeType());
+            logger.info(msg.getContent());
+        }
+
+        // There may be multiple arrays so they are stored in an array
+        List<EmailAttachment> attachments = mail.getAttachments();
+        if (attachments != null) {
+            logger.info("------------");
+            for (EmailAttachment attachment : attachments) {
+                logger.info("name: " + attachment.getName());
+                logger.info("cid: " + attachment.getContentId());
+                logger.info("size: " + attachment.getSize());
+            }
+        }
+        logger.info("------------");
+        logger.info("FOLDER:" + mail.getFolder());
     }
     
 }
