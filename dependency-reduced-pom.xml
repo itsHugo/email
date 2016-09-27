@@ -2,9 +2,20 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hugopham</groupId>
-  <artifactId>mailmodules</artifactId>
-  <name>mailmodules</name>
+  <artifactId>joddemailapplication</artifactId>
+  <name>joddemailapplication</name>
   <version>1.0-SNAPSHOT</version>
+  <description>School Project - Email Application using Jodd</description>
+  <developers>
+    <developer>
+      <id>1334944</id>
+      <name>Hugo Pham</name>
+      <email>hugo.pham@hotmail.com</email>
+    </developer>
+  </developers>
+  <organization>
+    <name>Dawson College</name>
+  </organization>
   <build>
     <defaultGoal>clean compile package exec:java</defaultGoal>
     <plugins>

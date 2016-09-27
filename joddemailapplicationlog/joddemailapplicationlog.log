@@ -1,0 +1,318 @@
+[INFO ] 2016-09-27 10:26:46.149 [main] SendModule - Sent an email: 
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - SENT DATE:null
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - ------
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - text/html
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - +++++
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - cid: null
+[INFO ] 2016-09-27 10:26:46.664 [main] SendModule - size: -1
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - SENT DATE:Tue Sep 27 11:15:14 EDT 2016
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:15:17.545 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - SENT DATE:Tue Sep 27 11:21:40 EDT 2016
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:21:43.820 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - SENT DATE:Tue Sep 27 11:21:40 EDT 2016
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - SENT DATE:Tue Sep 27 11:23:13 EDT 2016
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:23:18.428 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:23:18.444 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:23:18.444 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:23:18.444 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:23:18.444 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:23:18.444 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - SENT DATE:Tue Sep 27 11:28:05 EDT 2016
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - SENT DATE:Tue Sep 27 11:28:47 EDT 2016
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:29:30.924 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - SENT DATE:Tue Sep 27 11:29:24 EDT 2016
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:29:30.940 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - SENT DATE:Tue Sep 27 11:31:11 EDT 2016
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:31:14.986 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - -------Sent an email: --------
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - SENT DATE:null
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - text/html
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - size: -1
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:12.431 [main] SendModule - FOLDER:Sent
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - SENT DATE:Tue Sep 27 11:31:11 EDT 2016
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:32:16.824 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - SENT DATE:Tue Sep 27 11:32:11 EDT 2016
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:32:16.840 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - SENT DATE:Tue Sep 27 11:33:59 EDT 2016
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:34:03.012 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - -------Sent an email: --------
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - SENT DATE:null
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - text/html
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - size: -1
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:33.699 [main] SendModule - FOLDER:Sent
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - SENT DATE:Tue Sep 27 11:33:59 EDT 2016
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - FOLDER:Inbox
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-09-27 11:36:36.487 [main] SendModule - CC:hugo.pham@hotmail.com
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - BCC:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - SUBJECT:Test Sending
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - PRIORITY:-1
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - SENT DATE:Tue Sep 27 11:36:32 EDT 2016
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - UTF-8
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - TEXT/HTML
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:test.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - cid: <test.png>
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - name: test.png
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - cid: null
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - size: 70909
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - ------------
+[INFO ] 2016-09-27 11:36:36.503 [main] SendModule - FOLDER:Inbox
