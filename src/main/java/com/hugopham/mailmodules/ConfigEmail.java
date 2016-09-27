@@ -20,6 +20,7 @@ public class ConfigEmail {
     // Default constructor
     public ConfigEmail(){}
     
+    
     public ConfigEmail(String smtpServerName, String imapServerName, 
             EmailAddress emailSend, String emailSendPwd) {
         this.smtpServerName = smtpServerName;

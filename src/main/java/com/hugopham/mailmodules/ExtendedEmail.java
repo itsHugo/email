@@ -17,20 +17,22 @@ import jodd.mail.MailAddress;
 import jodd.mail.ReceivedEmail;
 import jodd.mail.EmailFilter;
 /**
- * Cast Email.create to ExtendedEmail
+ * Extends the Email class from Jodd.
+ * Adds a field called folder in order to store the emails in an approriate folder.
+ * 
  * @author 1334944
  */
 public class ExtendedEmail extends Email {
     private String folder;
     private EmailFilter flag;
     
-    
+    // Default Constructor - Calls the Email constructor
     public ExtendedEmail() {
         super();
     }
     
     /**
-     * Sets the folder for the email.
+     * Sets the folder for the email with fluent syntax.
      * @param folder
      * @return 
      */
@@ -174,19 +176,5 @@ public class ExtendedEmail extends Email {
         }
         return bool;
     }
-    /*
-    private void sortArray(Object[] array) {
-        if(array.length == 0 || array == null)
-            return;
-        Object[] temp = new Object[array.length];
-        for(int i=0; i < array.length; i++){
-            
-        }
-        for(Object element : array) {
-            for(int i=1; i < array.length; i++){
-                if(element>)
-            }
-        }
-    }*/
     
 }

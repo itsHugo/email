@@ -171,6 +171,7 @@ public class SendModule implements Mailer{
                 for(EmailAttachment attachment : r[i].getAttachments()){
                     converted[i].attach(attachment);
                 }
+                converted[i].setSentDate(r[i].getSentDate());
                 converted[i].setFolder(inboxFolder);
             }
         }

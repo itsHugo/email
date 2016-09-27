@@ -44,15 +44,17 @@ public class ExtendedEmailTest {
         email.from(e)
             .to("b@b.com").to("c@c.com")
             .subject("test1").addHtml("<html>"
-            + "<h1>Hello</h1>"
-            + "</html>");
+                + "<h1>Hello</h1>"
+                + "</html>")
+            .attach(EmailAttachment.attachment().file("test.png"));;
         
        email2.from(e.getInternetAddress().getAddress())
             .to("b@b.com").to("c@c.com")
             .subject("test1")
             .addHtml("<html>"
-            + "<h1>Hello</h1>"
-            + "</html>");
+                + "<h1>Hello</h1>"
+                + "</html>")
+            .attach(EmailAttachment.attachment().file("test.png"));;
     }
     
     @After
@@ -70,17 +72,13 @@ public class ExtendedEmailTest {
         // fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of equals method, of class ExtendedEmail.
-     */
+
     @Test
     public void testEquals() {
         System.out.println("equals");
-        boolean expResult = true;
+        boolean expResult = false; //not same object
         boolean result = email.equals(email2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        // fail("The test case is a prototype.");
     }
     
     @Test

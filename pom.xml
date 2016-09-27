@@ -8,6 +8,23 @@
     <packaging>jar</packaging>
 
     <name>joddemailapplication</name>
+    
+    <!-- A description of the program -->
+    <description>School Project - Email Application using Jodd</description>
+    
+    <!-- Identifies the programmer or programmers who worked on the project -->
+    <developers>
+        <developer>
+            <id>1334944</id>
+            <name>Hugo Pham</name>
+            <email>hugo.pham@hotmail.com</email>
+        </developer>
+    </developers>
+    
+    <!-- The company or organization that the programmer(s) work for -->
+    <organization>
+        <name>Dawson College</name>
+    </organization>
 
    <!-- Global settings for the project. Settings can be accessed in the pom
     by placing the tag name in ${...} ex. ${mainClass} -->
