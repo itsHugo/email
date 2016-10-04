@@ -1,2 +1,3 @@
-com\hugopham\mailmodules\SendModuleTest.class
+com\hugopham\mailmodules\SendReceiveModuleTest.class
+com\hugopham\propertiesmanager\PropertiesManagerTest.class
 com\hugopham\mailmodules\ExtendedEmailTest.class

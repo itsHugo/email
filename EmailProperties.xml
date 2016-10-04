@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>XML SMTP Properties</comment>
+<entry key="password">JAVAbean517!</entry>
+<entry key="smtpServerName">smtp.gmail.com</entry>
+<entry key="imapServerName">imap.gmail.com</entry>
+<entry key="userEmailAddress">hugo.sender.not.a.bot@gmail.com</entry>
+</properties>

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mailmoduledatabase;
+package com.hugopham.mailmoduledatabase;
 
 import com.hugopham.mailmodules.ExtendedEmail;
 import java.sql.SQLException;
@@ -17,7 +17,7 @@ import jodd.mail.MailAddress;
 public class EmailDAOImpl implements EmailDAO {
 
     @Override
-    public int create(ExtendedEmail email) throws SQLException {
+    public int createEmail(ExtendedEmail email) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -27,7 +27,7 @@ public class EmailDAOImpl implements EmailDAO {
     }
 
     @Override
-    public ExtendedEmail findID(int id) throws SQLException {
+    public ExtendedEmail findIDEmail(int id) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

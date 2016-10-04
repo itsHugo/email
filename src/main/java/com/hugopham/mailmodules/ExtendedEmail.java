@@ -8,8 +8,10 @@ package com.hugopham.mailmodules;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 import java.util.Objects;
+import javax.mail.Flags;
 import jodd.mail.Email;
 import jodd.mail.EmailAttachment;
 import jodd.mail.EmailMessage;
@@ -24,7 +26,10 @@ import jodd.mail.EmailFilter;
  */
 public class ExtendedEmail extends Email {
     private String folder;
-    private EmailFilter flag;
+    private int messageNumber;
+    private List<ReceivedEmail> attachedMessages;
+    private Date receiveDate;
+    private Flags flags;
     
     // Default Constructor - Calls the Email constructor
     public ExtendedEmail() {
@@ -39,6 +44,40 @@ public class ExtendedEmail extends Email {
     public ExtendedEmail folder(String folder) {
         setFolder(folder);
         return this;
+    }
+
+    public int getMessageNumber() {
+        return messageNumber;
+    }
+
+    public void setMessageNumber(int messageNumber) {
+        this.messageNumber = messageNumber;
+    }
+
+    public List<ReceivedEmail> getAttachedMessages() {
+        return attachedMessages;
+    }
+
+    public void setAttachedMessages(List<ReceivedEmail> attachedMessages) {
+        for(ReceivedEmail r : attachedMessages){
+            this.attachedMessages.add(r);
+        }
+    }
+    
+    public Date getReceiveDate() {
+        return receiveDate;
+    }
+
+    public void setReceiveDate(Date recvDate) {
+        this.receiveDate = recvDate;
+    }
+
+    public Flags getFlags() {
+        return flags;
+    }
+
+    public void setFlags(Flags flags) {
+        this.flags = flags;
     }
     
     /**
@@ -68,6 +107,26 @@ public class ExtendedEmail extends Email {
         hash = 79 * hash + Objects.hashCode(this.attachments);
         hash = 79 * hash + Objects.hashCode(this.folder);
         return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final ExtendedEmail other = (ExtendedEmail) obj;
+        if (!Objects.equals(this.folder, other.folder)) {
+            return false;
+        }
+        
+        
+        return true;
     }
     
     /**

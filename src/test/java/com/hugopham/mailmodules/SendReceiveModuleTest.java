@@ -38,11 +38,11 @@ public class SendReceiveModuleTest {
     
     @Before
     public void setUp() {
-        c = new ConfigEmail("smtp.gmail.com","imap.gmail.com",
-                new EmailAddress("hugo.sender.not.a.bot@gmail.com"),
-                "JAVAbean517!");
+        c = new ConfigEmail("hugo.sender.not.a.bot@gmail.com",
+                "JAVAbean517!","imap.gmail.com","smtp.gmail.com");
         s = new SendReceiveModule(c);
         e = new ExtendedEmail();
+        //setup email
         e.from(c.getEmailSend()).subject("Test Sending")
             .to("hugo.sender.not.a.bot@gmail.com")
             .cc("hugo.pham@hotmail.com")
@@ -50,9 +50,9 @@ public class SendReceiveModuleTest {
             .addHtml("<html><META http-equiv=Content-Type "
                         + "content=\"text/html; charset=utf-8\">"
                         + "<body><h1>Here is my photograph embedded in "
-                        + "this email.</h1><img src='cid:test.png'>"
+                        + "this email.</h1><img src='cid:car.png'>"
                         + "<h2>THIS IS A TEST</h2></body></html>")
-            .embed(EmailAttachment.attachment().bytes(new File("test.png")))
+            .embed(EmailAttachment.attachment().bytes(new File("car.png")))
             .attach(EmailAttachment.attachment().file("test.png"));
     }
     
@@ -82,5 +82,6 @@ public class SendReceiveModuleTest {
         ExtendedEmail[] test = s.receiveEmail();
         
         assertNotNull("",test);
+        
     }
 }
