@@ -2,8 +2,8 @@ E:\git\joddemailapplication\src\main\java\com\hugopham\mailmodules\SendReceiveMo
 E:\git\joddemailapplication\src\main\java\com\hugopham\mailmoduledatabase\EmailDAOImpl.java
 E:\git\joddemailapplication\src\main\java\com\hugopham\mailmodules\ExtendedEmail.java
 E:\git\joddemailapplication\src\main\java\com\hugopham\propertiesmanager\PropertiesManager.java
-E:\git\joddemailapplication\src\main\java\com\hugopham\mailmodules\ConfigEmail.java
 E:\git\joddemailapplication\src\main\java\com\hugopham\mailmodules\FXMLController.java
+E:\git\joddemailapplication\src\main\java\com\hugopham\mailmoduleconfig\ConfigEmail.java
 E:\git\joddemailapplication\src\main\java\com\hugopham\mailmodulesinterfaces\Mailer.java
 E:\git\joddemailapplication\src\main\java\com\hugopham\mailmoduledatabase\EmailDAO.java
 E:\git\joddemailapplication\src\main\java\com\hugopham\mailmodules\MainApp.java

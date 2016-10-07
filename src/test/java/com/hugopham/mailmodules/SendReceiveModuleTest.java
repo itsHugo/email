@@ -5,6 +5,7 @@
  */
 package com.hugopham.mailmodules;
 
+import com.hugopham.mailmoduleconfig.ConfigEmail;
 import java.io.File;
 import jodd.mail.EmailAddress;
 import jodd.mail.EmailAttachment;

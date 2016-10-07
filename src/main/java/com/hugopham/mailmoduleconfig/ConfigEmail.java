@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hugopham.mailmodules;
+package com.hugopham.mailmoduleconfig;
 
 import java.util.Objects;
 

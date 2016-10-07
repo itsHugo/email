@@ -20,6 +20,11 @@ public class EmailDAOImpl implements EmailDAO {
     public int createEmail(ExtendedEmail email) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    @Override
+    public int createEmailAddress(String email) throws SQLException {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     @Override
     public ArrayList<ExtendedEmail> findAll() throws SQLException {
@@ -55,5 +60,7 @@ public class EmailDAOImpl implements EmailDAO {
     public int delete(int ID) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    
     
 }

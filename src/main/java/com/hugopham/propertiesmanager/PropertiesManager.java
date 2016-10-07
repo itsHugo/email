@@ -5,7 +5,7 @@
  */
 package com.hugopham.propertiesmanager;
 
-import com.hugopham.mailmodules.ConfigEmail;
+import com.hugopham.mailmoduleconfig.ConfigEmail;
 import static java.nio.file.Files.newInputStream;
 import static java.nio.file.Files.newOutputStream;
 import static java.nio.file.Paths.get;

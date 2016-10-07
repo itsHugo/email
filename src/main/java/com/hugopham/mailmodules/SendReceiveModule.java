@@ -5,7 +5,9 @@
  */
 package com.hugopham.mailmodules;
 
+import com.hugopham.mailmoduleconfig.ConfigEmail;
 import com.hugopham.mailmodulesinterfaces.Mailer;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.mail.Flags;
@@ -100,8 +102,15 @@ public class SendReceiveModule implements Mailer {
      */
     @Override
     public ExtendedEmail sendEmail(ExtendedEmail mail) {
-        //Used to get attachments from sent email, since they disappear afte sending
-        List<EmailAttachment> emailAttachments = mail.getAttachments();
+        //Used to get embedded attachments from sent email, since they disappear afte sending
+        List<EmailAttachment> emailAttachments = new ArrayList<>();
+        for(EmailAttachment attachments : mail.getAttachments()){
+            for(EmailMessage message : mail.getAllMessages()){
+                if(attachments.isEmbeddedInto(message)){
+                    emailAttachments.add(attachments);
+                }
+            }
+        }
         ExtendedEmail mail2 = mail;
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         // Create am SMTP server object
@@ -161,11 +170,6 @@ public class SendReceiveModule implements Mailer {
         return convertToExtended(emails);
     }
 
-    @Override
-    public void setConfigEmail(ConfigEmail c) {
-        this.c = c;
-
-    }
 
     @Override
     public ConfigEmail getConfigEmail() {
@@ -261,6 +265,11 @@ public class SendReceiveModule implements Mailer {
         logger.info("FLAGS:" + mail.getFlags());
         
         logger.info("-------------------------");
+    }
+
+    @Override
+    public void setConfigEmail(ConfigEmail c) {
+        this.c = c;
     }
 
 }

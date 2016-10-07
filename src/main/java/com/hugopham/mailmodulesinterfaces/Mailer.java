@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package com.hugopham.mailmodulesinterfaces;
+import com.hugopham.mailmoduleconfig.ConfigEmail;
 import com.hugopham.mailmodules.*;
 
 /**
