@@ -5,6 +5,7 @@
  */
 package com.hugopham.propertiesmanager;
 
+import com.hugopham.mailmoduleconfig.PropertiesManager;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
 import org.junit.After;
 import org.junit.AfterClass;

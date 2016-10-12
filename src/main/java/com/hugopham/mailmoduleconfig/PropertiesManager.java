@@ -3,9 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hugopham.propertiesmanager;
+package com.hugopham.mailmoduleconfig;
 
-import com.hugopham.mailmoduleconfig.ConfigEmail;
 import static java.nio.file.Files.newInputStream;
 import static java.nio.file.Files.newOutputStream;
 import static java.nio.file.Paths.get;
