@@ -1,8 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 /**
  * Author:  Hugo
  * Created: 11-Oct-2016
@@ -22,8 +17,8 @@ CREATE TABLE EMAILACCOUNT (
     PRIMARY KEY (ID)
 );
 
-DROP TABLE IF EXISTS EMAILCONTENT;
-CREATE TABLE EMAILCONTENT (
+DROP TABLE IF EXISTS EMAIL;
+CREATE TABLE EMAIL (
     ID int(11) NOT NULL auto_increment,
     FROMEMAIL varchar(40) NOT NULL default '',
     TOEMAIL varchar(40) NOT NULL default '',
@@ -32,12 +27,29 @@ CREATE TABLE EMAILCONTENT (
     SENDDATE date,
     RECEIVEDATE date,
     FOLDER varchar(40) NOT NULL default '',
-    CONTENT varchar(MAX) NOT NULL default '',
-)
+);
 
 DROP TABLE IF EXISTS FOLDER;
 CREATE TABLE FOLDER (
     ID int(11) NOT NULL auto_increment,
     FOLDERNAME varchar(40) NOT NULL default ''
+);
+
+
+DROP TABLE IF EXISTS MESSAGE;
+CREATE TABLE MESSAGE (
+    ID int(11) NOT NULL auto_increment,
+    CONTENT varchar(max) NOT NULL default ''
+);
+
+DROP TABLE IF EXISTS BRIDGEMESSAGE;
+CREATE TABLE BRIDGEMESSAGE (
+    MESSAGEID int(11),
+    EMAILID int(11)
 )
 
+DROP TABLE IF EXISTS ATTACHMENT;
+CREATE TABLE ATTACHMENT (
+    ID int(11) NOT NULL auto_increment,
+    CONTENT blob 
+)
