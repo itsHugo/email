@@ -39,6 +39,6 @@ public interface EmailDAO {
     public int updateFolder(ExtendedEmail email, String folder) throws SQLException;
 
     //Delete
-    public int delete(int ID) throws SQLException;
+    public int deleteEmail(int ID) throws SQLException;
 
 }

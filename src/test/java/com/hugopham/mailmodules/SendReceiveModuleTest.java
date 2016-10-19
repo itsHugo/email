@@ -53,8 +53,8 @@ public class SendReceiveModuleTest {
                         + "<body><h1>Here is my photograph embedded in "
                         + "this email.</h1><img src='cid:car.png'>"
                         + "<h2>THIS IS A TEST</h2></body></html>")
-            .embed(EmailAttachment.attachment().bytes(new File("car.png")))
-            .attach(EmailAttachment.attachment().file("test.png"));
+            .attach(EmailAttachment.attachment().file("test.png"))
+            .embed(EmailAttachment.attachment().bytes(new File("car.png")));
     }
     
     @After
@@ -83,6 +83,5 @@ public class SendReceiveModuleTest {
         ExtendedEmail[] test = s.receiveEmail();
         
         assertNotNull("",test);
-        
     }
 }
