@@ -111,7 +111,8 @@ public class SendReceiveModule implements Mailer {
                 }
             }
         }
-        ExtendedEmail mail2 = mail;
+        
+        int before = mail.getAttachments().size();
         //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
         // Create am SMTP server object
         SmtpServer<SmtpSslServer> smtpServer = SmtpSslServer
@@ -128,15 +129,20 @@ public class SendReceiveModule implements Mailer {
         mail.setFolder(sentFolder);
 
         session.close();
-
-        //reinsert attachments into mail object
-        for (EmailAttachment attachment : emailAttachments) {
-            if(!mail.getAttachments().contains(attachment)){
-                logger.info("Reinserting missing attachments");
-                mail.attach(attachment);
+        
+        // if size of list of attachment is smaller than before
+        // insert missing attachments
+        int after = mail.getAttachments().size();
+        if(before > after){
+            for (EmailAttachment attachment : emailAttachments) {
+                for(EmailMessage message: mail.getAllMessages()){
+                    if(attachment.isEmbeddedInto(message)){
+                        mail.embed(attachment);
+                    } 
+                }
             }
-                
         }
+        
         //Log sent email
         logger.info("-------Sent an email: --------");
         logEmail(mail);
