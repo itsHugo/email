@@ -209,7 +209,6 @@ public class SendReceiveModule implements Mailer {
                 converted[i].setMessageNumber(r[i].getMessageNumber());
                 converted[i].setFlags(r[i].getFlags());
                 converted[i].setFolder(inboxFolder);
-                //converted[i].setAttachedMessages(r[i].getAttachedMessages());
                 
                 logEmail(converted[i]);
             }
