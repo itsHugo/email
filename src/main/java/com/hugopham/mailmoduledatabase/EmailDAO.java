@@ -23,10 +23,11 @@ public interface EmailDAO {
 
     //Create
     public int createEmailAccount(String email,String password) throws SQLException;
-    public int createEmail(ExtendedEmail email) throws SQLException;
+    public int createEmail(String useremail, ExtendedEmail email) throws SQLException;
     public int createEmailMessage(EmailMessage message, int emailID) throws SQLException;
     public int createToEmail(String emailAddress, int emailID) throws SQLException;
-    public int createCCEmail(String emailAddres, int emailID) throws SQLException;
+    public int createCcEmail(String emailAddres, int emailID) throws SQLException;
+    public int createBccEmail(String emailAddress, int emailID) throws SQLException;
     public int createAttachment(EmailAttachment attachment, int emailID) throws SQLException;
     //Read
     public ArrayList<ExtendedEmail> findAll() throws SQLException;
