@@ -1763,3 +1763,45 @@
 [INFO ] 2016-10-19 21:00:07.771 [main] SendReceiveModule - ------------
 [INFO ] 2016-10-19 21:00:07.771 [main] SendReceiveModule - FLAGS:com.sun.mail.imap.protocol.FLAGS@0
 [INFO ] 2016-10-19 21:00:07.771 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-10-20 19:59:19.788 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 19:59:20.048 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:15:51.917 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:15:51.942 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:27:03.459 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:27:03.484 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:33:29.815 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:33:30.634 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:33:30.657 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:35:14.932 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:35:15.735 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:35:15.761 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:38:05.026 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:38:05.823 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:38:05.846 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:39:58.354 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:39:59.192 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:39:59.218 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:42:23.516 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:42:24.338 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:42:24.361 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:48:28.660 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:48:29.457 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:48:29.480 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:49:12.505 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:49:13.295 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:49:13.320 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:56:08.237 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:56:09.064 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:56:09.089 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:57:45.192 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:57:46.017 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:57:46.040 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 20:58:20.915 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 20:58:21.851 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 20:58:21.875 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 21:52:18.416 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 21:52:19.218 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 21:52:19.242 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 21:54:44.983 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 21:54:45.800 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 21:54:45.823 [main] EmailDAOImpl - # of records created : 1

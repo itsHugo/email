@@ -36,12 +36,11 @@ public interface EmailDAO {
         findAllEmailsFor(String email) throws SQLException;
     public ArrayList<ExtendedEmail>
         findEmailsFrom(String email) throws SQLException;
-    public ExtendedEmail 
+    public int 
         getEmailID(String fromEmail, String subject, String folderName, Date sendDate, Date receiveDate) throws SQLException;
     //Update
-    public int updateEmail(int ID) throws SQLException;
-    public int updateEmailMessage(int ID, int emailID) throws SQLException;
-    public int updateFolder(ExtendedEmail email, String folder) throws SQLException;
+    public int updateEmail(int emailID) throws SQLException;
+    public int updateFolder(String folder, int emailID) throws SQLException;
     //Delete
     public int deleteEmail(int ID) throws SQLException;
 
