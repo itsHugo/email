@@ -97,10 +97,11 @@ public class EmailDAOImpl implements EmailDAO {
                 try(ResultSet rs = ps.getGeneratedKeys();){
                     rs.next();
                     id = rs.getInt(1);
+                    log.info("ID of email inserted: " + id);
                 }
             }
         }
- 
+        
         if (id != -1) {
             for (MailAddress toAddress : email.getTo()) {
                 createToEmail(toAddress.getEmail(), id);
@@ -129,7 +130,6 @@ public class EmailDAOImpl implements EmailDAO {
             }
         }
         
-
         return result;
     }
 
@@ -144,7 +144,7 @@ public class EmailDAOImpl implements EmailDAO {
                 // of special characters in the SQL statement and guard against
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(createQuery);) {
-            log.info("Inserting into EMAILMESSAGE:");
+            log.info("Inserting into EMAILMESSAGE: " + message.getContent());
             ps.setString(1, message.getContent());
             ps.setInt(2, emailID);
 
@@ -228,7 +228,7 @@ public class EmailDAOImpl implements EmailDAO {
                 // of special characters in the SQL statement and guard against
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(createQuery);) {
-            log.info("Inserting into ATTACHMENT:");
+            log.info("Inserting into ATTACHMENT:" + attachment.getName());
             ps.setBlob(1, new ByteArrayInputStream(attachment.toByteArray()));
             ps.setInt(2, emailID);
 

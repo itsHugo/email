@@ -39,6 +39,8 @@ public class EmailDAOImplTest {
     private final String user = "CS1334944";
     private final String password = "uvillien";
     
+    EmailDAO emailDAO;
+    
     public EmailDAOImplTest() {
     }
     
@@ -68,6 +70,7 @@ public class EmailDAOImplTest {
         } catch (SQLException e) {
             throw new RuntimeException("Failed seeding database", e);
         }
+        emailDAO = new EmailDAOImpl();
     }
     
     @After
@@ -77,13 +80,14 @@ public class EmailDAOImplTest {
     /**
      * Test of createEmailAccount method, of class EmailDAOImpl.
      */
+    @Ignore
     @Test
     public void testCreateEmailAccount() throws Exception {
         System.out.println("createEmailAccount");
         String email = "hugo.sender.not.a.bot@gmail.com";
         String password = "JAVAbean517!";
         int expResult = 1;
-        EmailDAO emailDAO = new EmailDAOImpl();
+        
         int result = emailDAO.createEmailAccount(email, password);
         assertEquals(expResult, result);
     }
@@ -93,6 +97,7 @@ public class EmailDAOImplTest {
      */
     @Test
     public void testCreateEmail() throws Exception {
+        testCreateEmailAccount();
         System.out.println("createEmail");
         String useremail = "hugo.sender.not.a.bot@gmail.com";
         ExtendedEmail email = new ExtendedEmail();
@@ -107,9 +112,8 @@ public class EmailDAOImplTest {
                         + "<h2>THIS IS A TEST</h2></body></html>")
             .attach(EmailAttachment.attachment().file("test.png"))
             .embed(EmailAttachment.attachment().bytes(new File("car.png")));
-        EmailDAOImpl instance = new EmailDAOImpl();
         int expResult = 1;
-        int result = instance.createEmail(useremail, email);
+        int result = emailDAO.createEmail(useremail, email);
         assertEquals(expResult, result);
     }
 
