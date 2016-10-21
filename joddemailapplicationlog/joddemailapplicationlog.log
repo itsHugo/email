@@ -1923,3 +1923,538 @@
 [INFO ] 2016-10-20 23:11:21.405 [main] EmailDAOImpl - # of records created : 1
 [INFO ] 2016-10-20 23:11:21.527 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
 [INFO ] 2016-10-20 23:11:21.761 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:10.148 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 23:58:10.174 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:10.328 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 23:58:10.351 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-20 23:58:10.472 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 23:58:10.496 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:10.619 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-20 23:58:10.642 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:10.765 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-20 23:58:10.787 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:10.910 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-10-20 23:58:10.933 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:11.055 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-20 23:58:11.157 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:58:11.279 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-20 23:58:11.516 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:02.476 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 23:59:02.500 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:02.657 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-20 23:59:02.678 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-20 23:59:02.800 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-20 23:59:02.822 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:02.944 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-20 23:59:02.968 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:03.089 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-20 23:59:03.111 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:03.233 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@3c3d9b6b
+[INFO ] 2016-10-20 23:59:03.257 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:03.380 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-20 23:59:03.480 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-20 23:59:03.601 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-20 23:59:03.837 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:13.028 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:19:13.061 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:13.469 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:19:13.493 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:19:13.614 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:19:13.636 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:13.759 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:19:13.783 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:13.904 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:19:13.927 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:14.052 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@3c3d9b6b
+[INFO ] 2016-10-21 01:19:14.075 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:14.198 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:19:14.862 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:19:14.986 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:19:15.240 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:21.555 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:20:21.586 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:21.744 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:20:21.768 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:20:21.895 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:20:21.929 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:22.052 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:20:22.075 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:22.199 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:20:22.223 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:22.348 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@3c3d9b6b
+[INFO ] 2016-10-21 01:20:22.374 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:22.498 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:20:22.618 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:20:22.740 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:20:22.996 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:58.329 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:22:58.354 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:58.509 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:22:58.537 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:22:58.658 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:22:58.680 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:58.802 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:22:58.825 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:58.948 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:22:58.972 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:59.094 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@3c3d9b6b
+[INFO ] 2016-10-21 01:22:59.117 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:59.240 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:22:59.372 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:22:59.497 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:22:59.758 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:23:00.132 [main] EmailDAOImpl - Found attachment:null
+[INFO ] 2016-10-21 01:23:00.132 [main] EmailDAOImpl - Found attachment:null
+[INFO ] 2016-10-21 01:25:46.563 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:25:46.595 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:46.773 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:25:46.796 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:25:46.919 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:25:46.944 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:47.069 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:25:47.092 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:47.215 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:25:47.250 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:47.372 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@13b6aecc
+[INFO ] 2016-10-21 01:25:47.400 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:47.524 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:25:47.632 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:47.754 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:25:48.020 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:25:48.396 [main] EmailDAOImpl - Found attachment:null
+[INFO ] 2016-10-21 01:25:48.396 [main] EmailDAOImpl - Found attachment:null
+[INFO ] 2016-10-21 01:33:23.191 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:33:23.214 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:23.368 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:33:23.391 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:33:23.513 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:33:23.538 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:23.661 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:33:23.684 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:23.805 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:33:23.826 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:23.949 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@13b6aecc
+[INFO ] 2016-10-21 01:33:23.973 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:24.096 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:33:24.206 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:24.329 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:33:24.579 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:33:25.093 [main] EmailDAOImpl - Found attachment:temp4917137009520918779.binary
+[INFO ] 2016-10-21 01:33:25.129 [main] EmailDAOImpl - Found attachment:temp2499772391189060317.binary
+[INFO ] 2016-10-21 01:40:15.423 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:40:15.501 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:40:15.987 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:40:16.059 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:40:16.567 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:40:16.657 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:40:17.168 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:40:17.263 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:40:17.743 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:40:17.843 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:40:18.323 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 01:40:18.399 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:40:18.896 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:40:19.013 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:40:19.136 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:40:19.399 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:06.121 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:41:06.186 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:06.741 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:41:06.826 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:41:07.343 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:41:07.437 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:07.973 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:41:08.002 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:08.137 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:41:08.201 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:08.324 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@17f7cd29
+[INFO ] 2016-10-21 01:41:08.360 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:08.484 [main] EmailDAOImpl - Inserting into ATTACHMENT:test.png
+[INFO ] 2016-10-21 01:41:08.614 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:08.737 [main] EmailDAOImpl - Inserting into ATTACHMENT:car.png
+[INFO ] 2016-10-21 01:41:08.989 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:41:09.427 [main] EmailDAOImpl - Found attachment:attachment2384255801959848427.
+[INFO ] 2016-10-21 01:41:09.429 [main] EmailDAOImpl - Found attachment:attachment459802078787381735.
+[INFO ] 2016-10-21 01:44:37.960 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:44:37.985 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:38.141 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:44:38.163 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:44:38.285 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:44:38.308 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:38.432 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:44:38.455 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:38.579 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:44:38.601 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:38.726 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@3c3d9b6b
+[INFO ] 2016-10-21 01:44:38.751 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:38.875 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+[INFO ] 2016-10-21 01:44:38.989 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:39.113 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+[INFO ] 2016-10-21 01:44:39.361 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:44:39.798 [main] EmailDAOImpl - Found attachment:
+	attachment3118112566149840529.
+	null
+	attachment3118112566149840529.
+[INFO ] 2016-10-21 01:44:39.800 [main] EmailDAOImpl - Found attachment:
+	attachment8075746401082839150.
+	null
+	attachment8075746401082839150.
+[INFO ] 2016-10-21 01:46:46.449 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:46:46.477 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:46.634 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:46:46.659 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:46:46.782 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:46:46.814 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:46.937 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:46:46.975 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:47.404 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:46:47.489 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:47.964 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 01:46:48.044 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:48.559 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 01:46:48.858 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:49.354 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 01:46:49.801 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:46:52.251 [main] EmailDAOImpl - Found attachment:
+	attachment4117211785586975029.
+	null
+	attachment4117211785586975029.
+	-1
+[INFO ] 2016-10-21 01:46:52.254 [main] EmailDAOImpl - Found attachment:
+	attachment5539363057716584228.
+	null
+	attachment5539363057716584228.
+	-1
+[INFO ] 2016-10-21 01:52:54.853 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:52:54.877 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:55.038 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 01:52:55.064 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 01:52:55.187 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 01:52:55.213 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:55.335 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 01:52:55.358 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:55.481 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 01:52:55.504 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:55.629 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@17f7cd29
+[INFO ] 2016-10-21 01:52:55.652 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:55.775 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 01:52:55.889 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:56.011 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 01:52:56.267 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 01:52:56.816 [main] EmailDAOImpl - Found attachment:
+	attachment1042908250791058567.
+	null
+	attachment1042908250791058567.
+	-1
+[INFO ] 2016-10-21 01:52:57.396 [main] EmailDAOImpl - Found attachment:
+	attachment1895240367107704026.
+	null
+	attachment1895240367107704026.
+	-1
+[INFO ] 2016-10-21 02:01:55.977 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:01:56.002 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:56.160 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:01:56.187 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:01:56.310 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:01:56.334 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:56.456 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:01:56.480 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:56.602 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:01:56.625 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:56.748 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 02:01:56.771 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:56.895 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:01:57.009 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:57.130 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:01:57.392 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:01:57.940 [main] EmailDAOImpl - Found attachment:
+	attachment8626044405231564295.
+	null
+	attachment8626044405231564295.
+	-1
+[INFO ] 2016-10-21 02:01:58.511 [main] EmailDAOImpl - Found attachment:
+	attachment609502676494979578.
+	null
+	attachment609502676494979578.
+	-1
+[INFO ] 2016-10-21 02:03:45.328 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:03:45.353 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:45.518 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:03:45.540 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:03:45.664 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:03:45.687 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:45.812 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:03:45.835 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:45.959 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:03:45.983 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:46.108 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 02:03:46.131 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:46.255 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:03:46.368 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:46.491 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:03:46.779 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:48.623 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:03:48.646 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:50.031 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:03:50.054 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:50.177 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:03:50.202 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:03:50.325 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:03:50.351 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:50.475 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:03:50.500 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:50.623 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:03:50.647 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:50.769 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@52102734
+[INFO ] 2016-10-21 02:03:50.792 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:50.914 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:03:51.045 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:51.167 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:03:51.430 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:03:52.131 [main] EmailDAOImpl - Found attachment:
+	attachment3292338868528967730.
+	null
+	attachment3292338868528967730.
+	-1
+[INFO ] 2016-10-21 02:03:52.716 [main] EmailDAOImpl - Found attachment:
+	attachment6891779310645704677.
+	null
+	attachment6891779310645704677.
+	-1
+[INFO ] 2016-10-21 02:05:51.242 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:05:51.266 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:51.426 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:05:51.450 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:05:51.575 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:05:51.598 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:51.722 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:05:51.746 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:51.868 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:05:51.891 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:52.015 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@13b6aecc
+[INFO ] 2016-10-21 02:05:52.040 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:52.164 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:05:52.280 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:52.404 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:05:52.679 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:54.148 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:05:54.170 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:55.574 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:05:55.597 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:55.720 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:05:55.746 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:05:55.871 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:05:55.896 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:56.020 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:05:56.045 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:56.169 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:05:56.192 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:56.315 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@2beee7ff
+[INFO ] 2016-10-21 02:05:56.342 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:56.466 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:05:56.574 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:56.695 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:05:56.941 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:05:57.543 [main] EmailDAOImpl - Found attachment:
+	attachment6499534356657407086.
+	null
+	attachment6499534356657407086.
+	-1
+[INFO ] 2016-10-21 02:05:58.116 [main] EmailDAOImpl - Found attachment:
+	attachment531184565884025803.
+	null
+	attachment531184565884025803.
+	-1
+[INFO ] 2016-10-21 02:43:46.526 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:43:46.550 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:43:46.711 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:43:46.734 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:43:46.856 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:43:46.879 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:43:47.003 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:43:47.027 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:43:47.150 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:43:47.173 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:43:47.297 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 02:43:47.321 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:43:47.447 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:43:47.547 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:43:47.670 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:43:47.907 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:57.506 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:44:57.531 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:57.694 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:44:57.717 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:44:57.840 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:44:57.863 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:57.987 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:44:58.010 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:58.133 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:44:58.156 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:58.278 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@3c3d9b6b
+[INFO ] 2016-10-21 02:44:58.302 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:58.423 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:44:58.522 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:44:58.645 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:44:58.881 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:42.613 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:48:42.638 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:42.796 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:48:42.818 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:48:42.940 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:48:42.963 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:43.086 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:48:43.108 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:43.231 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:48:43.254 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:43.377 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 02:48:43.401 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:43.526 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:48:43.627 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:48:43.749 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:48:43.986 [main] EmailDAOImpl - # of records created : 1
+[ERROR] 2016-10-21 02:48:44.131 [main] EmailDAOImpl - null
+[INFO ] 2016-10-21 02:50:36.224 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:50:36.248 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:50:36.403 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:50:36.427 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:50:36.550 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:50:36.573 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:50:36.698 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:50:36.721 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:50:36.844 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:50:36.868 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:50:36.990 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5fbe4146
+[INFO ] 2016-10-21 02:50:37.013 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:50:37.136 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:50:37.238 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:50:37.360 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:50:37.600 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:45.985 [main] EmailDAOImpl - Inserting into EMAILACCOUNT: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:53:46.009 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:46.168 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-10-21 02:53:46.192 [main] EmailDAOImpl - ID of email inserted: 1
+[INFO ] 2016-10-21 02:53:46.316 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-10-21 02:53:46.346 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:46.471 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-10-21 02:53:46.503 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:46.628 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-10-21 02:53:46.657 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:46.780 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@17f7cd29
+[INFO ] 2016-10-21 02:53:46.804 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:46.928 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-10-21 02:53:47.033 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:47.154 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-10-21 02:53:47.388 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-10-21 02:53:48.800 [main] EmailDAOImpl - Found attachment:
+	attachment9033931173898258627.
+	null
+	attachment9033931173898258627.
+	-1
+[INFO ] 2016-10-21 02:53:49.392 [main] EmailDAOImpl - Found attachment:
+	attachment9070113653713355140.
+	null
+	attachment9070113653713355140.
+	-1

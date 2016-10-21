@@ -85,18 +85,20 @@ public class EmailDAOImplTest {
     public void testCreateEmailAccount() throws Exception {
         System.out.println("createEmailAccount");
         String email = "hugo.sender.not.a.bot@gmail.com";
-        String password = "JAVAbean517!";
+        String userpassword = "JAVAbean517!";
         int expResult = 1;
         
-        int result = emailDAO.createEmailAccount(email, password);
+        int result = emailDAO.createEmailAccount(email, userpassword);
         assertEquals(expResult, result);
     }
 
     /**
      * Test of createEmail method, of class EmailDAOImpl.
      */
+    @Ignore
     @Test
     public void testCreateEmail() throws Exception {
+        // Create email account in order to link email
         testCreateEmailAccount();
         System.out.println("createEmail");
         String useremail = "hugo.sender.not.a.bot@gmail.com";
@@ -117,90 +119,6 @@ public class EmailDAOImplTest {
         assertEquals(expResult, result);
     }
 
-    /**
-     * Test of createEmailMessage method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateEmailMessage() throws Exception {
-        System.out.println("createEmailMessage");
-        EmailMessage message = null;
-        int emailID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.createEmailMessage(message, emailID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of createToEmail method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateToEmail() throws Exception {
-        System.out.println("createToEmail");
-        String emailAddress = "";
-        int emailID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.createToEmail(emailAddress, emailID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of createCcEmail method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateCcEmail() throws Exception {
-        System.out.println("createCcEmail");
-        String emailAddress = "";
-        int emailID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.createCcEmail(emailAddress, emailID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of createBccEmail method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateBccEmail() throws Exception {
-        System.out.println("createBccEmail");
-        String emailAddress = "";
-        int emailID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.createBccEmail(emailAddress, emailID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of createAttachment method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateAttachment() throws Exception {
-        System.out.println("createAttachment");
-        EmailAttachment attachment = null;
-        int emailID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.createAttachment(attachment, emailID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
 
     /**
      * Test of findAll method, of class EmailDAOImpl.
@@ -218,35 +136,17 @@ public class EmailDAOImplTest {
     }
 
     /**
-     * Test of findEmailByID method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testFindEmailByID() throws Exception {
-        System.out.println("findEmailByID");
-        int id = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        ExtendedEmail expResult = null;
-        ExtendedEmail result = instance.findEmailByID(id);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
      * Test of findAllEmailsFor method, of class EmailDAOImpl.
      */
-    @Ignore
     @Test
     public void testFindAllEmailsFor() throws Exception {
+        // Create email to get
+        testCreateEmail();
         System.out.println("findAllEmailsFor");
-        String email = "";
-        EmailDAOImpl instance = new EmailDAOImpl();
-        ArrayList<ExtendedEmail> expResult = null;
-        ArrayList<ExtendedEmail> result = instance.findAllEmailsFor(email);
+        String email = "hugo.sender.not.a.bot@gmail.com";
+        int expResult = 1;
+        int result = emailDAO.findAllEmailsFor(email).size();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -263,6 +163,21 @@ public class EmailDAOImplTest {
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
+    }
+    
+    @Ignore
+    @Test
+    public void testFindAttachmentsFor() throws Exception {
+        //Create email in order to get attachments
+        testCreateEmail();
+        System.out.println("findAttachmentsFor");
+        int ID = 1;
+        ArrayList<EmailAttachment> list = emailDAO.findAttachmentsFor(1);
+        for(EmailAttachment attachment : list){
+            System.out.println(attachment);
+        }
+        int expected = 2;
+        assertEquals(expected, list.size());
     }
 
     /**

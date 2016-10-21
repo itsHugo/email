@@ -35,6 +35,8 @@ CREATE TABLE EMAIL (
 CREATE TABLE EMAILMESSAGE (
     ID int(11) NOT NULL auto_increment,
     CONTENT text NOT NULL,
+    ENCODING varchar(10),
+    MIMETYPE varchar(60),
     EMAILID int(11) NOT NULL,
     PRIMARY KEY (ID)
 );

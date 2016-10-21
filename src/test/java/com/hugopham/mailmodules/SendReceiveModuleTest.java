@@ -9,6 +9,7 @@ import com.hugopham.mailmoduleconfig.ConfigEmail;
 import java.io.File;
 import jodd.mail.EmailAddress;
 import jodd.mail.EmailAttachment;
+import jodd.mail.EmailAttachmentBuilder;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;

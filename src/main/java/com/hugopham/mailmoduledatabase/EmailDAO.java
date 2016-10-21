@@ -33,9 +33,14 @@ public interface EmailDAO {
     public ArrayList<ExtendedEmail> findAll() throws SQLException;
     public ExtendedEmail findEmailByID(int id) throws SQLException;
     public ArrayList<ExtendedEmail>
-        findAllEmailsFor(String email) throws SQLException;
+        findAllEmailsFor(String useremail) throws SQLException;
     public ArrayList<ExtendedEmail>
         findEmailsFrom(String email) throws SQLException;
+    public String[] findTosFor(int ID) throws SQLException;
+    public String[] findCcFor(int ID) throws SQLException;
+    public String[] findBccFor(int ID) throws SQLException;
+    public ArrayList<EmailAttachment> findAttachmentsFor(int ID) throws SQLException;
+    public ArrayList<EmailMessage> findMessagesFor(int ID) throws SQLException;
     public int 
         getEmailID(String fromEmail, String subject, String folderName, Date sendDate, Date receiveDate) throws SQLException;
     //Update
