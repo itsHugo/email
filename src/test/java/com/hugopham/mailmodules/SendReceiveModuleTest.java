@@ -85,4 +85,9 @@ public class SendReceiveModuleTest {
         
         assertNotNull("",test);
     }
+    
+    @Test
+    public void testComparingSendReceive() {
+        
+    }
 }

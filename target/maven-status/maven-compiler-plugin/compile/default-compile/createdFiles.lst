@@ -1,9 +1,0 @@
-com\hugopham\mailmodules\FXMLController.class
-com\hugopham\mailmodulesinterfaces\Mailer.class
-com\hugopham\mailmodules\ExtendedEmail.class
-com\hugopham\mailmoduledatabase\EmailDAO.class
-com\hugopham\mailmodules\SendReceiveModule.class
-com\hugopham\mailmodules\MainApp.class
-com\hugopham\mailmoduledatabase\EmailDAOImpl.class
-com\hugopham\mailmoduleconfig\ConfigEmail.class
-com\hugopham\mailmoduleconfig\PropertiesManager.class

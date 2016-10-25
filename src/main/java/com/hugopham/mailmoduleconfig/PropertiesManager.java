@@ -28,13 +28,14 @@ public class PropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final ConfigEmail loadTextProperties(final String path, final String propFileName) throws IOException {
-
+    public final boolean loadTextProperties(final String path, final String propFileName) throws IOException {
+        boolean found = false;
         Properties prop = new Properties();
 
         Path txtFile = get(path, propFileName + ".properties");
 
         ConfigEmail mailConfig = new ConfigEmail();
+        
 
         // File must exist
         if (Files.exists(txtFile)) {
@@ -45,8 +46,10 @@ public class PropertiesManager {
             mailConfig.setEmailSendPwd(prop.getProperty("password"));
             mailConfig.setImapServerName(prop.getProperty("imapServerName"));
             mailConfig.setSmtpServerName(prop.getProperty("smtpServerName"));
+            
+            found = true;
         }
-        return mailConfig;
+        return found;
     }
     
     /**
@@ -59,8 +62,8 @@ public class PropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final ConfigEmail loadXmlProperties(final String path, final String propFileName) throws IOException {
-
+    public final boolean loadXmlProperties(final String path, final String propFileName) throws IOException {
+        boolean found = false;
         Properties prop = new Properties();
 
         // The path of the XML file
@@ -77,8 +80,10 @@ public class PropertiesManager {
             mailConfig.setEmailSendPwd(prop.getProperty("password"));
             mailConfig.setImapServerName(prop.getProperty("imapServerName"));
             mailConfig.setSmtpServerName(prop.getProperty("smtpServerName"));
+            
+            found = true;
         }
-        return mailConfig;
+        return found;
     }
     
     /**
@@ -149,8 +154,9 @@ public class PropertiesManager {
      * @throws IOException : Error while reading the file
      * @throws NullPointerException : File not found
      */
-    public final ConfigEmail loadJarTextProperties(final String propertiesFileName) throws IOException, NullPointerException {
-
+    public final boolean loadJarTextProperties(final String propertiesFileName) throws IOException, NullPointerException {
+        boolean found = false;
+           
         Properties prop = new Properties();
         ConfigEmail mailConfig = new ConfigEmail();
 
@@ -167,8 +173,10 @@ public class PropertiesManager {
             mailConfig.setEmailSendPwd(prop.getProperty("password"));
             mailConfig.setImapServerName(prop.getProperty("imapServerName"));
             mailConfig.setSmtpServerName(prop.getProperty("smtpServerName"));
+            
+            found = true;
         }
-        return mailConfig;
+        return found;
     }
     
 }
