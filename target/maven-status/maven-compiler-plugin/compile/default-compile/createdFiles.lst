@@ -1,0 +1,12 @@
+com\hugopham\mailmodulesinterfaces\Mailer.class
+com\hugopham\mailmoduleconfig\ConfigDatabase.class
+com\hugopham\fxcontrollers\RestOfProgramController.class
+com\hugopham\forms\MainApp.class
+com\hugopham\mailmodules\ExtendedEmail.class
+com\hugopham\mailmoduledatabase\EmailDAO.class
+com\hugopham\fxcontrollers\FXMLController.class
+com\hugopham\mailmodules\SendReceiveModule.class
+com\hugopham\fxcontrollers\PropertiesFXMLController.class
+com\hugopham\mailmoduledatabase\EmailDAOImpl.class
+com\hugopham\mailmoduleconfig\ConfigEmail.class
+com\hugopham\mailmoduleconfig\PropertiesManager.class

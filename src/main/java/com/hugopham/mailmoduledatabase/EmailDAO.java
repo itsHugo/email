@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.hugopham.mailmoduledatabase;
 
 import com.hugopham.mailmodules.ExtendedEmail;
@@ -22,7 +17,6 @@ import jodd.mail.MailAddress;
 public interface EmailDAO {
 
     //Create
-    public int createEmailAccount(String email,String password) throws SQLException;
     public int createEmail(String useremail, ExtendedEmail email) throws SQLException;
     public int createEmailMessage(EmailMessage message, int emailID) throws SQLException;
     public int createToEmail(String emailAddress, int emailID) throws SQLException;

@@ -18,6 +18,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.Ignore;
 
 /**
  *
@@ -74,6 +75,7 @@ public class ExtendedEmailTest {
 
 
     @Test
+    @Ignore
     public void testEquals() {
         System.out.println("equals");
         boolean expResult = false; //not same object
