@@ -1,4 +1,4 @@
-package com.hugopham.mailmoduleconfig;
+  package com.hugopham.mailmoduleconfig;
 
 /**
  *
