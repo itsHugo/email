@@ -5,7 +5,7 @@
  */
 package com.hugopham.propertiesmanager;
 
-import com.hugopham.mailmoduleconfig.PropertiesManager;
+import com.hugopham.mailmoduleconfig.EmailPropertiesManager;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -20,7 +20,7 @@ import org.junit.Ignore;
  * @author 1334944
  */
 public class PropertiesManagerTest {
-    private PropertiesManager pm;
+    private EmailPropertiesManager pm;
     
     public PropertiesManagerTest() {
     }
@@ -36,7 +36,7 @@ public class PropertiesManagerTest {
     
     @Before
     public void setUp() {
-        pm = new PropertiesManager();
+        pm = new EmailPropertiesManager();
     }
     
     @After

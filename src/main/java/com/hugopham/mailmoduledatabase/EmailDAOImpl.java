@@ -425,7 +425,7 @@ public class EmailDAOImpl implements EmailDAO {
                             + "\n\t" + attachment.getSize());
                 }
             } catch (IOException e) {
-                log.error(e.getMessage());
+                log.error(e.getLocalizedMessage());
             }
         }
         return list;

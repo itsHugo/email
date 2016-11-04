@@ -1,29 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.hugopham.mailmoduleconfig;
 
 /**
  *
- * @author 1334944
+ * @author Hugo Pham
  */
 public class ConfigDatabase {
-    private String driver;
     private String protocol;
+    private String driver;
     private String url;
     private String database;
+    private String user;
+    private String password;
     
     public ConfigDatabase (){
-        super();
+        this("jdbc","mysql","","","","");
     }
     
-    public ConfigDatabase(String driver, String protocol, String url, String database){
-        this.driver = driver;
+    public ConfigDatabase(String protocol, String driver, String url,
+            String database, String user, String password){
         this.protocol = protocol;
+        this.driver = driver;
         this.url = url;
         this.database = database;
+        this.user = user;
+        this.password = password;
     }
 
     public String getDriver() {
@@ -56,6 +56,22 @@ public class ConfigDatabase {
 
     public void setDatabase(String database) {
         this.database = database;
+    }
+
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
     
     

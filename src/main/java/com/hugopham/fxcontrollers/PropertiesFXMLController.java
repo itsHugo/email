@@ -1,7 +1,7 @@
 package com.hugopham.fxcontrollers;
 
 import com.hugopham.mailmoduleconfig.ConfigEmail;
-import com.hugopham.mailmoduleconfig.PropertiesManager;
+import com.hugopham.mailmoduleconfig.EmailPropertiesManager;
 import java.io.IOException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
@@ -43,7 +43,7 @@ public class PropertiesFXMLController {
     private ConfigEmail mcp;
 
     /**
-     * Default constructor creates an instance of FishData that can be bound to
+     * Default constructor creates an instance of ConfigEmail that can be bound to
      * the form
      */
     public PropertiesFXMLController() {
@@ -106,7 +106,7 @@ public class PropertiesFXMLController {
      */
     @FXML
     void onSave(ActionEvent event) {
-        PropertiesManager pm = new PropertiesManager();
+        EmailPropertiesManager pm = new EmailPropertiesManager();
         try {
             pm.writeTextProperties("", "MailConfig", mcp);
             // Display properties in TextArea

@@ -164,7 +164,7 @@
     </dependency>
   </dependencies>
   <properties>
-    <mainClass>${project.groupId}.${project.artifactId}.MainApp</mainClass>
+    <mainClass>${project.groupId}.forms.MainApp</mainClass>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>

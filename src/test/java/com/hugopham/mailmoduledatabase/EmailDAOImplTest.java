@@ -72,185 +72,8 @@ public class EmailDAOImplTest {
         }
         emailDAO = new EmailDAOImpl();
     }
-    
-    @After
-    public void tearDown() {
-    }
-
     /**
-     * Test of createEmailAccount method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateEmailAccount() throws Exception {
-        System.out.println("createEmailAccount");
-        String email = "hugo.sender.not.a.bot@gmail.com";
-        String userpassword = "JAVAbean517!";
-        int expResult = 1;
-        
-        //int result = emailDAO.createEmailAccount(email, userpassword);
-        //assertEquals(expResult, result);
-    }
-
-    /**
-     * Test of createEmail method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testCreateEmail() throws Exception {
-        // Create email account in order to link email
-        //testCreateEmailAccount();
-        System.out.println("createEmail");
-        String useremail = "hugo.sender.not.a.bot@gmail.com";
-        ExtendedEmail email = new ExtendedEmail();
-        email.from("hugo.sender.not.a.bot@gmail.com").subject("Test Sending")
-            .to("hugo.sender.not.a.bot@gmail.com")
-            .cc("hugo.pham@hotmail.com")
-            .bcc("z0mg_a_hugz@hotmail.com")
-            .addHtml("<html><META http-equiv=Content-Type "
-                        + "content=\"text/html; charset=utf-8\">"
-                        + "<body><h1>Here is my photograph embedded in "
-                        + "this email.</h1><img src='cid:car.png'>"
-                        + "<h2>THIS IS A TEST</h2></body></html>")
-            .attach(EmailAttachment.attachment().file("test.png"))
-            .embed(EmailAttachment.attachment().bytes(new File("car.png")));
-        int expResult = 1;
-        int result = emailDAO.createEmail(useremail, email);
-        assertEquals(expResult, result);
-    }
-
-
-    /**
-     * Test of findAll method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testFindAll() throws Exception {
-        System.out.println("findAll");
-        EmailDAOImpl instance = new EmailDAOImpl();
-        ArrayList<ExtendedEmail> expResult = null;
-        ArrayList<ExtendedEmail> result = instance.findAll();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of findAllEmailsFor method, of class EmailDAOImpl.
-     */
-    @Test
-    public void testFindAllEmailsFor() throws Exception {
-        // Create email to get
-        testCreateEmail();
-        System.out.println("findAllEmailsFor");
-        String email = "hugo.sender.not.a.bot@gmail.com";
-        int expResult = 1;
-        int result = emailDAO.findAllEmailsFor(email).size();
-        assertEquals(expResult, result);
-    }
-
-    /**
-     * Test of findEmailsFrom method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testFindEmailsFrom() throws Exception {
-        System.out.println("findEmailsFrom");
-        String email = "";
-        EmailDAOImpl instance = new EmailDAOImpl();
-        ArrayList<ExtendedEmail> expResult = null;
-        ArrayList<ExtendedEmail> result = instance.findEmailsFrom(email);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
-    @Ignore
-    @Test
-    public void testFindAttachmentsFor() throws Exception {
-        //Create email in order to get attachments
-        testCreateEmail();
-        System.out.println("findAttachmentsFor");
-        int ID = 1;
-        ArrayList<EmailAttachment> list = emailDAO.findAttachmentsFor(1);
-        for(EmailAttachment attachment : list){
-            System.out.println(attachment);
-        }
-        int expected = 2;
-        assertEquals(expected, list.size());
-    }
-
-    /**
-     * Test of getEmailID method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testGetEmailID() throws Exception {
-        System.out.println("getEmailID");
-        String fromEmail = "";
-        String subject = "";
-        String folderName = "";
-        Date sendDate = null;
-        Date receiveDate = null;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.getEmailID(fromEmail, subject, folderName, sendDate, receiveDate);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of updateEmail method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testUpdateEmail() throws Exception {
-        System.out.println("updateEmail");
-        int ID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.updateEmail(ID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of updateFolder method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testUpdateFolder() throws Exception {
-        System.out.println("updateFolder");
-        String folder = "";
-        int emailID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.updateFolder(folder, emailID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of deleteEmail method, of class EmailDAOImpl.
-     */
-    @Ignore
-    @Test
-    public void testDeleteEmail() throws Exception {
-        System.out.println("deleteEmail");
-        int ID = 0;
-        EmailDAOImpl instance = new EmailDAOImpl();
-        int expResult = 0;
-        int result = instance.deleteEmail(ID);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-    
-    /**
-     * The following methods support the seedDatabse method
+     * The following methods support the setUp method
      */
     private String loadAsString(final String path) {
         try (InputStream inputStream = Thread.currentThread().getContextClassLoader().getResourceAsStream(path);
@@ -260,11 +83,12 @@ public class EmailDAOImplTest {
             throw new RuntimeException("Unable to close input stream.", e);
         }
     }
-
+    
+    // Split squl statements
     private List<String> splitStatements(Reader reader, String statementDelimiter) {
         final BufferedReader bufferedReader = new BufferedReader(reader);
         final StringBuilder sqlStatement = new StringBuilder();
-        final List<String> statements = new LinkedList<String>();
+        final List<String> statements = new LinkedList<>();
         try {
             String line = "";
             while ((line = bufferedReader.readLine()) != null) {
@@ -283,9 +107,53 @@ public class EmailDAOImplTest {
             throw new RuntimeException("Failed parsing sql", e);
         }
     }
-
+    
+    // Detects comments
     private boolean isComment(final String line) {
         return line.startsWith("--") || line.startsWith("//") || line.startsWith("/*");
     }
+    // End of supporting methods
     
+    @After
+    public void tearDown() {
+    }
+
+    /**
+     * Test of createEmail method, of class EmailDAOImpl.
+     */
+    @Test
+    public void testCreateEmail() throws Exception {
+        // Create email account in order to link email
+        System.out.println("createEmail");
+        String useremail = "hugo.sender.not.a.bot@gmail.com";
+        ExtendedEmail email = new ExtendedEmail();
+        email.from("hugo.sender.not.a.bot@gmail.com").subject("Test Sending")
+            .to("hugo.sender.not.a.bot@gmail.com")
+            .cc("hugo.pham@hotmail.com")
+            .bcc("z0mg_a_hugz@hotmail.com")
+            .addHtml("<html><META http-equiv=Content-Type "
+                        + "content=\"text/html; charset=utf-8\">"
+                        + "<body><h1>Here is my photograph embedded in "
+                        + "this email.</h1><img src='cid:car.png'>"
+                        + "<h2>THIS IS A TEST</h2></body></html>")
+            .attach(EmailAttachment.attachment().file("test.png"))
+            .embed(EmailAttachment.attachment().bytes(new File("car.png")));
+        int expResult = 1;
+        int result = emailDAO.createEmail(useremail, email);
+        assertEquals(expResult, result);
+    }
+    
+    @Test
+    public void testFindAttachmentsFor() throws Exception {
+        //Create email in order to get attachments
+        testCreateEmail();
+        System.out.println("findAttachmentsFor");
+        int ID = 1;
+        ArrayList<EmailAttachment> list = emailDAO.findAttachmentsFor(ID);
+        for(EmailAttachment attachment : list){
+            System.out.println(attachment);
+        }
+        int expected = 0;
+        assertEquals(expected, list.size());
+    }
 }

@@ -2,7 +2,7 @@
 <!-- Configuration: Parent element of a log4j2.xml file
 status= refers to the level of messages emitted by log4j2
 about itself-->
-<Configuration status="INFO">
+<Configuration status="ERROR">
     <!-- Properties: Create variables in the format ${name]
     for use later in the file -->
     <Properties>

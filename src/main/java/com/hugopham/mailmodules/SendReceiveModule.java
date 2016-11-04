@@ -168,7 +168,8 @@ public class SendReceiveModule implements Mailer {
         session.open();
 
         // We only want messages that have not be read yet.
-        ReceivedEmail[] emails = session.receiveEmail(EmailFilter
+        // Mark as seen after.
+        ReceivedEmail[] emails = session.receiveEmailAndMarkSeen(EmailFilter
                 .filter().flag(Flags.Flag.SEEN, false));
         session.close();
 
