@@ -5,7 +5,6 @@
  */
 package com.hugopham.propertiesmanager;
 
-import com.hugopham.mailmoduleconfig.EmailPropertiesManager;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -17,12 +16,12 @@ import org.junit.Ignore;
 
 /**
  *
- * @author 1334944
+ * @author HugoPham
  */
-public class PropertiesManagerTest {
+public class EmailPropertiesManagerTest {
     private EmailPropertiesManager pm;
     
-    public PropertiesManagerTest() {
+    public EmailPropertiesManagerTest() {
     }
     
     @BeforeClass
@@ -46,31 +45,30 @@ public class PropertiesManagerTest {
     /**
      * Test of writeTextProperties method, of class PropertiesManager.
      */
-    @Ignore
     @Test
-    public void testWriteTextProperties() throws Exception {
+    public void testWriteLoadTextProperties() throws Exception {
         ConfigEmail mailConfig1 = new ConfigEmail("hugo.sender.not.a.bot@gmail.com",
                 "JAVAbean517!", "imap.gmail.com" , "smtp.gmail.com" );
         pm.writeTextProperties("", "EmailProperties", mailConfig1);
 
-        //ConfigEmail mailConfig2 = pm.loadTextProperties("", "EmailProperties");
+        ConfigEmail mailConfig2;
+        mailConfig2 = pm.loadTextProperties("", "EmailProperties");
 
-        //assertEquals("The two beans do not match", mailConfig1, mailConfig2);
+        assertEquals("The two beans do not match", mailConfig1, mailConfig2);
     }
 
     /**
      * Test of writeXmlProperties method, of class PropertiesManager.
      */
-    @Ignore
     @Test
-    public void testWriteXmlProperties() throws Exception {
+    public void testWriteLoadXmlProperties() throws Exception {
         ConfigEmail mailConfig1 = new ConfigEmail("hugo.sender.not.a.bot@gmail.com",
                 "JAVAbean517!", "imap.gmail.com" , "smtp.gmail.com" );
         pm.writeXmlProperties("", "EmailProperties", mailConfig1);
 
-        //ConfigEmail mailConfig2 = pm.loadXmlProperties("", "EmailProperties");
+        ConfigEmail mailConfig2 = pm.loadXmlProperties("", "EmailProperties");
         
-        //assertEquals("The two beans do not match", mailConfig1, mailConfig2);
+        assertEquals("The two beans do not match", mailConfig1, mailConfig2);
     }
 
     /**

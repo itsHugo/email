@@ -2,8 +2,8 @@ package com.hugopham.fxcontrollers;
 
 import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
-import com.hugopham.mailmoduleconfig.DatabasePropertiesManager;
-import com.hugopham.mailmoduleconfig.EmailPropertiesManager;
+import com.hugopham.propertiesmanager.DatabasePropertiesManager;
+import com.hugopham.propertiesmanager.EmailPropertiesManager;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -33,9 +33,10 @@ public class RestOfProgramController {
         ConfigDatabase configDatabase = new ConfigDatabase();
         ConfigEmail configEmail = new ConfigEmail();
         try {
-            if (epm.loadTextProperties( "", "MailConfig")) {
+            if ((configEmail = epm.loadTextProperties("", "MailConfig")) != null ) {
                 textArea.setText(configEmail.toString());
             }
+            
         } catch (IOException ex) {
             Logger.getLogger(RestOfProgramController.class.getName()).log(Level.SEVERE, null, ex);
         }

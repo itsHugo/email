@@ -1,5 +1,6 @@
-package com.hugopham.mailmoduleconfig;
+package com.hugopham.propertiesmanager;
 
+import com.hugopham.mailmoduleconfig.ConfigEmail;
 import static java.nio.file.Files.newInputStream;
 import static java.nio.file.Files.newOutputStream;
 import static java.nio.file.Paths.get;
@@ -10,11 +11,12 @@ import java.io.OutputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Properties;
+
 /**
- * 
+ *
  * @author Hugo Pham
  */
-public class DatabasePropertiesManager {
+public class EmailPropertiesManager {
     /**
      * Returns a MailConfigBean object with the contents of the properties file
      *
@@ -23,7 +25,7 @@ public class DatabasePropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final boolean loadTextProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigEmail loadTextProperties(final String path, final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
@@ -44,7 +46,10 @@ public class DatabasePropertiesManager {
             
             found = true;
         }
-        return found;
+        if(found)
+            return mailConfig;
+        else
+            throw new IOException(propFileName + " file not found.");
     }
     
     /**
@@ -57,7 +62,7 @@ public class DatabasePropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final boolean loadXmlProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigEmail loadXmlProperties(final String path, final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
@@ -78,7 +83,10 @@ public class DatabasePropertiesManager {
             
             found = true;
         }
-        return found;
+        if(found)
+            return mailConfig;
+        else
+            throw new IOException(propFileName + " file not found.");
     }
     
     /**
@@ -103,7 +111,7 @@ public class DatabasePropertiesManager {
         // Creates the file or if file exists it is truncated to length of zero
         // before writing
         try (OutputStream propFileStream = newOutputStream(txtFile)) {
-            prop.store(propFileStream, "SMTP Properties");
+            prop.store(propFileStream, "Email Properties");
         }
     }
     
@@ -130,7 +138,7 @@ public class DatabasePropertiesManager {
         // Creates the file or if file exists it is truncated to length of zero
         // before writing
         try (OutputStream propFileStream = newOutputStream(xmlFile)) {
-            prop.storeToXML(propFileStream, "XML SMTP Properties");
+            prop.storeToXML(propFileStream, "XML Email Properties");
         }
     }
     

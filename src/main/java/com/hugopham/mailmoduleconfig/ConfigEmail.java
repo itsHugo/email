@@ -5,7 +5,9 @@ import java.util.Objects;
 
 /**
  * Class for configuring the server names and the sender's email credentials.
- * @author 1334944
+ * @author Hugo Pham
+ * @version 1.0.0
+ * @since 1.8
  */
 public class ConfigEmail {
     private String smtpServerName;

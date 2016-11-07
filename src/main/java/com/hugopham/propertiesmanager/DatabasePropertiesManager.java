@@ -1,5 +1,6 @@
-package com.hugopham.mailmoduleconfig;
+package com.hugopham.propertiesmanager;
 
+import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import static java.nio.file.Files.newInputStream;
 import static java.nio.file.Files.newOutputStream;
 import static java.nio.file.Paths.get;
@@ -15,7 +16,7 @@ import java.util.Properties;
  *
  * @author Hugo Pham
  */
-public class EmailPropertiesManager {
+public class DatabasePropertiesManager {
     /**
      * Returns a MailConfigBean object with the contents of the properties file
      *
@@ -24,13 +25,13 @@ public class EmailPropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final boolean loadTextProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigDatabase loadTextProperties(final String path, final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
         Path txtFile = get(path, propFileName + ".properties");
 
-        ConfigEmail mailConfig = new ConfigEmail();
+        ConfigDatabase databaseConfig = new ConfigDatabase();
         
 
         // File must exist
@@ -38,14 +39,19 @@ public class EmailPropertiesManager {
             try (InputStream propFileStream = newInputStream(txtFile);) {
                 prop.load(propFileStream);
             }
-            mailConfig.setEmailSend(prop.getProperty("userEmailAddress"));
-            mailConfig.setEmailSendPwd(prop.getProperty("password"));
-            mailConfig.setImapServerName(prop.getProperty("imapServerName"));
-            mailConfig.setSmtpServerName(prop.getProperty("smtpServerName"));
+            databaseConfig.setDatabase(path);
+            databaseConfig.setDriver(path);
+            databaseConfig.setPassword(path);
+            databaseConfig.setProtocol(path);
+            databaseConfig.setUrl(path);
+            databaseConfig.setUser(path);
             
             found = true;
         }
-        return found;
+        if(found)
+            return databaseConfig;
+        else
+            throw new IOException(propFileName + " file not found.");
     }
     
     /**
@@ -58,28 +64,33 @@ public class EmailPropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final boolean loadXmlProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigDatabase loadXmlProperties(final String path, final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
         // The path of the XML file
         Path xmlFile = get(path, propFileName + ".xml");
 
-        ConfigEmail mailConfig = new ConfigEmail();
+        ConfigDatabase databaseConfig = new ConfigDatabase();
 
         // File must exist
         if (Files.exists(xmlFile)) {
             try (InputStream propFileStream = newInputStream(xmlFile);) {
                 prop.loadFromXML(propFileStream);
             }
-            mailConfig.setEmailSend(prop.getProperty("userEmailAddress"));
-            mailConfig.setEmailSendPwd(prop.getProperty("password"));
-            mailConfig.setImapServerName(prop.getProperty("imapServerName"));
-            mailConfig.setSmtpServerName(prop.getProperty("smtpServerName"));
+            databaseConfig.setDatabase(prop.getProperty(path, propFileName));
+            databaseConfig.setDriver(prop.getProperty(path, propFileName));
+            databaseConfig.setPassword(prop.getProperty(path, propFileName));
+            databaseConfig.setProtocol(prop.getProperty(path, propFileName));
+            databaseConfig.setUrl(prop.getProperty(path, propFileName));
+            databaseConfig.setUser(prop.getProperty(path, propFileName));
             
             found = true;
         }
-        return found;
+        if(found)
+            return databaseConfig;
+        else
+            throw new IOException(propFileName + " file not found.");
     }
     
     /**
@@ -90,21 +101,18 @@ public class EmailPropertiesManager {
      * @param mailConfig The bean to store into the properties
      * @throws IOException
      */
-    public final void writeTextProperties(final String path, final String propFileName, final ConfigEmail mailConfig) throws IOException {
+    public final void writeTextProperties(final String path, final String propFileName, final ConfigDatabase mailConfig) throws IOException {
 
         Properties prop = new Properties();
 
-        prop.setProperty("userEmailAddress", mailConfig.getEmailSend());
-        prop.setProperty("password", mailConfig.getEmailSendPwd());
-        prop.setProperty("imapServerName", mailConfig.getImapServerName());
-        prop.setProperty("smtpServerName", mailConfig.getSmtpServerName());
+        prop.setProperty(path, path);
 
         Path txtFile = get(path, propFileName + ".properties");
 
         // Creates the file or if file exists it is truncated to length of zero
         // before writing
         try (OutputStream propFileStream = newOutputStream(txtFile)) {
-            prop.store(propFileStream, "SMTP Properties");
+            prop.store(propFileStream, "Database Properties");
         }
     }
     
@@ -117,21 +125,18 @@ public class EmailPropertiesManager {
      * @param mailConfig The bean to store into the properties
      * @throws IOException
      */
-    public final void writeXmlProperties(final String path, final String propFileName, final ConfigEmail mailConfig) throws IOException {
+    public final void writeXmlProperties(final String path, final String propFileName, final ConfigDatabase mailConfig) throws IOException {
 
         Properties prop = new Properties();
 
-        prop.setProperty("userEmailAddress", mailConfig.getEmailSend());
-        prop.setProperty("password", mailConfig.getEmailSendPwd());
-        prop.setProperty("imapServerName", mailConfig.getImapServerName());
-        prop.setProperty("smtpServerName", mailConfig.getSmtpServerName());
+        prop.setProperty("","");
 
         Path xmlFile = get(path, propFileName + ".xml");
 
         // Creates the file or if file exists it is truncated to length of zero
         // before writing
         try (OutputStream propFileStream = newOutputStream(xmlFile)) {
-            prop.storeToXML(propFileStream, "XML SMTP Properties");
+            prop.storeToXML(propFileStream, "XML Database Properties");
         }
     }
     
@@ -154,7 +159,7 @@ public class EmailPropertiesManager {
         boolean found = false;
            
         Properties prop = new Properties();
-        ConfigEmail mailConfig = new ConfigEmail();
+        ConfigDatabase mailConfig = new ConfigDatabase();
 
         // There is no exists method for files in a jar so we try to get the
         // resource and if its not there it returns a null
@@ -165,10 +170,7 @@ public class EmailPropertiesManager {
             try (InputStream stream = this.getClass().getResourceAsStream("/" + propertiesFileName);) {
                 prop.load(stream);
             }
-            mailConfig.setEmailSend(prop.getProperty("userEmailAddress"));
-            mailConfig.setEmailSendPwd(prop.getProperty("password"));
-            mailConfig.setImapServerName(prop.getProperty("imapServerName"));
-            mailConfig.setSmtpServerName(prop.getProperty("smtpServerName"));
+            
             
             found = true;
         }

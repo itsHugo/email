@@ -2,7 +2,7 @@ package com.hugopham.fxcontrollers;
 
 import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
-import com.hugopham.mailmoduleconfig.EmailPropertiesManager;
+import com.hugopham.propertiesmanager.EmailPropertiesManager;
 import java.io.IOException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
