@@ -1,5 +1,6 @@
 package com.hugopham.fxcontrollers;
 
+import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
 import com.hugopham.mailmoduleconfig.EmailPropertiesManager;
 import java.io.IOException;
@@ -40,15 +41,17 @@ public class PropertiesFXMLController {
     Stage stage;
     RestOfProgramController rpc;
 
-    private ConfigEmail mcp;
+    private ConfigEmail configEmail;
+    private ConfigDatabase configDatabase;
 
     /**
-     * Default constructor creates an instance of ConfigEmail that can be bound to
-     * the form
+     * Default constructor creates an instance of ConfigEmail and ConfigDatabase
+     * that can be bound to the form.
      */
     public PropertiesFXMLController() {
         super();
-        mcp = new ConfigEmail();
+        configEmail = new ConfigEmail();
+        configDatabase = new ConfigDatabase();
     }
 
     /**
@@ -108,7 +111,7 @@ public class PropertiesFXMLController {
     void onSave(ActionEvent event) {
         EmailPropertiesManager pm = new EmailPropertiesManager();
         try {
-            pm.writeTextProperties("", "MailConfig", mcp);
+            pm.writeTextProperties("", "MailConfig", configEmail);
             // Display properties in TextArea
             rpc.displayPropertiesInTextArea();
             // Change the scene on the stage
