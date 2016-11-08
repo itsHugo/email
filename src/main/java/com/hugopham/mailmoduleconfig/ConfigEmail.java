@@ -12,56 +12,60 @@ import javafx.beans.property.StringProperty;
  * @since 1.8
  */
 public class ConfigEmail {
-    private String smtpServerName;
-    private String imapServerName;
-    private String emailSend;
-    private String emailSendPwd;
+    private final StringProperty smtpServerName;
+    private final StringProperty imapServerName;
+    private final StringProperty emailSend;
+    private final StringProperty emailSendPwd;
     
     // Default constructor
     public ConfigEmail(){
-        this("","","smtp.gmail.com","imap.gmail.com");
+        super();
+        this.emailSend = new SimpleStringProperty("");
+        this.emailSendPwd = new SimpleStringProperty("");
+        this.smtpServerName = new SimpleStringProperty("");
+        this.imapServerName = new SimpleStringProperty("");
     }
     
     
     public ConfigEmail(String emailSend, String emailSendPwd,
             String imapServerName, String smtpServerName) {
         super();
-        this.emailSend = emailSend;
-        this.emailSendPwd = emailSendPwd;
-        this.smtpServerName = smtpServerName;
-        this.imapServerName = imapServerName;
+        this.emailSend = new SimpleStringProperty(emailSend);
+        this.emailSendPwd = new SimpleStringProperty(emailSendPwd);
+        this.smtpServerName = new SimpleStringProperty(smtpServerName);
+        this.imapServerName = new SimpleStringProperty(imapServerName);
     }
 
     public String getSmtpServerName() {
-        return smtpServerName;
+        return smtpServerName.get();
     }
 
     public void setSmtpServerName(String smtpServerName) {
-        this.smtpServerName = smtpServerName;
+        this.smtpServerName.set(smtpServerName);
     }
 
     public String getImapServerName() {
-        return imapServerName;
+        return imapServerName.get();
     }
 
     public void setImapServerName(String imapServerName) {
-        this.imapServerName = imapServerName;
+        this.imapServerName.set(imapServerName);
     }
 
     public String getEmailSend() {
-        return emailSend;
+        return emailSend.get();
     }
 
     public void setEmailSend(String emailSend) {
-        this.emailSend = emailSend;
+        this.emailSend.set(emailSend);
     }
 
     public String getEmailSendPwd() {
-        return emailSendPwd;
+        return emailSendPwd.get();
     }
 
     public void setEmailSendPwd(String emailSendPwd) {
-        this.emailSendPwd = emailSendPwd;
+        this.emailSendPwd.set(emailSendPwd);
     }
 
     // Property for fxml methods below.
@@ -70,7 +74,7 @@ public class ConfigEmail {
      * @return StringProperty smtp
      */
     public StringProperty smtpProperty() {
-        return new SimpleStringProperty(smtpServerName);
+        return smtpServerName;
     }
     
     /**
@@ -78,7 +82,7 @@ public class ConfigEmail {
      * @return StringProperty imap
      */
     public StringProperty imapProperty() {
-        return new SimpleStringProperty(imapServerName);
+        return imapServerName;
     }
     
     /**
@@ -86,7 +90,7 @@ public class ConfigEmail {
      * @return StringProperty email address
      */
     public StringProperty emailAddressProperty() {
-        return new SimpleStringProperty(emailSend);
+        return emailSend;
     }
     
     /**
@@ -94,64 +98,7 @@ public class ConfigEmail {
      * @return StringProperty password
      */
     public StringProperty emailPasswordProperty() {
-        return new SimpleStringProperty(emailSendPwd);
+        return emailSendPwd;
     }
     // End of property methods
-    
-    
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        ConfigEmail other = (ConfigEmail) obj;
-        if (emailSend == null) {
-            if (other.emailSend != null) {
-                return false;
-            }
-        } else if (!emailSend.equals(other.emailSend)) {
-            return false;
-        }
-        if (emailSendPwd == null) {
-            if (other.emailSendPwd != null) {
-                return false;
-            }
-        } else if (!emailSendPwd.equals(other.emailSendPwd)) {
-            return false;
-        }
-        if (imapServerName == null) {
-            if (other.imapServerName != null) {
-                return false;
-            }
-        } else if (!imapServerName.equals(other.imapServerName)) {
-            return false;
-        }
-        if (smtpServerName == null) {
-            if (other.smtpServerName != null) {
-                return false;
-            }
-        } else if (!smtpServerName.equals(other.smtpServerName)) {
-            return false;
-        }
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int hash = 7;
-        hash = 83 * hash + Objects.hashCode(this.smtpServerName);
-        hash = 83 * hash + Objects.hashCode(this.imapServerName);
-        hash = 83 * hash + Objects.hashCode(this.emailSend);
-        hash = 83 * hash + Objects.hashCode(this.emailSendPwd);
-        return hash;
-    }
-    
-    
-    
 }
