@@ -7,12 +7,11 @@ import java.util.ArrayList;
 import java.util.Date;
 import jodd.mail.EmailAttachment;
 import jodd.mail.EmailMessage;
-import jodd.mail.MailAddress;
 
 /**
  * Interface for CRUD Methods for the Email database
  *
- * @author 1334944
+ * @author Hugo Pham
  */
 public interface EmailDAO {
 

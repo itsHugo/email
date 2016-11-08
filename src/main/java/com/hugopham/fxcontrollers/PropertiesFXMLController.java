@@ -2,6 +2,7 @@ package com.hugopham.fxcontrollers;
 
 import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import com.hugopham.mailmoduleconfig.ConfigEmail;
+import com.hugopham.propertiesmanager.DatabasePropertiesManager;
 import com.hugopham.propertiesmanager.EmailPropertiesManager;
 import java.io.IOException;
 import java.util.ResourceBundle;
@@ -12,6 +13,7 @@ import javafx.beans.binding.Bindings;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
@@ -23,15 +25,49 @@ import javafx.stage.Stage;
  */
 public class PropertiesFXMLController {
 
-    // Injected fields
-    @FXML
-    private TextField name;
+    // Injected fields   
+     @FXML
+    private TextField emailAddressTxt;
 
     @FXML
-    private TextField emailAddress;
+    private PasswordField emailPasswordTxt;
 
     @FXML
-    private PasswordField password;
+    private TextField smtpTxt;
+
+    @FXML
+    private TextField imapTxt;
+
+    @FXML
+    private Button saveEmailBtn;
+
+    @FXML
+    private Button clearEmailBtn;
+
+    @FXML
+    private TextField usernameTxt;
+
+    @FXML
+    private PasswordField databasePasswordTxt;
+
+    @FXML
+    private TextField protocolTxt;
+
+    @FXML
+    private TextField driverTxt;
+
+    @FXML
+    private TextField databaseUrlTxt;
+
+    @FXML
+    private TextField databaseNameTxt;
+
+    @FXML
+    private Button clearDatabaseBtn;
+
+    @FXML
+    private Button saveDatabaseBtn;
+
 
     // Resources are injected
     @FXML
@@ -43,6 +79,9 @@ public class PropertiesFXMLController {
 
     private ConfigEmail configEmail;
     private ConfigDatabase configDatabase;
+    
+    private final String configEmailFilename = "EmailProperties";
+    private final String configDatabaseFilename = "DatabaseProperties";
 
     /**
      * Default constructor creates an instance of ConfigEmail and ConfigDatabase
@@ -50,12 +89,12 @@ public class PropertiesFXMLController {
      */
     public PropertiesFXMLController() {
         super();
-        configEmail = new ConfigEmail();
-        configDatabase = new ConfigDatabase();
+        // Load the properties to display if they exist.
+        loadProperties();
     }
 
     /**
-     * Without the ability to pass values thru a constructor we need a set
+     * Without the ability to pass values through a constructor we need a set
      * method for any variables required in this class
      *
      * @param scene
@@ -73,11 +112,14 @@ public class PropertiesFXMLController {
      */
     @FXML
     private void initialize() {
-        /*
-        Bindings.bindBidirectional(name.textProperty(), mcp.userNameProperty());
-        Bindings.bindBidirectional(emailAddress.textProperty(), mcp.emailAddressProperty());
-        Bindings.bindBidirectional(password.textProperty(), mcp.passwordProperty());
-        */
+        //Bind email config properties
+        Bindings.bindBidirectional(emailAddressTxt.textProperty(), configEmail.emailAddressProperty());
+        Bindings.bindBidirectional(emailPasswordTxt.textProperty(), configEmail.emailPasswordProperty());
+        Bindings.bindBidirectional(smtpTxt.textProperty(), configEmail.smtpProperty());
+        Bindings.bindBidirectional(imapTxt.textProperty(), configEmail.imapProperty());
+        
+        //Bind database config properties
+        //Bindings.bindBidirectional(, );
     }
 
     /**
@@ -87,19 +129,28 @@ public class PropertiesFXMLController {
     void onCancel(ActionEvent event) {
         Platform.exit();
     }
-
-    /**
-     * Event handler for Clear button
-     *
-     * @param event
-     */
+    
     @FXML
-    void onClear(ActionEvent event) {
-        /*
-        mcp.setUserName("");
-        mcp.setUserEmailAddress("");
-        mcp.setPassword("");
-        */
+    void onClearDatabase(ActionEvent event) {
+        configDatabase.setDatabase("");
+        configDatabase.setDriver("");
+        configDatabase.setPassword("");
+        configDatabase.setProtocol("");
+        configDatabase.setUrl("");
+        configDatabase.setUser("");
+    }
+
+    @FXML
+    void onClearEmail(ActionEvent event) {
+        emailAddressTxt.setText("");
+        emailPasswordTxt.setText("");
+        smtpTxt.setText("");
+        imapTxt.setText("");
+
+        configEmail.setEmailSend("");
+        configEmail.setEmailSendPwd("");
+        configEmail.setSmtpServerName("");
+        configEmail.setImapServerName("");
     }
 
     /**
@@ -108,19 +159,43 @@ public class PropertiesFXMLController {
      * @param event
      */
     @FXML
-    void onSave(ActionEvent event) {
-        EmailPropertiesManager pm = new EmailPropertiesManager();
+    void onSaveEmail(ActionEvent event) {
+        EmailPropertiesManager epm = new EmailPropertiesManager();
         try {
-            pm.writeTextProperties("", "MailConfig", configEmail);
-            // Display properties in TextArea
-            rpc.displayPropertiesInTextArea();
-            // Change the scene on the stage
-            stage.setScene(scene);
+            epm.writeTextProperties("", configEmailFilename, configEmail);
         } catch (IOException ex) {
             Logger.getLogger(getClass().getName()).log(Level.SEVERE, null, ex);
             // Need to do more than just log the error
         }
     }
     
+    @FXML
+    void onSaveDatabase(ActionEvent event) {
+        DatabasePropertiesManager dpm = new DatabasePropertiesManager();
+        try {
+            dpm.writeTextProperties("", configDatabaseFilename, configDatabase);
+        } catch (IOException ex) {
+            Logger.getLogger(getClass().getName()).log(Level.SEVERE, null, ex);
+            // Need to do more than just log the error
+        }
+    }
+    
+    private void loadProperties(){
+        try{
+            configEmail = new EmailPropertiesManager()
+                    .loadTextProperties("", configEmailFilename);
+            
+            configDatabase = new DatabasePropertiesManager()
+                    .loadTextProperties("", configDatabaseFilename);
+        } catch(IOException ex){
+            if(configEmail == null){
+                configEmail = new ConfigEmail();
+            }
+            
+            if(configDatabase == null){
+                configDatabase = new ConfigDatabase();
+            }
+        }
+    }
     
 }

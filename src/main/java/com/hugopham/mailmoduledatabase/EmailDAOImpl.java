@@ -51,6 +51,13 @@ public class EmailDAOImpl implements EmailDAO {
         this.password = password;
     }
 
+    /**
+     * 
+     * @param useremail
+     * @param email
+     * @return 
+     * @throws SQLException 
+     */
     @Override
     public int createEmail(String useremail, ExtendedEmail email) throws SQLException {
         int result = 0;
@@ -129,6 +136,14 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Inserts an email message into the database.
+     * 
+     * @param message Email message
+     * @param emailID Email object associated
+     * @return int Number of records affected
+     * @throws SQLException 
+     */
     @Override
     public int createEmailMessage(EmailMessage message, int emailID) throws SQLException {
         String createQuery = "INSERT INTO EMAILMESSAGE(CONTENT, ENCODING, MIMETYPE, EMAILID) VALUES (?,?,?,?)";
@@ -152,6 +167,14 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Inserts a To email address into the database.
+     * 
+     * @param emailAddress To email address
+     * @param emailID Email object associated
+     * @return 
+     * @throws SQLException 
+     */
     @Override
     public int createToEmail(String emailAddress, int emailID) throws SQLException {
         String createQuery = "INSERT INTO TOEMAIL(EMAILADDRESS, EMAILID) VALUES (?,?)";
@@ -173,6 +196,14 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Inserts a Cc email address into the database.
+     * 
+     * @param emailAddress CC email address
+     * @param emailID Email object associated
+     * @return int Number of rows affected
+     * @throws SQLException 
+     */
     @Override
     public int createCcEmail(String emailAddress, int emailID) throws SQLException {
         String createQuery = "INSERT INTO CCEMAIL(EMAILADDRESS, EMAILID) VALUES (?,?)";
@@ -194,6 +225,14 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Inserts a Bcc email address into the database.
+     * 
+     * @param emailAddress
+     * @param emailID
+     * @return
+     * @throws SQLException 
+     */
     @Override
     public int createBccEmail(String emailAddress, int emailID) throws SQLException {
         String createQuery = "INSERT INTO BCCEMAIL(EMAILADDRESS, EMAILID) VALUES (?,?)";

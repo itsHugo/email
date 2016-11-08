@@ -1,10 +1,10 @@
-com\hugopham\mailmoduleconfig\EmailPropertiesManager.class
 com\hugopham\fxcontrollers\RestOfProgramController.class
 com\hugopham\mailmoduleconfig\ConfigDatabase.class
 com\hugopham\mailmodulesinterfaces\Mailer.class
+com\hugopham\propertiesmanager\DatabasePropertiesManager.class
 com\hugopham\forms\MainApp.class
-com\hugopham\mailmoduleconfig\DatabasePropertiesManager.class
 com\hugopham\mailmodules\ExtendedEmail.class
+com\hugopham\propertiesmanager\EmailPropertiesManager.class
 com\hugopham\fxcontrollers\FXMLController.class
 com\hugopham\mailmoduledatabase\EmailDAO.class
 com\hugopham\mailmodules\SendReceiveModule.class

@@ -1,10 +1,13 @@
 package com.hugopham.forms;
 
+import com.hugopham.fxcontrollers.PropertiesFXMLController;
+import java.util.ResourceBundle;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.TabPane;
 import javafx.stage.Stage;
 
 
@@ -12,13 +15,17 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass()
-                .getResource("/fxml/Scene.fxml"));
+        FXMLLoader loader = new FXMLLoader();
+        loader.setLocation(this.getClass().getResource("/fxml/PropertiesFXML.fxml"));
+        loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
+        PropertiesFXMLController controller = loader.getController();
+        Parent root = (TabPane) loader.load();
+        
         
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/Styles.css");
         
-        stage.setTitle("JavaFX and Maven");
+        stage.setTitle("Configure Properties");
         stage.setScene(scene);
         stage.show();
     }

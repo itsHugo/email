@@ -1,6 +1,8 @@
 package com.hugopham.mailmoduleconfig;
 
 import java.util.Objects;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
 
 /**
@@ -17,7 +19,7 @@ public class ConfigEmail {
     
     // Default constructor
     public ConfigEmail(){
-        this("smtp.gmail.com","imap.gmail.com","","");
+        this("","","smtp.gmail.com","imap.gmail.com");
     }
     
     
@@ -61,6 +63,41 @@ public class ConfigEmail {
     public void setEmailSendPwd(String emailSendPwd) {
         this.emailSendPwd = emailSendPwd;
     }
+
+    // Property for fxml methods below.
+    /**
+     * Converts smtp String to StringProperty.
+     * @return StringProperty smtp
+     */
+    public StringProperty smtpProperty() {
+        return new SimpleStringProperty(smtpServerName);
+    }
+    
+    /**
+     * Converts imap String to StringProperty.
+     * @return StringProperty imap
+     */
+    public StringProperty imapProperty() {
+        return new SimpleStringProperty(imapServerName);
+    }
+    
+    /**
+     * Converts email address String to StringProperty.
+     * @return StringProperty email address
+     */
+    public StringProperty emailAddressProperty() {
+        return new SimpleStringProperty(emailSend);
+    }
+    
+    /**
+     * Converts email password to StringProperty.
+     * @return StringProperty password
+     */
+    public StringProperty emailPasswordProperty() {
+        return new SimpleStringProperty(emailSendPwd);
+    }
+    // End of property methods
+    
     
     @Override
     public boolean equals(Object obj) {
