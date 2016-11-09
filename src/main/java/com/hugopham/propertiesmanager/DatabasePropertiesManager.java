@@ -13,19 +13,21 @@ import java.nio.file.Path;
 import java.util.Properties;
 
 /**
- *
+ * Class containing methods to load and save a DatabaseConfig object's properties.
+ * Supported formats are text, xml, and jar files.
  * @author Hugo Pham
  */
 public class DatabasePropertiesManager {
     /**
-     * Returns a MailConfigBean object with the contents of the properties file
+     * Returns a DatabaseConfig object with the contents of the properties file
      *
      * @param path Must exist, will not be created
      * @param propFileName Name of the properties file
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final ConfigDatabase loadTextProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigDatabase loadTextProperties(final String path, 
+            final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
@@ -39,12 +41,12 @@ public class DatabasePropertiesManager {
             try (InputStream propFileStream = newInputStream(txtFile);) {
                 prop.load(propFileStream);
             }
-            databaseConfig.setDatabase(path);
-            databaseConfig.setDriver(path);
-            databaseConfig.setPassword(path);
-            databaseConfig.setProtocol(path);
-            databaseConfig.setUrl(path);
-            databaseConfig.setUser(path);
+            databaseConfig.setDatabase(prop.getProperty("database"));
+            databaseConfig.setDriver(prop.getProperty("driver"));
+            databaseConfig.setPassword(prop.getProperty("password"));
+            databaseConfig.setProtocol(prop.getProperty("protocol"));
+            databaseConfig.setUrl(prop.getProperty("url"));
+            databaseConfig.setUser(prop.getProperty("username"));
             
             found = true;
         }
@@ -55,7 +57,7 @@ public class DatabasePropertiesManager {
     }
     
     /**
-     * Returns a MailConfigBean object with the contents of the properties file
+     * Returns a ConfigDatabase object with the contents of the properties file
      * that is in an XML format
      *
      * @param path Must exist, will not be created. Empty string means root of
@@ -78,12 +80,12 @@ public class DatabasePropertiesManager {
             try (InputStream propFileStream = newInputStream(xmlFile);) {
                 prop.loadFromXML(propFileStream);
             }
-            databaseConfig.setDatabase(prop.getProperty(path, propFileName));
-            databaseConfig.setDriver(prop.getProperty(path, propFileName));
-            databaseConfig.setPassword(prop.getProperty(path, propFileName));
-            databaseConfig.setProtocol(prop.getProperty(path, propFileName));
-            databaseConfig.setUrl(prop.getProperty(path, propFileName));
-            databaseConfig.setUser(prop.getProperty(path, propFileName));
+            databaseConfig.setDatabase(prop.getProperty("database"));
+            databaseConfig.setDriver(prop.getProperty("driver"));
+            databaseConfig.setPassword(prop.getProperty("password"));
+            databaseConfig.setProtocol(prop.getProperty("protocol"));
+            databaseConfig.setUrl(prop.getProperty("url"));
+            databaseConfig.setUser(prop.getProperty("username"));
             
             found = true;
         }
@@ -98,14 +100,19 @@ public class DatabasePropertiesManager {
      *
      * @param path Must exist, will not be created
      * @param propFileName Name of the properties file
-     * @param mailConfig The bean to store into the properties
+     * @param databaseConfig The bean to store into the properties
      * @throws IOException
      */
-    public final void writeTextProperties(final String path, final String propFileName, final ConfigDatabase mailConfig) throws IOException {
+    public final void writeTextProperties(final String path, final String propFileName, final ConfigDatabase databaseConfig) throws IOException {
 
         Properties prop = new Properties();
 
-        prop.setProperty(path, path);
+        prop.setProperty("database", databaseConfig.getDatabase());
+        prop.setProperty("driver",databaseConfig.getDriver());
+        prop.setProperty("password",databaseConfig.getPassword());
+        prop.setProperty("protocol",databaseConfig.getProtocol());
+        prop.setProperty("url",databaseConfig.getUrl());
+        prop.setProperty("username",databaseConfig.getUser());
 
         Path txtFile = get(path, propFileName + ".properties");
 
@@ -122,14 +129,19 @@ public class DatabasePropertiesManager {
      * @param path Must exist, will not be created
      * @param propFileName Name of the properties file. Empty string means root
      * of program folder
-     * @param mailConfig The bean to store into the properties
+     * @param databaseConfig The bean to store into the properties
      * @throws IOException
      */
-    public final void writeXmlProperties(final String path, final String propFileName, final ConfigDatabase mailConfig) throws IOException {
+    public final void writeXmlProperties(final String path, final String propFileName, final ConfigDatabase databaseConfig) throws IOException {
 
         Properties prop = new Properties();
 
-        prop.setProperty("","");
+        prop.setProperty("database", databaseConfig.getDatabase());
+        prop.setProperty("driver",databaseConfig.getDriver());
+        prop.setProperty("password",databaseConfig.getPassword());
+        prop.setProperty("protocol",databaseConfig.getProtocol());
+        prop.setProperty("url",databaseConfig.getUrl());
+        prop.setProperty("username",databaseConfig.getUser());
 
         Path xmlFile = get(path, propFileName + ".xml");
 
@@ -159,7 +171,7 @@ public class DatabasePropertiesManager {
         boolean found = false;
            
         Properties prop = new Properties();
-        ConfigDatabase mailConfig = new ConfigDatabase();
+        ConfigDatabase databaseConfig = new ConfigDatabase();
 
         // There is no exists method for files in a jar so we try to get the
         // resource and if its not there it returns a null
@@ -170,7 +182,12 @@ public class DatabasePropertiesManager {
             try (InputStream stream = this.getClass().getResourceAsStream("/" + propertiesFileName);) {
                 prop.load(stream);
             }
-            
+            databaseConfig.setDatabase(prop.getProperty("database"));
+            databaseConfig.setDriver(prop.getProperty("driver"));
+            databaseConfig.setPassword(prop.getProperty("password"));
+            databaseConfig.setProtocol(prop.getProperty("protocol"));
+            databaseConfig.setUrl(prop.getProperty("url"));
+            databaseConfig.setUser(prop.getProperty("username"));
             
             found = true;
         }

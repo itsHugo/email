@@ -13,19 +13,21 @@ import java.nio.file.Path;
 import java.util.Properties;
 
 /**
- *
+ * Class containing methods to load and save a MailConfig object's properties.
+ * Supported formats are text, xml, and jar files.
  * @author Hugo Pham
  */
 public class EmailPropertiesManager {
     /**
-     * Returns a MailConfigBean object with the contents of the properties file
+     * Returns a MailConfig object with the contents of the properties file
      *
      * @param path Must exist, will not be created
      * @param propFileName Name of the properties file
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final ConfigEmail loadTextProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigEmail loadTextProperties(final String path, 
+            final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
@@ -53,7 +55,7 @@ public class EmailPropertiesManager {
     }
     
     /**
-     * Returns a MailConfigBean object with the contents of the properties file
+     * Returns a MailConfig object with the contents of the properties file
      * that is in an XML format
      *
      * @param path Must exist, will not be created. Empty string means root of
@@ -62,7 +64,8 @@ public class EmailPropertiesManager {
      * @return The bean loaded with the properties
      * @throws IOException
      */
-    public final ConfigEmail loadXmlProperties(final String path, final String propFileName) throws IOException {
+    public final ConfigEmail loadXmlProperties(final String path, 
+            final String propFileName) throws IOException {
         boolean found = false;
         Properties prop = new Properties();
 
@@ -97,7 +100,9 @@ public class EmailPropertiesManager {
      * @param mailConfig The bean to store into the properties
      * @throws IOException
      */
-    public final void writeTextProperties(final String path, final String propFileName, final ConfigEmail mailConfig) throws IOException {
+    public final void writeTextProperties(final String path, 
+            final String propFileName, final ConfigEmail mailConfig) 
+            throws IOException {
 
         Properties prop = new Properties();
 
@@ -124,7 +129,9 @@ public class EmailPropertiesManager {
      * @param mailConfig The bean to store into the properties
      * @throws IOException
      */
-    public final void writeXmlProperties(final String path, final String propFileName, final ConfigEmail mailConfig) throws IOException {
+    public final void writeXmlProperties(final String path, 
+            final String propFileName, final ConfigEmail mailConfig) 
+            throws IOException {
 
         Properties prop = new Properties();
 
@@ -152,12 +159,13 @@ public class EmailPropertiesManager {
      * into src/main/resources. The files and folders placed there are moved to
      * the root of the project when it is built.
      *
-     * @param propertiesFileName : Name of the properties file
+     * @param propFileName : Name of the properties file
      * @return The bean loaded with the properties
      * @throws IOException : Error while reading the file
      * @throws NullPointerException : File not found
      */
-    public final boolean loadJarTextProperties(final String propertiesFileName) throws IOException, NullPointerException {
+    public final ConfigEmail loadJarTextProperties(final String propFileName) 
+            throws IOException, NullPointerException {
         boolean found = false;
            
         Properties prop = new Properties();
@@ -165,11 +173,12 @@ public class EmailPropertiesManager {
 
         // There is no exists method for files in a jar so we try to get the
         // resource and if its not there it returns a null
-        if (this.getClass().getResource("/" + propertiesFileName) != null) {
+        if (this.getClass().getResource("/" + propFileName) != null) {
             // Assumes that the properties file is in the root of the
             // project/jar.
             // Include a path from the root if required.
-            try (InputStream stream = this.getClass().getResourceAsStream("/" + propertiesFileName);) {
+            try (InputStream stream = this.getClass()
+                    .getResourceAsStream("/" + propFileName);) {
                 prop.load(stream);
             }
             mailConfig.setEmailSend(prop.getProperty("userEmailAddress"));
@@ -179,7 +188,11 @@ public class EmailPropertiesManager {
             
             found = true;
         }
-        return found;
+        
+        if(found)
+            return mailConfig;
+        else
+            throw new IOException(propFileName + " file not found.");
     }
     
 }

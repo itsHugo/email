@@ -25,7 +25,8 @@ import javafx.stage.Stage;
  */
 public class PropertiesFXMLController {
 
-    // Injected fields   
+    // Injected fields  
+    // Email fields
      @FXML
     private TextField emailAddressTxt;
 
@@ -43,7 +44,9 @@ public class PropertiesFXMLController {
 
     @FXML
     private Button clearEmailBtn;
+    // End email fields
 
+    // Database fields
     @FXML
     private TextField usernameTxt;
 
@@ -67,6 +70,7 @@ public class PropertiesFXMLController {
 
     @FXML
     private Button saveDatabaseBtn;
+    // End database fields
 
 
     // Resources are injected
@@ -119,7 +123,12 @@ public class PropertiesFXMLController {
         Bindings.bindBidirectional(imapTxt.textProperty(), configEmail.imapProperty());
         
         //Bind database config properties
-        //Bindings.bindBidirectional(, );
+        Bindings.bindBidirectional(usernameTxt.textProperty(), configDatabase.userProperty());
+        Bindings.bindBidirectional(databasePasswordTxt.textProperty(), configDatabase.passwordProperty());
+        Bindings.bindBidirectional(protocolTxt.textProperty(), configDatabase.protocolProperty());
+        Bindings.bindBidirectional(driverTxt.textProperty(), configDatabase.driverProperty());
+        Bindings.bindBidirectional(databaseUrlTxt.textProperty(), configDatabase.urlProperty());
+        Bindings.bindBidirectional(databaseNameTxt.textProperty(), configDatabase.databaseProperty());
     }
 
     /**
