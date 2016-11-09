@@ -18,7 +18,6 @@ public class MainApp extends Application {
         FXMLLoader loader = new FXMLLoader();
         loader.setLocation(this.getClass().getResource("/fxml/PropertiesFXML.fxml"));
         loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
-        PropertiesFXMLController controller = loader.getController();
         Parent root = (BorderPane) loader.load();
         
         

@@ -34,8 +34,10 @@ public interface EmailDAO {
     public String[] findBccFor(int ID) throws SQLException;
     public ArrayList<EmailAttachment> findAttachmentsFor(int ID) throws SQLException;
     public ArrayList<EmailMessage> findMessagesFor(int ID) throws SQLException;
+    public ArrayList<String> findAllFolders() throws SQLException;
     public int 
         getEmailID(String fromEmail, String subject, String folderName, Date sendDate, Date receiveDate) throws SQLException;
+    
     //Update
     public int updateEmail(int emailID) throws SQLException;
     public int updateFolder(String folder, int emailID) throws SQLException;

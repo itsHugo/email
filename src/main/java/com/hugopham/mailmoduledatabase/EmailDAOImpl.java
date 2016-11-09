@@ -510,6 +510,27 @@ public class EmailDAOImpl implements EmailDAO {
     }
 
     @Override
+    public ArrayList<String> findAllFolders() throws SQLException {
+        ArrayList<String> list = new ArrayList<>();
+        String findQuery = "SELECT FOLDERNAME FROM FOLDER";
+        
+        // Connection is only open for the operation and then immediately closed
+        try (Connection connection = DriverManager.getConnection(url, user, password);
+                // Using a prepared statement to handle the conversion
+                // of special characters in the SQL statement and guard against
+                // SQL Injection
+                PreparedStatement ps = connection.prepareStatement(findQuery);) {
+            try (ResultSet rs = ps.executeQuery()) {
+                while (rs.next()) {
+                    list.add(rs.getString("FOLDERNAME"));
+                }
+            }
+        }
+        return list;
+    }
+
+    
+    @Override
     public int getEmailID(String fromEmail, String subject, String folderName, Date sendDate, Date receiveDate) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
