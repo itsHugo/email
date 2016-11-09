@@ -7,7 +7,7 @@ import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.TabPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 
@@ -19,7 +19,7 @@ public class MainApp extends Application {
         loader.setLocation(this.getClass().getResource("/fxml/PropertiesFXML.fxml"));
         loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
         PropertiesFXMLController controller = loader.getController();
-        Parent root = (TabPane) loader.load();
+        Parent root = (BorderPane) loader.load();
         
         
         Scene scene = new Scene(root);

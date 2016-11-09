@@ -4,171 +4,195 @@
 <?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<TabPane prefHeight="452.0" prefWidth="412.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hugopham.fxcontrollers.PropertiesFXMLController">
-   <tabs>
-      <Tab text="%email_tab">
-         <content>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0">
-               <children>
-                  <GridPane layoutX="58.0" layoutY="59.0" prefHeight="143.0" prefWidth="296.0">
-                     <columnConstraints>
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="148.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="148.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                     </rowConstraints>
+<BorderPane prefHeight="426.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PropertiesFXMLController">
+   <center>
+      <TabPane prefHeight="452.0" prefWidth="412.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+         <tabs>
+            <Tab text="%email_tab">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
                      <children>
-                        <Label text="%emailaddress_label">
-                           <font>
-                              <Font name="Arial" size="18.0" />
-                           </font>
-                           <GridPane.margin>
+                        <GridPane layoutX="58.0" layoutY="59.0" prefHeight="143.0" prefWidth="296.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="148.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="148.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label text="%emailaddress_label">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                                 <GridPane.margin>
+                                    <Insets />
+                                 </GridPane.margin>
+                              </Label>
+                              <TextField fx:id="emailAddressTxt" GridPane.columnIndex="1" />
+                              <PasswordField fx:id="emailPasswordTxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label text="%password_label" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="%smtp_label" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="%imap_label" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="smtpTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="imapTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                           </children>
+                           <opaqueInsets>
                               <Insets />
-                           </GridPane.margin>
-                        </Label>
-                        <TextField fx:id="emailAddressTxt" GridPane.columnIndex="1" />
-                        <PasswordField fx:id="emailPasswordTxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <Label text="%password_label" GridPane.rowIndex="1">
+                           </opaqueInsets>
+                        </GridPane>
+                        <Button fx:id="saveEmailBtn" layoutX="234.0" layoutY="202.0" mnemonicParsing="false" onAction="#onSaveEmail" text="%save_button">
                            <font>
-                              <Font name="Arial" size="18.0" />
+                              <Font size="20.0" />
+                           </font>
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Label layoutX="30.0" layoutY="14.0" text="%emailconfig_title">
+                           <font>
+                              <Font size="30.0" />
                            </font>
                         </Label>
-                        <Label text="%smtp_label" GridPane.rowIndex="2">
+                        <Button fx:id="clearEmailBtn" layoutX="92.0" layoutY="202.0" mnemonicParsing="false" onAction="#onClearEmail" text="%clear_button">
                            <font>
-                              <Font name="Arial" size="18.0" />
+                              <Font size="20.0" />
                            </font>
-                        </Label>
-                        <Label text="%imap_label" GridPane.rowIndex="3">
-                           <font>
-                              <Font name="Arial" size="18.0" />
-                           </font>
-                        </Label>
-                        <TextField fx:id="smtpTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <TextField fx:id="imapTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
                      </children>
-                     <opaqueInsets>
-                        <Insets />
-                     </opaqueInsets>
-                  </GridPane>
-                  <Button fx:id="saveEmailBtn" layoutX="234.0" layoutY="202.0" mnemonicParsing="false" onAction="#onSaveEmail" text="%save_button">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Button>
-                  <Label layoutX="30.0" layoutY="14.0" text="%emailconfig_title">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-                  <Button fx:id="clearEmailBtn" layoutX="92.0" layoutY="202.0" mnemonicParsing="false" onAction="#onClearEmail" text="%clear_button">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Button>
-               </children>
-            </AnchorPane>
-         </content>
-      </Tab>
-      <Tab text="%database_tab">
-         <content>
-            <AnchorPane prefHeight="458.0" prefWidth="412.0">
-               <children>
-                  <GridPane layoutX="58.0" layoutY="59.0" prefHeight="252.0" prefWidth="296.0">
-                     <columnConstraints>
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="148.0" />
-                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="148.0" />
-                     </columnConstraints>
-                     <rowConstraints>
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                     </rowConstraints>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="%database_tab">
+               <content>
+                  <AnchorPane prefHeight="339.0" prefWidth="404.0">
                      <children>
-                        <Label text="%username_label">
+                        <GridPane layoutX="58.0" layoutY="59.0" prefHeight="252.0" prefWidth="296.0">
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="148.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="153.0" minWidth="10.0" prefWidth="148.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Label text="%username_label">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="usernameTxt" GridPane.columnIndex="1" />
+                              <Label text="%password_label" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="%protocol_label" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="%driver_label" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="%dburl_label" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label text="%dbname_label" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="Arial" size="18.0" />
+                                 </font>
+                              </Label>
+                              <PasswordField fx:id="databasePasswordTxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <TextField fx:id="protocolTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <TextField fx:id="driverTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField fx:id="databaseUrlTxt" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                              <TextField fx:id="databaseNameTxt" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                           </children>
+                        </GridPane>
+                        <Label layoutX="8.0" layoutY="14.0" text="%databaseconfig_title">
                            <font>
-                              <Font name="Arial" size="18.0" />
+                              <Font size="30.0" />
                            </font>
                         </Label>
-                        <TextField fx:id="usernameTxt" GridPane.columnIndex="1" />
-                        <Label text="%password_label" GridPane.rowIndex="1">
+                        <Button fx:id="clearDatabaseBtn" layoutX="92.0" layoutY="311.0" mnemonicParsing="false" onAction="#onClearDatabase" text="%clear_button">
                            <font>
-                              <Font name="Arial" size="18.0" />
+                              <Font size="20.0" />
                            </font>
-                        </Label>
-                        <Label text="%protocol_label" GridPane.rowIndex="2">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
+                        <Button fx:id="saveDatabaseBtn" layoutX="226.0" layoutY="311.0" mnemonicParsing="false" onAction="#onSaveDatabase" text="%save_button">
                            <font>
-                              <Font name="Arial" size="18.0" />
+                              <Font size="20.0" />
                            </font>
-                        </Label>
-                        <Label text="%driver_label" GridPane.rowIndex="3">
-                           <font>
-                              <Font name="Arial" size="18.0" />
-                           </font>
-                        </Label>
-                        <Label text="%dburl_label" GridPane.rowIndex="4">
-                           <font>
-                              <Font name="Arial" size="18.0" />
-                           </font>
-                        </Label>
-                        <Label text="%dbname_label" GridPane.rowIndex="5">
-                           <font>
-                              <Font name="Arial" size="18.0" />
-                           </font>
-                        </Label>
-                        <PasswordField fx:id="databasePasswordTxt" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                        <TextField fx:id="protocolTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <TextField fx:id="driverTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-                        <TextField fx:id="databaseUrlTxt" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-                        <TextField fx:id="databaseNameTxt" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Button>
                      </children>
-                  </GridPane>
-                  <Label layoutX="4.0" layoutY="14.0" text="%databaseconfig_title">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-                  <Button fx:id="clearDatabaseBtn" layoutX="92.0" layoutY="311.0" mnemonicParsing="false" onAction="#onClearDatabase" text="%clear_button">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Button>
-                  <Button fx:id="saveDatabaseBtn" layoutX="226.0" layoutY="311.0" mnemonicParsing="false" onAction="#onSaveDatabase" text="%save_button">
-                     <font>
-                        <Font size="20.0" />
-                     </font>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Button>
-               </children>
-            </AnchorPane>
-         </content>
-      </Tab>
-   </tabs>
-</TabPane>
+                  </AnchorPane>
+               </content>
+            </Tab>
+         </tabs>
+      </TabPane>
+   </center>
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="%file_menu">
+            <items>
+              <MenuItem mnemonicParsing="false" text="%close_menuitem" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="%help_menu">
+            <items>
+              <MenuItem mnemonicParsing="false" text="%about_menuitem" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>
