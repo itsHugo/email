@@ -6,7 +6,7 @@ import javafx.beans.property.StringProperty;
 
 
 /**
- * Class for configuring the server names and the sender's email credentials.
+ * Contains the various properties for configuring the email's settings.
  * @author Hugo Pham
  * @version 1.0.0
  * @since 1.8
@@ -17,7 +17,9 @@ public class ConfigEmail {
     private final StringProperty emailSend;
     private final StringProperty emailSendPwd;
     
-    // Default constructor
+    /**
+     * Default constructor;
+     */
     public ConfigEmail(){
         super();
         this.emailSend = new SimpleStringProperty("");
@@ -26,7 +28,13 @@ public class ConfigEmail {
         this.imapServerName = new SimpleStringProperty("");
     }
     
-    
+    /**
+     * Constructor with parameters
+     * @param emailSend
+     * @param emailSendPwd
+     * @param imapServerName
+     * @param smtpServerName 
+     */
     public ConfigEmail(String emailSend, String emailSendPwd,
             String imapServerName, String smtpServerName) {
         super();
@@ -36,6 +44,7 @@ public class ConfigEmail {
         this.imapServerName = new SimpleStringProperty(imapServerName);
     }
 
+    // Getters and setters below
     public String getSmtpServerName() {
         return smtpServerName.get();
     }
@@ -66,39 +75,26 @@ public class ConfigEmail {
 
     public void setEmailSendPwd(String emailSendPwd) {
         this.emailSendPwd.set(emailSendPwd);
-    }
+    } 
+    // End of methods
 
-    // Property for fxml methods below.
-    /**
-     * Converts smtp String to StringProperty.
-     * @return StringProperty smtp
-     */
+    // Methods for retrieving Properties for fxml methods below.
     public StringProperty smtpProperty() {
         return smtpServerName;
     }
     
-    /**
-     * Converts imap String to StringProperty.
-     * @return StringProperty imap
-     */
     public StringProperty imapProperty() {
         return imapServerName;
     }
     
-    /**
-     * Converts email address String to StringProperty.
-     * @return StringProperty email address
-     */
+
     public StringProperty emailAddressProperty() {
         return emailSend;
     }
     
-    /**
-     * Converts email password to StringProperty.
-     * @return StringProperty password
-     */
+
     public StringProperty emailPasswordProperty() {
         return emailSendPwd;
     }
-    // End of property methods
+    // End of methods
 }
