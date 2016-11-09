@@ -1,12 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.hugopham.mailmodules;
 
 import com.hugopham.mailmoduleconfig.ConfigEmail;
 import com.hugopham.mailmodulesinterfaces.Mailer;
+import com.hugopham.propertiesmanager.EmailPropertiesManager;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,14 +33,15 @@ import jodd.mail.MailAddress;
  */
 public class SendReceiveModule implements Mailer {
 
-    private String senderEmail;
-    private String senderPwd;
+    private final String senderEmail;
+    private final String senderPwd;
+    private final String smtpServerName;
+    private final String imapServerName;
+    
     private EmailAddress[] emailReceive;
     private String subject;
     private String html;
-    private String smtpServerName;
-    private String imapServerName;
-
+    
     private ConfigEmail c;
     private final Logger logger
             = LoggerFactory.getLogger(this.getClass().getName());
@@ -51,11 +49,32 @@ public class SendReceiveModule implements Mailer {
     private final String inboxFolder = "Inbox";
     private final String sentFolder = "Sent";
 
-    //Default constructor
+    /**
+     * Default constructor.
+     * Sets the class variables with properties loaded from file.
+     */
     public SendReceiveModule() {
         super();
+        EmailPropertiesManager manager = new EmailPropertiesManager();
+        ConfigEmail config = new ConfigEmail();
+        try{
+            config = manager.loadTextProperties("", "EmailProperties");
+        } catch(IOException ex) {
+            logger.error("EmailProperties.properties not found.");
+        }
+        this.senderEmail = config.getEmailSend();
+        this.senderPwd = config.getEmailSendPwd();
+        this.smtpServerName = config.getSmtpServerName();
+        this.imapServerName = config.getImapServerName();
+        
+        
     }
 
+    /**
+     * Constructor that loads from a ConfigEmail object.
+     * Sets the class variables.
+     * @param c ConfigEmail object
+     */
     public SendReceiveModule(ConfigEmail c) {
         this.c = c;
         this.senderEmail = c.getEmailSend();

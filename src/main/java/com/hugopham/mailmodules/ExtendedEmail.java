@@ -1,28 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.hugopham.mailmodules;
 
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 import javax.mail.Flags;
 import jodd.mail.Email;
-import jodd.mail.EmailAttachment;
-import jodd.mail.EmailMessage;
-import jodd.mail.MailAddress;
+
 import jodd.mail.ReceivedEmail;
-import jodd.mail.EmailFilter;
+
 /**
  * Extends the Email class from Jodd.
  * Adds a field called folder in order to store the emails in an approriate folder.
  * 
- * @author 1334944
+ * @author Hugo Pham
  */
 public class ExtendedEmail extends Email {
     private String folder;

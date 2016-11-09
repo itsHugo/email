@@ -1,6 +1,8 @@
 package com.hugopham.mailmoduledatabase;
 
+import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import com.hugopham.mailmodules.ExtendedEmail;
+import com.hugopham.propertiesmanager.DatabasePropertiesManager;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
@@ -38,11 +40,26 @@ public class EmailDAOImpl implements EmailDAO {
     private final String user;
     private final String password;
 
+    /**
+     * Default constructor.
+     * Sets the class variables with properties loaded from file.
+     */
     public EmailDAOImpl() {
         super();
-        url = "jdbc:mysql://waldo2.dawsoncollege.qc.ca/CS1334944";
-        user = "CS1334944";
-        password = "uvillien";
+        DatabasePropertiesManager manager = new DatabasePropertiesManager();
+        ConfigDatabase config = new ConfigDatabase();
+        try{
+            config = manager.loadTextProperties("", "DatabaseProperties");
+        } catch (IOException ex){
+            log.error("DatabaseProperties.properties not found.");
+        }
+        
+        this.url = config.getProtocol() + ":" 
+                + config.getDriver() + "://"
+                + config.getUrl() + "/"
+                + config.getDatabase();
+        this.user = config.getUser();
+        this.password = config.getPassword();
     }
 
     public EmailDAOImpl(String url, String user, String password) {
