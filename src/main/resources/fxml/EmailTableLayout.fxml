@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="fishFXTable" prefHeight="700.0" prefWidth="1500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hugopham.fxcontrollers.EmailTableController">
+    <children>
+        <TableView fx:id="emailDataTable" editable="true" layoutX="436.0" layoutY="212.0" prefHeight="700.0" prefWidth="1500.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <columns>
+                <TableColumn fx:id="idColumn" prefWidth="50.0" text="%ID" />
+                <TableColumn fx:id="commonNameColumn" prefWidth="50.0" text="%CommonName" />
+                <TableColumn fx:id="latinColumn" prefWidth="50.0" text="%Latin" />
+                <TableColumn fx:id="phColumn" prefWidth="50.0" text="%PH" />
+                <TableColumn fx:id="khColumn" prefWidth="50.0" text="%KH" />
+                <TableColumn fx:id="tempColumn" prefWidth="50.0" text="%Temperature" />
+                <TableColumn fx:id="fishSizeColumn" prefWidth="50.0" text="%FishSize" />
+                <TableColumn fx:id="speciesOriginColumn" prefWidth="50.0" text="%SpeciesOrigin" />
+                <TableColumn fx:id="tankSizeColumn" prefWidth="50.0" text="%TankSize" />
+                <TableColumn fx:id="stockingColumn" prefWidth="50.0" text="%Stocking" />
+                <TableColumn fx:id="dietColumn" prefWidth="50.0" text="%Diet" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

@@ -4167,3 +4167,7 @@
 [INFO ] 2016-11-08 11:06:45.270 [main] SendReceiveModule - ------------
 [INFO ] 2016-11-08 11:06:45.270 [main] SendReceiveModule - FLAGS:com.sun.mail.imap.protocol.FLAGS@20
 [INFO ] 2016-11-08 11:06:45.270 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-11 10:25:38.237 [JavaFX Application Thread] FolderTreeController - Draft
+[INFO ] 2016-11-11 10:25:38.239 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-11 10:25:38.239 [JavaFX Application Thread] FolderTreeController - Junk
+[INFO ] 2016-11-11 10:25:38.239 [JavaFX Application Thread] FolderTreeController - Sent

@@ -19,176 +19,186 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 
 import com.hugopham.mailmoduledatabase.EmailDAO;
+import com.hugopham.mailmoduledatabase.EmailDAOImpl;
 
 /**
  * This controller began its life as part of a standalone display of a container
  * with a menu, tool bar and HTML editor. It is now part of another container.
- * 
+ *
  * A method was added to allow the RootLayoutController to pass in a reference
  * to the FishFXTableController
- * 
+ *
  * i18n added
- * 
+ *
  * Added drag and drop
- * 
+ *
  * @author Ken Fogel
  * @version 1.2
  *
  */
 public class FolderTreeController {
 
-	private EmailDAO emailDAO;
-	//private FishFXTableController fishFXTableController;
+    private EmailDAO emailDAO;
+    //private FishFXTableController fishFXTableController;
 
-	private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
+    private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
-	@FXML
-	private TreeView<String> fishFXTreeView;
+    @FXML
+    private TreeView<String> folderTreeView;
 
-	// Resource bundle is injected when controller is loaded
-	@FXML
-	private ResourceBundle resources;
+    // Resource bundle is injected when controller is loaded
+    @FXML
+    private ResourceBundle resources;
 
-	/**
-	 * Initializes the controller class. This method is automatically called
-	 * after the fxml file has been loaded.
-	 */
-	@FXML
-	private void initialize() {
+    /**
+     * Initializes the controller class. This method is automatically called
+     * after the fxml file has been loaded.
+     */
+    @FXML
+    private void initialize() {
 
-		// We need a root node for the tree and it must be the same type as all
-		// nodes
-		String root = "Folder";
+        //emailDAO = new EmailDAOImpl();
+        // We need a root node for the tree and it must be the same type as all
+        // nodes
+        String root = "Folder";
 
-		// The tree will display common name so we set this for the root
-		// Because we are using i18n the root name comes from the resource
-		// bundle
+        // The tree will display common name so we set this for the root
+        // Because we are using i18n the root name comes from the resource
+        // bundle
+        folderTreeView.setRoot(new TreeItem<>(root));
 
-		fishFXTreeView.setRoot(new TreeItem<>(root));
+        // This cell factory is used to choose which field in the FihsData object
+        // is used for the node name
+        folderTreeView.setCellFactory((e) -> new TreeCell<String>() {
+            @Override
+            protected void updateItem(String item, boolean empty) {
+                super.updateItem(item, empty);
+                if (item != null) {
+                    setText(item);
+                    setGraphic(getTreeItem().getGraphic());
+                } else {
+                    setText("");
+                    setGraphic(null);
+                }
+            }
+        });
 
-		// This cell factory is used to choose which field in the FihsData object
-		// is used for the node name
-		fishFXTreeView.setCellFactory((e) -> new TreeCell<String>() {
-			@Override
-			protected void updateItem(String item, boolean empty) {
-				super.updateItem(item, empty);
-				if (item != null) {
-					setText(item);
-					setGraphic(getTreeItem().getGraphic());
-				} else {
-					setText("");
-					setGraphic(null);
-				}
-			}
-		});
+        // We are going to drag and drop
+        folderTreeView.setOnDragDetected(new EventHandler<MouseEvent>() {
+            public void handle(MouseEvent event) {
+                /* drag was detected, start drag-and-drop gesture */
+                log.debug("onDragDetected");
 
-		// We are going to drag and drop
-		fishFXTreeView.setOnDragDetected(new EventHandler<MouseEvent>() {
-			public void handle(MouseEvent event) {
-				/* drag was detected, start drag-and-drop gesture */
-				log.debug("onDragDetected");
+                /* allow any transfer mode */
+                Dragboard db = folderTreeView.startDragAndDrop(TransferMode.ANY);
 
-				/* allow any transfer mode */
-				Dragboard db = fishFXTreeView.startDragAndDrop(TransferMode.ANY);
+                /* put a string on dragboard */
+                ClipboardContent content = new ClipboardContent();
+                content.putString(folderTreeView.getSelectionModel().getSelectedItem().getValue());
 
-				/* put a string on dragboard */
-				ClipboardContent content = new ClipboardContent();
-				content.putString(fishFXTreeView.getSelectionModel().getSelectedItem().getValue());
+                db.setContent(content);
 
-				db.setContent(content);
+                event.consume();
+            }
+        });
+        
+        try{
+            displayTree();
+        } catch(SQLException ex) {
+            
+        }
+    }
 
-				event.consume();
-			}
-		});
-	}
+    /**
+     * When a drag is detected the control at the start of the drag is accessed
+     * to determine what will be dragged.
+     *
+     * SceneBuilder writes the event as ActionEvent that you must change to the
+     * proper event type that in this case is DragEvent
+     *
+     * @param event
+     */
+    @FXML
+    private void dragDetected(MouseEvent event) {
+        /* drag was detected, start drag-and-drop gesture */
+        log.debug("onDragDetected");
 
-	/**
-	 * When a drag is detected the control at the start of the drag is accessed
-	 * to determine what will be dragged.
-	 * 
-	 * SceneBuilder writes the event as ActionEvent that you must change to the
-	 * proper event type that in this case is DragEvent
-	 * 
-	 * @param event
-	 */
-	@FXML
-	private void dragDetected(MouseEvent event) {
-		/* drag was detected, start drag-and-drop gesture */
-		log.debug("onDragDetected");
+        /* allow any transfer mode */
+        Dragboard db = folderTreeView.startDragAndDrop(TransferMode.ANY);
 
-		/* allow any transfer mode */
-		Dragboard db = fishFXTreeView.startDragAndDrop(TransferMode.ANY);
+        /* put a string on dragboard */
+        ClipboardContent content = new ClipboardContent();
+        content.putString(folderTreeView.getSelectionModel().getSelectedItem().getValue());
 
-		/* put a string on dragboard */
-		ClipboardContent content = new ClipboardContent();
-		content.putString(fishFXTreeView.getSelectionModel().getSelectedItem().getValue());
+        db.setContent(content);
 
-		db.setContent(content);
+        event.consume();
 
-		event.consume();
+    }
 
-	}
+    /**
+     * The RootLayoutController calls this method to provide a reference to the
+     * Email object.
+     *
+     * @param emailDAO
+     */
+    public void setEmailDAO(EmailDAO emailDAO) {
+        this.emailDAO = emailDAO;
+    }
 
-	/**
-	 * The RootLayoutController calls this method to provide a reference to the
-	 * Email object.
-	 * 
-	 * @param emailDAO
-	 */
-	public void setEmailDAO(EmailDAO emailDAO) {
-		this.emailDAO = emailDAO;
-	}
-
-	/**
-	 * The RootLayoutController calls this method to provide a reference to the
-	 * FishFXTableController from which it can request a reference to the
-	 * TreeView. With theTreeView reference it can change the selection in the
-	 * TableView.
-	 * 
-	 * @param fishFXTableController
-	 */
-        /* TO DO:
+    /**
+     * The RootLayoutController calls this method to provide a reference to the
+     * FishFXTableController from which it can request a reference to the
+     * TreeView. With theTreeView reference it can change the selection in the
+     * TableView.
+     *
+     * @param fishFXTableController
+     */
+    /* TO DO:
 	public void setTableController(FishFXTableController fishFXTableController) {
 		this.fishFXTableController = fishFXTableController;
 	}*/
+    /**
+     * Build the tree from the database
+     *
+     * @throws SQLException
+     */
+    public void displayTree() throws SQLException {
+        // Retrieve the list of fish
+        // Change later
+        emailDAO = new EmailDAOImpl();
+        //ObservableList<String> folders = (ObservableList<String>) emailDAO.findAllFolders();
 
-	/**
-	 * Build the tree from the database
-	 * 
-	 * @throws SQLException
-	 */
-	public void displayTree() throws SQLException {
-		// Retrieve the list of fish
-		ObservableList<String> folders = (ObservableList<String>) emailDAO.findAllFolders();
+        // Build an item for each fish and add it to the root
+        //if (folders != null) {
+            for (String folder : emailDAO.findAllFolders()) {
+                log.info(folder);
+                TreeItem<String> item = new TreeItem<>(folder);
+                //item.setGraphic(new ImageView(getClass().getResource("/images/fish.png").toExternalForm()));
+                item.setGraphic(null);
+                folderTreeView.getRoot().getChildren().add(item);
+            //}
+        }
 
-		// Build an item for each fish and add it to the root
-		if (folders != null) {
-			for (String folder : folders) {
-				TreeItem<String> item = new TreeItem<>(folder);
-				//item.setGraphic(new ImageView(getClass().getResource("/images/fish.png").toExternalForm()));
-				fishFXTreeView.getRoot().getChildren().add(item);
-			}
-		}
+        // Open the tree
+        folderTreeView.getRoot().setExpanded(true);
 
-		// Open the tree
-		fishFXTreeView.getRoot().setExpanded(true);
-
-		// Listen for selection changes and show the fishData details when
-		// changed.
-		/* TO DO:
+        // Listen for selection changes and show the fishData details when
+        // changed.
+        /* TO DO:
                 fishFXTreeView.getSelectionModel().selectedItemProperty()
 				.addListener((observable, oldValue, newValue) -> showFishDetailsTree(newValue));
-                */
-	}
+         */
+    }
 
-	/**
-	 * Using the reference to the FishFXTableController it can change the
-	 * selected row in the TableView It also displays the FishData object that
-	 * corresponds to the selected node.
-	 * 
-	 * @param fishData
-	 */
-        /* TO DO:
+    /**
+     * Using the reference to the FishFXTableController it can change the
+     * selected row in the TableView It also displays the FishData object that
+     * corresponds to the selected node.
+     *
+     * @param fishData
+     */
+    /* TO DO:
 	private void showFishDetailsTree(TreeItem<FishData> fishData) {
 
 		// Select the row that contains the FishData object from the Tree
@@ -200,5 +210,4 @@ public class FolderTreeController {
 
 		System.out.println("showFishDetailsTree\n" + fishData.getValue());
 	}*/
-
 }

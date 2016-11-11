@@ -7,6 +7,7 @@ import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -16,9 +17,9 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(this.getClass().getResource("/fxml/PropertiesFXML.fxml"));
+        loader.setLocation(this.getClass().getResource("/fxml/FolderTreeLayout.fxml"));
         loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
-        Parent root = (BorderPane) loader.load();
+        Parent root = (AnchorPane) loader.load();
         
         
         Scene scene = new Scene(root);
