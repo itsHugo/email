@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane fx:id="fishFXHTMLLayout" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hugopham.fxcontrollers.FishFXHTMLControllerDND">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+              <menus>
+                <Menu mnemonicParsing="false" text="%File">
+                  <items>
+                        <MenuItem mnemonicParsing="false" onAction="#handleSave" text="%Save" />
+                    <MenuItem mnemonicParsing="false" onAction="#handleExit" text="%Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="%Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="%About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+         </top>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <top>
+                  <ToolBar prefHeight="40.0" prefWidth="200.0">
+                    <items>
+                      <Button mnemonicParsing="false" onAction="#handleSave" text="%Save" />
+                    </items>
+                  </ToolBar>
+               </top>
+               <center>
+                  <HTMLEditor fx:id="fishFXHTMLEditor" htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" onDragDropped="#dragDropped" onDragOver="#dragOver" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

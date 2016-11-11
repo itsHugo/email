@@ -3,7 +3,6 @@ package com.hugopham.fxcontrollers;
 import com.hugopham.mailmoduledatabase.EmailDAO;
 import com.hugopham.mailmoduledatabase.EmailDAOImpl;
 import com.hugopham.mailmodules.ExtendedEmail;
-import com.sun.javafx.collections.ImmutableObservableList;
 import java.sql.SQLException;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
@@ -13,6 +12,10 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
 
+/**
+ * 
+ * @author Hugo Pham
+ */
 public class EmailTableController {
 
     @FXML
@@ -54,7 +57,7 @@ public class EmailTableController {
         receiveDate.setCellValueFactory(cellData -> new SimpleStringProperty((cellData.getValue()
                 .getReceiveDate()) == null ? "" : cellData.getValue().getReceiveDate().toString() ));
 
-        //adjustColumnWidths();
+        adjustColumnWidths();
 
         // Listen for selection changes and show the fishData details when
         // changed.
@@ -64,6 +67,7 @@ public class EmailTableController {
                 .addListener(
                         (observable, oldValue, newValue) -> showEmailDetails(newValue));
         
+        // Try to display the table
         try{
            displayTheTable(); 
         } catch(SQLException ex) {
@@ -106,9 +110,9 @@ public class EmailTableController {
         // Get the current width of the table
         double width = emailTable.getPrefWidth();
         // Set width of each column
-        senderColumn.setPrefWidth(width * .05);
-        subjectColumn.setPrefWidth(width * .15);
-        receiveDate.setPrefWidth(width * .15);
+        senderColumn.setPrefWidth(width * .33);
+        subjectColumn.setPrefWidth(width * .33);
+        receiveDate.setPrefWidth(width * .33);
     }
 
     /**
