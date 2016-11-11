@@ -17,7 +17,7 @@ public class MainApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(this.getClass().getResource("/fxml/FolderTreeLayout.fxml"));
+        loader.setLocation(this.getClass().getResource("/fxml/EmailTableLayout.fxml"));
         loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
         Parent root = (AnchorPane) loader.load();
         

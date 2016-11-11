@@ -89,5 +89,5 @@ INSERT INTO FOLDER (FOLDERNAME) VALUES("Draft");
 INSERT INTO FOLDER (FOLDERNAME) VALUES("Junk");
 
 INSERT INTO EMAIL (USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS)
-VALUES("hugo.sender.not.a.bot@gmail.com", "creepy_guy@stalker.com", "I like to stalk people", null, null, "Inbox", null);
+VALUES("hugo.sender.not.a.bot@gmail.com", "creepy_guy@stalker.com", "I like to stalk people", NOW(), NOW(), "Inbox", null);
 
