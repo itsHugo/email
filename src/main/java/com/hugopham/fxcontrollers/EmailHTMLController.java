@@ -33,7 +33,7 @@ import javafx.scene.web.HTMLEditor;
  * @version 1.2
  *
  */
-public class FishFXHTMLControllerDND {
+public class EmailHTMLController {
 
     private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
