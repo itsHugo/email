@@ -271,6 +271,14 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Inserts a an attachment into the database.
+     * 
+     * @param attachment
+     * @param emailID
+     * @return
+     * @throws SQLException 
+     */
     @Override
     public int createAttachment(EmailAttachment attachment, int emailID) throws SQLException {
         String createQuery = "INSERT INTO ATTACHMENT(FILEDATA, EMAILID) VALUES (?,?)";
@@ -295,6 +303,12 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Retrieves all the e-mails in the database.
+     * 
+     * @return ArrayList of e-mails
+     * @throws SQLException 
+     */
     @Override
     public ArrayList<ExtendedEmail> findAll() throws SQLException {
         ArrayList<ExtendedEmail> emailList = new ArrayList<>();
@@ -338,6 +352,12 @@ public class EmailDAOImpl implements EmailDAO {
         return email;
     }
 
+    /**
+     * Retrieves all the e-mails with the matching username in the database.
+     * 
+     * @return ArrayList of e-mails
+     * @throws SQLException 
+     */
     @Override
     public ArrayList<ExtendedEmail> findAllEmailsFor(String useremail) throws SQLException {
         ArrayList<ExtendedEmail> emailList = new ArrayList<>();
@@ -360,9 +380,16 @@ public class EmailDAOImpl implements EmailDAO {
         return emailList;
     }
 
+    /**
+     * Retrieves all the e-mails with the matching from field.
+     * 
+     * @param email 
+     * @return ArrayList of e-mails
+     * @throws SQLException 
+     */
     @Override
     public ArrayList<ExtendedEmail> findEmailsFrom(String email) throws SQLException {
-        ArrayList<ExtendedEmail> emailList = new ArrayList<ExtendedEmail>();
+        ArrayList<ExtendedEmail> emailList = new ArrayList<>();
         String readQuery = "SELECT ID, USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS "
                 + "FROM EMAIL WHERE FROMEMAIL = ?";
 
@@ -382,6 +409,13 @@ public class EmailDAOImpl implements EmailDAO {
         return emailList;
     }
 
+    /**
+     * Retrieves all the "To" e-mail addresses for an e-mail.
+     * 
+     * @param ID
+     * @return Array of e-mails
+     * @throws SQLException 
+     */
     @Override
     public String[] findTosFor(int ID) throws SQLException {
         ArrayList<String> list = new ArrayList<>();
@@ -403,6 +437,13 @@ public class EmailDAOImpl implements EmailDAO {
         return list.toArray(new String[list.size()]);
     }
 
+    /**
+     * Retrieves all the "Cc" e-mail addresses for an e-mail.
+     * 
+     * @param ID
+     * @return Array of e-mails
+     * @throws SQLException 
+     */
     @Override
     public String[] findCcFor(int ID) throws SQLException {
         ArrayList<String> list = new ArrayList<>();
@@ -424,6 +465,13 @@ public class EmailDAOImpl implements EmailDAO {
         return list.toArray(new String[list.size()]);
     }
 
+    /**
+     * Retrieves all the "Bcc" e-mail addresses for an e-mail.
+     * 
+     * @param ID
+     * @return Array of e-mails
+     * @throws SQLException 
+     */
     @Override
     public String[] findBccFor(int ID) throws SQLException {
         ArrayList<String> list = new ArrayList<>();
@@ -445,6 +493,13 @@ public class EmailDAOImpl implements EmailDAO {
         return list.toArray(new String[list.size()]);
     }
 
+    /**
+     * Retrieves all the attachments for an e-mail.
+     * 
+     * @param ID
+     * @return ArrayList of attachments
+     * @throws SQLException 
+     */
     @Override
     public ArrayList<EmailAttachment> findAttachmentsFor(int ID) throws SQLException {
         ArrayList<EmailAttachment> list = new ArrayList<>();
@@ -487,6 +542,13 @@ public class EmailDAOImpl implements EmailDAO {
         return list;
     }
 
+    /**
+     * Retrieves all the messages for an e-mail.
+     * 
+     * @param ID
+     * @return ArrayList of messages
+     * @throws SQLException 
+     */
     @Override
     public ArrayList<EmailMessage> findMessagesFor(int ID) throws SQLException {
         ArrayList<EmailMessage> list = new ArrayList<>();
@@ -509,6 +571,12 @@ public class EmailDAOImpl implements EmailDAO {
         return list;
     }
 
+    /**
+     * Retrieves all the folder names from the database.
+     * 
+     * @return ArrayList of folder names
+     * @throws SQLException 
+     */
     @Override
     public ArrayList<String> findAllFolders() throws SQLException {
         ArrayList<String> list = new ArrayList<>();
@@ -540,6 +608,14 @@ public class EmailDAOImpl implements EmailDAO {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    /**
+     * Updates which folder an e-mail belongs to.
+     * 
+     * @param folder
+     * @param emailID
+     * @return
+     * @throws SQLException 
+     */
     @Override
     public int updateFolder(String folder, int emailID) throws SQLException {
         String updateQuery = "UPDATE EMAIL SET FOLDERNAME = ?";
@@ -561,6 +637,13 @@ public class EmailDAOImpl implements EmailDAO {
         return result;
     }
 
+    /**
+     * Deletes an e-mail.
+     * 
+     * @param ID
+     * @return number of rows affected
+     * @throws SQLException 
+     */
     @Override
     public int deleteEmail(int ID) throws SQLException {
         String createQuery = "DELETE FROM EMAIL WHERE ID = ?";

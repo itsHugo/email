@@ -100,6 +100,12 @@ public class ExtendedEmail extends Email {
         return hash;
     }
 
+    /**
+     * Compares two ExtendedEmail objects using it's fields.
+     * 
+     * @param obj
+     * @return 
+     */
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -119,7 +125,7 @@ public class ExtendedEmail extends Email {
         
         return (compareAttachment(other) && compareCc(other) 
                 && compareFrom(other) && compareMessage(other) 
-                && compareTos(other) && compareSubject(this));
+                && compareTos(other) && compareSubject(other));
     }
     
     /**
