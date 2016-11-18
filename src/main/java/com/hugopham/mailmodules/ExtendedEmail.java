@@ -137,15 +137,9 @@ public class ExtendedEmail extends Email {
     public boolean compareAttachment(ExtendedEmail email){
         boolean bool = true;
         
-        if(this.attachments != null && email.attachments != null){
+        if(email != null && this.attachments != null && email.attachments != null){
             if(this.attachments.size() != email.attachments.size()){
                 bool = false;
-            } else {
-                for(int i=0; i < this.attachments.size(); i++) {
-                    if(!this.attachments.get(i).getName()
-                            .equals(email.attachments.get(i).getName()))
-                        bool = false;
-                }
             }
         }
         return bool;

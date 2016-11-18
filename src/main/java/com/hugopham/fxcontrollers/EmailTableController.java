@@ -115,6 +115,10 @@ public class EmailTableController {
      * @param fishData
      */
     private void showEmailDetails(ExtendedEmail email) {
-        System.out.println("showEmailDetails\n" + email);
+        System.out.println("showEmailDetails\n"
+                + email.getFrom() + "\n"
+                + email.getTo()[0] + "\n"
+                + email.getSubject() + "\n"
+                + email.getAllMessages().get(0).getContent());
     }
 }

@@ -41,20 +41,20 @@ public class EmailDAOImpl implements EmailDAO {
     private final String password;
 
     /**
-     * Default constructor.
-     * Sets the class variables with properties loaded from file.
+     * Default constructor. Sets the class variables with properties loaded from
+     * file.
      */
     public EmailDAOImpl() {
         super();
         DatabasePropertiesManager manager = new DatabasePropertiesManager();
         ConfigDatabase config = new ConfigDatabase();
-        try{
+        try {
             config = manager.loadTextProperties("", "DatabaseProperties");
-        } catch (IOException ex){
+        } catch (IOException ex) {
             log.error("DatabaseProperties.properties not found.");
         }
-        
-        this.url = config.getProtocol() + ":" 
+
+        this.url = config.getProtocol() + ":"
                 + config.getDriver() + "://"
                 + config.getUrl() + "/"
                 + config.getDatabase();
@@ -69,11 +69,11 @@ public class EmailDAOImpl implements EmailDAO {
     }
 
     /**
-     * 
+     *
      * @param useremail
      * @param email
-     * @return 
-     * @throws SQLException 
+     * @return
+     * @throws SQLException
      */
     @Override
     public int createEmail(String useremail, ExtendedEmail email) throws SQLException {
@@ -155,11 +155,11 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Inserts an email message into the database.
-     * 
+     *
      * @param message Email message
      * @param emailID Email object associated
      * @return int Number of records affected
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public int createEmailMessage(EmailMessage message, int emailID) throws SQLException {
@@ -172,7 +172,7 @@ public class EmailDAOImpl implements EmailDAO {
                 // of special characters in the SQL statement and guard against
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(createQuery);) {
-            log.info("Inserting into EMAILMESSAGE: " + message);
+            log.info("Inserting into EMAILMESSAGE: " + message.getContent());
             ps.setString(1, message.getContent());
             ps.setString(2, message.getEncoding());
             ps.setString(3, message.getMimeType());
@@ -186,11 +186,11 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Inserts a To email address into the database.
-     * 
+     *
      * @param emailAddress To email address
      * @param emailID Email object associated
-     * @return 
-     * @throws SQLException 
+     * @return
+     * @throws SQLException
      */
     @Override
     public int createToEmail(String emailAddress, int emailID) throws SQLException {
@@ -215,11 +215,11 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Inserts a Cc email address into the database.
-     * 
+     *
      * @param emailAddress CC email address
      * @param emailID Email object associated
      * @return int Number of rows affected
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public int createCcEmail(String emailAddress, int emailID) throws SQLException {
@@ -244,11 +244,11 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Inserts a Bcc email address into the database.
-     * 
+     *
      * @param emailAddress
      * @param emailID
      * @return
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public int createBccEmail(String emailAddress, int emailID) throws SQLException {
@@ -273,16 +273,17 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Inserts a an attachment into the database.
-     * 
+     *
      * @param attachment
      * @param emailID
      * @return
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public int createAttachment(EmailAttachment attachment, int emailID) throws SQLException {
-        String createQuery = "INSERT INTO ATTACHMENT(FILEDATA, EMAILID) VALUES (?,?)";
-        int result = 0;
+        String createQuery = "INSERT INTO ATTACHMENT"
+                + "(FILENAME,FILEDATA,FILESIZE,EMAILID) VALUES (?,?,?,?)";
+        int result;
 
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);
@@ -294,8 +295,10 @@ public class EmailDAOImpl implements EmailDAO {
                     + "\n\t" + attachment.getContentId()
                     + "\n\t" + attachment.getEncodedName()
                     + "\n\t" + attachment.getSize());
-            ps.setBlob(1, new ByteArrayInputStream(attachment.toByteArray()));
-            ps.setInt(2, emailID);
+            ps.setString(1, attachment.getName());
+            ps.setBytes(2, attachment.toByteArray());
+            ps.setInt(3, attachment.getSize());
+            ps.setInt(4, emailID);
 
             result = ps.executeUpdate();
         }
@@ -305,9 +308,9 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the e-mails in the database.
-     * 
+     *
      * @return ArrayList of e-mails
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public ArrayList<ExtendedEmail> findAll() throws SQLException {
@@ -354,9 +357,10 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the e-mails with the matching username in the database.
-     * 
+     *
+     * @param useremail 
      * @return ArrayList of e-mails
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public ArrayList<ExtendedEmail> findAllEmailsFor(String useremail) throws SQLException {
@@ -382,10 +386,10 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the e-mails with the matching from field.
-     * 
-     * @param email 
+     *
+     * @param email
      * @return ArrayList of e-mails
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public ArrayList<ExtendedEmail> findEmailsFrom(String email) throws SQLException {
@@ -411,10 +415,10 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the "To" e-mail addresses for an e-mail.
-     * 
+     *
      * @param ID
      * @return Array of e-mails
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public String[] findTosFor(int ID) throws SQLException {
@@ -439,10 +443,10 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the "Cc" e-mail addresses for an e-mail.
-     * 
+     *
      * @param ID
      * @return Array of e-mails
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public String[] findCcFor(int ID) throws SQLException {
@@ -467,10 +471,10 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the "Bcc" e-mail addresses for an e-mail.
-     * 
+     *
      * @param ID
      * @return Array of e-mails
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public String[] findBccFor(int ID) throws SQLException {
@@ -495,15 +499,15 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the attachments for an e-mail.
-     * 
+     *
      * @param ID
      * @return ArrayList of attachments
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public ArrayList<EmailAttachment> findAttachmentsFor(int ID) throws SQLException {
         ArrayList<EmailAttachment> list = new ArrayList<>();
-        String findQuery = "SELECT FILEDATA FROM ATTACHMENT WHERE EMAILID = ?";
+        String findQuery = "SELECT FILENAME,FILEDATA,FILESIZE FROM ATTACHMENT WHERE EMAILID = ?";
 
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);
@@ -514,40 +518,27 @@ public class EmailDAOImpl implements EmailDAO {
             ps.setInt(1, ID);
             try (ResultSet resultSet = ps.executeQuery()) {
                 while (resultSet.next()) {
-                    Blob blob = resultSet.getBlob("FILEDATA");
-                    InputStream in = blob.getBinaryStream();
-                    File file = File.createTempFile("attachment", ".", new File(""));
-                    OutputStream out = new FileOutputStream(file);
-                    byte[] buff = new byte[4096];
-                    int len = 0;
-
-                    while ((len = in.read(buff)) != -1) {
-                        out.write(buff, 0, len);
-                    }
-
-                    in.close();
-                    out.close();
-                    EmailAttachment attachment = EmailAttachment.attachment()
-                            .file(file).create();
+                    EmailAttachment attachment
+                            = EmailAttachment.attachment()
+                            .bytes(resultSet.getBytes(2))
+                                    .setName(resultSet.getString(1)).create();
                     list.add(attachment);
                     log.info("Found attachment:\n\t" + attachment.getName()
                             + "\n\t" + attachment.getContentId()
                             + "\n\t" + attachment.getEncodedName()
                             + "\n\t" + attachment.getSize());
                 }
-            } catch (IOException e) {
-                log.error("Find attachments for error!" + e);
             }
+            return list;
         }
-        return list;
     }
 
     /**
      * Retrieves all the messages for an e-mail.
-     * 
+     *
      * @param ID
      * @return ArrayList of messages
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public ArrayList<EmailMessage> findMessagesFor(int ID) throws SQLException {
@@ -573,15 +564,15 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the folder names from the database.
-     * 
+     *
      * @return ArrayList of folder names
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public ArrayList<String> findAllFolders() throws SQLException {
         ArrayList<String> list = new ArrayList<>();
         String findQuery = "SELECT FOLDERNAME FROM FOLDER";
-        
+
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);
                 // Using a prepared statement to handle the conversion
@@ -597,7 +588,6 @@ public class EmailDAOImpl implements EmailDAO {
         return list;
     }
 
-    
     @Override
     public int getEmailID(String fromEmail, String subject, String folderName, Date sendDate, Date receiveDate) throws SQLException {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
@@ -610,11 +600,11 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Updates which folder an e-mail belongs to.
-     * 
+     *
      * @param folder
      * @param emailID
      * @return
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public int updateFolder(String folder, int emailID) throws SQLException {
@@ -639,10 +629,10 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Deletes an e-mail.
-     * 
+     *
      * @param ID
      * @return number of rows affected
-     * @throws SQLException 
+     * @throws SQLException
      */
     @Override
     public int deleteEmail(int ID) throws SQLException {
@@ -667,6 +657,9 @@ public class EmailDAOImpl implements EmailDAO {
     /**
      * Retrieves the data from the database with the resultSet coming from the
      * EMAIL table. Sets the data to an ExtendedEmail object and returns it.
+     * 
+     * ResultSet contains the ID, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE,
+     * FOLDERNAME, RECEIVEDATE, FOLDERNAME, and FLAGS.
      *
      * @param resultSet
      * @return ExtendedEmail object
