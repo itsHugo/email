@@ -97,4 +97,43 @@ public class ConfigEmail {
         return emailSendPwd;
     }
     // End of methods
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 37 * hash + Objects.hashCode(this.smtpServerName);
+        hash = 37 * hash + Objects.hashCode(this.imapServerName);
+        hash = 37 * hash + Objects.hashCode(this.emailSend);
+        hash = 37 * hash + Objects.hashCode(this.emailSendPwd);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final ConfigEmail other = (ConfigEmail) obj;
+        if (!this.getSmtpServerName().equals(other.getSmtpServerName())) {
+            return false;
+        }
+        if (!this.getImapServerName().equals(other.getImapServerName())) {
+            return false;
+        }
+        if (!this.getEmailSend().equals(other.getEmailSend())) {
+            return false;
+        }
+        if (!this.getEmailSendPwd().equals(other.getEmailSendPwd())) {
+            return false;
+        }
+        return true;
+    }
+    
+    
 }

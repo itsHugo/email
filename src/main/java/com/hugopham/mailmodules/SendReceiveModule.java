@@ -29,7 +29,7 @@ import jodd.mail.MailAddress;
  * Module for sending and receiving emails using the Jodd API and the
  * ExtendedEmail class that extends Email. Implements the Mailer interface.
  *
- * @author 1334944
+ * @author Hugo Pham
  */
 public class SendReceiveModule implements Mailer {
 
@@ -122,6 +122,7 @@ public class SendReceiveModule implements Mailer {
     @Override
     public ExtendedEmail sendEmail(ExtendedEmail mail) {
         //Used to get embedded attachments from sent email, since they disappear afte sending
+        /*
         List<EmailAttachment> emailAttachments = new ArrayList<>();
         for(EmailAttachment attachments : mail.getAttachments()){
             for(EmailMessage message : mail.getAllMessages()){
@@ -132,7 +133,8 @@ public class SendReceiveModule implements Mailer {
         }
         
         int before = mail.getAttachments().size();
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        */
+
         // Create am SMTP server object
         SmtpServer<SmtpSslServer> smtpServer = SmtpSslServer
                 .create(smtpServerName)
@@ -151,6 +153,7 @@ public class SendReceiveModule implements Mailer {
         
         // if size of list of attachment is smaller than before
         // insert missing attachments
+        /*
         int after = mail.getAttachments().size();
         if(before > after){
             for (EmailAttachment attachment : emailAttachments) {
@@ -160,7 +163,7 @@ public class SendReceiveModule implements Mailer {
                     } 
                 }
             }
-        }
+        }*/
         
         //Log sent email
         logger.info("-------Sent an email: --------");

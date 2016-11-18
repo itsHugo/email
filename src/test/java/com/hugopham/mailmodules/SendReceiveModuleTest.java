@@ -1,7 +1,10 @@
 package com.hugopham.mailmodules;
 
 import com.hugopham.mailmoduleconfig.ConfigEmail;
+import com.hugopham.mailmoduledatabase.EmailDAO;
+import com.hugopham.mailmoduledatabase.EmailDAOImpl;
 import java.io.File;
+import java.sql.SQLException;
 import jodd.mail.EmailAddress;
 import jodd.mail.EmailAttachment;
 import jodd.mail.EmailAttachmentBuilder;
@@ -21,12 +24,13 @@ public class SendReceiveModuleTest {
     ExtendedEmail e;
     ConfigEmail c;
     SendReceiveModule s;
+    static EmailDAO emailDAO;
     public SendReceiveModuleTest() {
     }
     
     @BeforeClass
     public static void setUpClass() {
-        
+        emailDAO = new EmailDAOImpl();
     }
     
     @AfterClass
@@ -42,8 +46,8 @@ public class SendReceiveModuleTest {
         //setup email
         e.from(c.getEmailSend()).subject("Test Sending")
             .to("hugo.sender.not.a.bot@gmail.com")
-            .cc("hugo.pham@hotmail.com")
-            .bcc("z0mg_a_hugz@hotmail.com")
+            //.cc("hugo.pham@hotmail.com")
+            //.bcc("z0mg_a_hugz@hotmail.com")
             .addHtml("<html><META http-equiv=Content-Type "
                         + "content=\"text/html; charset=utf-8\">"
                         + "<body><h1>Here is my photograph embedded in "
@@ -67,7 +71,13 @@ public class SendReceiveModuleTest {
         
         ExtendedEmail test = s.sendEmail(e);
         
-        assertNotNull("",test);
+        try{
+            emailDAO.createEmail("hugo.sender.not.a.bot@gmail.com", test);
+        }catch(SQLException error){
+            error.printStackTrace();
+        }
+        
+        assertEquals(e,test);
     }
 
     /**
@@ -77,6 +87,14 @@ public class SendReceiveModuleTest {
     public void testReceiveEmail() {
         System.out.println("receiveEmail");
         ExtendedEmail[] test = s.receiveEmail();
+        
+        try{
+            for(ExtendedEmail email : test){
+                emailDAO.createEmail("hugo.sender.not.a.bot@gmail.com", email);
+            }
+        }catch(SQLException error){
+            error.printStackTrace();
+        }
         
         assertNotNull("",test);
     }

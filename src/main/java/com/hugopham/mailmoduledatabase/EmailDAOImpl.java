@@ -308,7 +308,7 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(readQuery);) {
             try (ResultSet resultSet = ps.executeQuery()) {
-                if (resultSet.next()) {
+                while (resultSet.next()) {
                     emailList.add(createExtendedEmail(resultSet));
                 }
             }
@@ -352,7 +352,7 @@ public class EmailDAOImpl implements EmailDAO {
                 PreparedStatement ps = connection.prepareStatement(readQuery);) {
             ps.setString(1, useremail);
             try (ResultSet resultSet = ps.executeQuery()) {
-                if (resultSet.next()) {
+                while (resultSet.next()) {
                     emailList.add(createExtendedEmail(resultSet));
                 }
             }
@@ -374,7 +374,7 @@ public class EmailDAOImpl implements EmailDAO {
                 PreparedStatement ps = connection.prepareStatement(readQuery);) {
             ps.setString(1, email);
             try (ResultSet resultSet = ps.executeQuery()) {
-                if (resultSet.next()) {
+                while (resultSet.next()) {
                     emailList.add(createExtendedEmail(resultSet));
                 }
             }
@@ -394,9 +394,9 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(findQuery);) {
             ps.setInt(1, ID);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    list.add(rs.getString("EMAILADDRESS"));
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    list.add(resultSet.getString("EMAILADDRESS"));
                 }
             }
         }
@@ -415,9 +415,9 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(findQuery);) {
             ps.setInt(1, ID);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    list.add(rs.getString("EMAILADDRESS"));
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    list.add(resultSet.getString("EMAILADDRESS"));
                 }
             }
         }
@@ -436,9 +436,9 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(findQuery);) {
             ps.setInt(1, ID);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    list.add(rs.getString("EMAILADDRESS"));
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    list.add(resultSet.getString("EMAILADDRESS"));
                 }
             }
         }
@@ -457,9 +457,9 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(findQuery);) {
             ps.setInt(1, ID);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    Blob blob = rs.getBlob("FILEDATA");
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    Blob blob = resultSet.getBlob("FILEDATA");
                     InputStream in = blob.getBinaryStream();
                     File file = File.createTempFile("attachment", ".", new File(""));
                     OutputStream out = new FileOutputStream(file);
@@ -481,7 +481,7 @@ public class EmailDAOImpl implements EmailDAO {
                             + "\n\t" + attachment.getSize());
                 }
             } catch (IOException e) {
-                log.error(e.getLocalizedMessage());
+                log.error("Find attachments for error!" + e);
             }
         }
         return list;
@@ -499,10 +499,10 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(findQuery);) {
             ps.setInt(1, ID);
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    list.add(new EmailMessage(rs.getString("CONTENT"),
-                            rs.getString("ENCODING"), rs.getString("MIMETYPE")));
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    list.add(new EmailMessage(resultSet.getString("CONTENT"),
+                            resultSet.getString("ENCODING"), resultSet.getString("MIMETYPE")));
                 }
             }
         }
@@ -520,9 +520,9 @@ public class EmailDAOImpl implements EmailDAO {
                 // of special characters in the SQL statement and guard against
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(findQuery);) {
-            try (ResultSet rs = ps.executeQuery()) {
-                while (rs.next()) {
-                    list.add(rs.getString("FOLDERNAME"));
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    list.add(resultSet.getString("FOLDERNAME"));
                 }
             }
         }

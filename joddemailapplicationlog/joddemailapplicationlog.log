@@ -4171,3 +4171,753 @@
 [INFO ] 2016-11-11 10:25:38.239 [JavaFX Application Thread] FolderTreeController - Inbox
 [INFO ] 2016-11-11 10:25:38.239 [JavaFX Application Thread] FolderTreeController - Junk
 [INFO ] 2016-11-11 10:25:38.239 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-17 21:03:28.255 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 21:03:28.257 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 21:03:28.257 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:03:28.257 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:03:28.257 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:03:28.257 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:03:28.257 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:28.258 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:03:28.259 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:03:28.259 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:03:28.259 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:03:28.259 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 21:03:28.259 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:03:28.259 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:28.260 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 21:03:28.260 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:28.260 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 21:03:28.260 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:03:30.975 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 21:03:30.976 [main] SendReceiveModule - MESSAGE #:4
+[INFO ] 2016-11-17 21:03:30.976 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:03:30.976 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:03:30.976 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:03:30.976 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:03:30.977 [main] SendReceiveModule - SENT DATE:Thu Nov 17 21:03:26 EST 2016
+[INFO ] 2016-11-17 21:03:30.977 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 21:03:27 EST 2016
+[INFO ] 2016-11-17 21:03:30.977 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:30.977 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:03:30.977 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 21:03:30.977 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 21:03:30.978 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:03:30.979 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 21:03:30.979 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:08:54.187 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 21:08:54.188 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 21:08:54.188 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:08:54.188 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:08:54.189 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:08:54.189 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:08:54.189 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 21:08:54.189 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 21:08:54.189 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:54.189 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:08:54.190 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 21:08:54.190 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:08:54.190 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:54.190 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:08:54.190 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:08:54.190 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 21:08:54.191 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:08:54.670 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:08:54.696 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 21:08:54.822 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:08:54.845 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:08:54.973 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@147e2ae7
+[INFO ] 2016-11-17 21:08:54.997 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:08:55.121 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:08:55.224 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:08:55.355 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:08:55.597 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:08:58.125 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 21:08:58.125 [main] SendReceiveModule - MESSAGE #:5
+[INFO ] 2016-11-17 21:08:58.125 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:08:58.125 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:08:58.126 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:08:58.126 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:08:58.126 [main] SendReceiveModule - SENT DATE:Thu Nov 17 21:08:52 EST 2016
+[INFO ] 2016-11-17 21:08:58.126 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 21:08:52 EST 2016
+[INFO ] 2016-11-17 21:08:58.126 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:08:58.127 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:08:58.128 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 21:08:58.128 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:58.128 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 21:08:58.128 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:08:58.128 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 21:08:58.128 [main] SendReceiveModule - -------------------------
+[ERROR] 2016-11-17 21:14:41.064 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:21:05.410 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[INFO ] 2016-11-17 21:28:13.584 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 21:28:13.585 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 21:28:13.585 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:13.585 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:13.585 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 21:28:13.586 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:28:13.587 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:13.588 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 21:28:13.588 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:13.588 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 21:28:13.588 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:28:13.903 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:28:13.927 [main] EmailDAOImpl - ID of email inserted: 3
+[INFO ] 2016-11-17 21:28:14.063 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:14.087 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:14.223 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@78452606
+[INFO ] 2016-11-17 21:28:14.248 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:14.372 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:28:14.476 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:14.600 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:28:14.844 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:18.143 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 21:28:18.143 [main] SendReceiveModule - MESSAGE #:6
+[INFO ] 2016-11-17 21:28:18.143 [main] SendReceiveModule - FROM:Hugo Pham <hugo.pham@hotmail.com>
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - TO:Not Abot <hugo.sender.not.a.bot@gmail.com>
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - SUBJECT:Don't read this email
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - SENT DATE:Thu Nov 17 21:17:55 EST 2016
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 21:18:19 EST 2016
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - iso-8859-1
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - TEXT/PLAIN
+[INFO ] 2016-11-17 21:28:18.144 [main] SendReceiveModule - Pls
+
+[cid:09e4787a-91a1-4478-a8bd-e64f68514262]
+
+Sent from Outlook<http://aka.ms/weboutlook>
+
+[INFO ] 2016-11-17 21:28:18.145 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.145 [main] SendReceiveModule - iso-8859-1
+[INFO ] 2016-11-17 21:28:18.145 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 21:28:18.145 [main] SendReceiveModule - <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css" style="display:none;"><!-- P {margin-top:0;margin-bottom:0;} --></style>
+</head>
+<body dir="ltr">
+<div id="divtagdefaultwrapper" style="font-size:12pt;color:#000000;font-family:Calibri,Arial,Helvetica,sans-serif;" dir="ltr">
+<p>Pls</p>
+<p><img size="169081" contenttype="image/jpeg" id="img270479" style="max-width: 99.9%; user-select: none;" crossorigin="anonymous" aria-expanded="false" tabindex="0" src="cid:09e4787a-91a1-4478-a8bd-e64f68514262"><br>
+</p>
+<div id="Signature">
+<p>Sent from <a href="http://aka.ms/weboutlook" id="LPNoLP">Outlook</a><br>
+</p>
+</div>
+</div>
+</body>
+</html>
+
+[INFO ] 2016-11-17 21:28:18.145 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - name: feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - cid: <09e4787a-91a1-4478-a8bd-e64f68514262>
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - size: 169081
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 21:28:18.146 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - MESSAGE #:7
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - SENT DATE:Thu Nov 17 21:28:12 EST 2016
+[INFO ] 2016-11-17 21:28:18.147 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 21:28:12 EST 2016
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:28:18.148 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:28:18.149 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 21:28:18.149 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.149 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 21:28:18.149 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:28:18.149 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 21:28:18.149 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:28:18.275 [main] EmailDAOImpl - Inserting into EMAIL: Email{'Hugo Pham <hugo.pham@hotmail.com>', subject='Don't read this email'}
+[INFO ] 2016-11-17 21:28:18.299 [main] EmailDAOImpl - ID of email inserted: 4
+[INFO ] 2016-11-17 21:28:18.426 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:18.451 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:18.578 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5456afaa
+[INFO ] 2016-11-17 21:28:18.600 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:18.728 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@6736fa8d
+[INFO ] 2016-11-17 21:28:18.751 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:18.875 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	<09e4787a-91a1-4478-a8bd-e64f68514262>
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	169081
+[INFO ] 2016-11-17 21:28:19.069 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:19.203 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:28:19.227 [main] EmailDAOImpl - ID of email inserted: 5
+[INFO ] 2016-11-17 21:28:19.352 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:28:19.375 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:19.509 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@1c39680d
+[INFO ] 2016-11-17 21:28:19.535 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:19.662 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	<car.png>
+	car.png
+	224140
+[INFO ] 2016-11-17 21:28:19.903 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:28:20.037 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	70909
+[INFO ] 2016-11-17 21:28:20.140 [main] EmailDAOImpl - # of records created : 1
+[ERROR] 2016-11-17 21:31:10.866 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:36:25.642 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:39:15.906 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:43:42.570 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:45:53.900 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:47:39.253 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[ERROR] 2016-11-17 21:48:14.059 [JavaFX Application Thread] EmailDAOImpl - Access is denied
+[INFO ] 2016-11-17 21:49:38.800 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:49:38.826 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 21:49:38.952 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:38.976 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:39.104 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-17 21:49:39.128 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:39.253 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-17 21:49:39.276 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:39.412 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@385e9564
+[INFO ] 2016-11-17 21:49:39.438 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:39.568 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:49:39.688 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:39.818 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:49:40.064 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:41.126 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:49:41.151 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 21:49:41.278 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:41.301 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:41.426 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-17 21:49:41.450 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:41.576 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-17 21:49:41.599 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:41.726 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@ba54932
+[INFO ] 2016-11-17 21:49:41.750 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:41.884 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:49:41.989 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:42.123 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:49:42.369 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:49.464 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 21:49:49.465 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 21:49:49.466 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:49.466 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:49:49.466 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 21:49:49.466 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:49:49.466 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:49.466 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:49.467 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 21:49:49.468 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:49.468 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 21:49:49.468 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:49:49.599 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:49:49.624 [main] EmailDAOImpl - ID of email inserted: 3
+[INFO ] 2016-11-17 21:49:49.752 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:49.775 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:49.898 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@37911f88
+[INFO ] 2016-11-17 21:49:49.923 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:50.049 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:49:50.191 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:50.316 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:49:50.560 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:52.764 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 21:49:52.764 [main] SendReceiveModule - MESSAGE #:8
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - SENT DATE:Thu Nov 17 21:49:47 EST 2016
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 21:49:48 EST 2016
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:52.765 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 21:49:52.766 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:49:52.893 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:49:52.918 [main] EmailDAOImpl - ID of email inserted: 4
+[INFO ] 2016-11-17 21:49:53.052 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:49:53.076 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:53.204 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@2ce6c6ec
+[INFO ] 2016-11-17 21:49:53.226 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:53.349 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	<car.png>
+	car.png
+	224140
+[INFO ] 2016-11-17 21:49:53.591 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:49:53.717 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	70909
+[INFO ] 2016-11-17 21:49:53.819 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:08.940 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:57:08.965 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 21:57:09.089 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:09.112 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:09.249 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-17 21:57:09.275 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:09.410 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-17 21:57:09.435 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:09.561 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5b94b04d
+[INFO ] 2016-11-17 21:57:09.584 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:09.711 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:57:09.815 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:09.943 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:57:10.200 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:11.196 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:57:11.218 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 21:57:11.352 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:11.377 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:11.501 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-17 21:57:11.527 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:11.651 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-17 21:57:11.674 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:11.800 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@28975c28
+[INFO ] 2016-11-17 21:57:11.823 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:11.949 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:57:12.055 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:12.192 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:57:12.436 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:57:19.421 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:19.422 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 21:57:19.423 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:19.424 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 21:57:19.424 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:57:19.547 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:57:19.571 [main] EmailDAOImpl - ID of email inserted: 3
+[INFO ] 2016-11-17 21:57:19.695 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:19.718 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:19.845 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@37911f88
+[INFO ] 2016-11-17 21:57:19.868 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:19.993 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 21:57:20.093 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:20.217 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 21:57:20.460 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:25.440 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 21:57:25.440 [main] SendReceiveModule - MESSAGE #:9
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - SENT DATE:Thu Nov 17 21:57:17 EST 2016
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 21:57:18 EST 2016
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 21:57:25.441 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:25.442 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 21:57:25.443 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 21:57:25.443 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 21:57:25.443 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 21:57:25.577 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 21:57:25.602 [main] EmailDAOImpl - ID of email inserted: 4
+[INFO ] 2016-11-17 21:57:25.739 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 21:57:25.762 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:25.888 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@2ce6c6ec
+[INFO ] 2016-11-17 21:57:25.910 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:26.034 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	<car.png>
+	car.png
+	224140
+[INFO ] 2016-11-17 21:57:26.262 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 21:57:26.390 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	70909
+[INFO ] 2016-11-17 21:57:26.484 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:08.195 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 22:02:08.219 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 22:02:08.343 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:08.370 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:08.494 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-17 22:02:08.523 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:08.659 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-17 22:02:08.693 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:08.821 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@399c4be1
+[INFO ] 2016-11-17 22:02:08.845 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:08.972 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 22:02:09.079 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:09.204 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 22:02:09.448 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:10.495 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 22:02:10.521 [main] EmailDAOImpl - ID of email inserted: 2
+[INFO ] 2016-11-17 22:02:10.665 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:10.691 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:10.814 [main] EmailDAOImpl - Inserting into CCEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-17 22:02:10.837 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:10.961 [main] EmailDAOImpl - Inserting into BCCEMAIL:z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-17 22:02:10.984 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:11.109 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@36b4fe2a
+[INFO ] 2016-11-17 22:02:11.132 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:11.259 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 22:02:11.354 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:11.480 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 22:02:11.720 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:18.553 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 22:02:18.554 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 22:02:18.555 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 22:02:18.556 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 22:02:18.679 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 22:02:18.701 [main] EmailDAOImpl - ID of email inserted: 3
+[INFO ] 2016-11-17 22:02:18.826 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:18.848 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:18.970 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@23202fce
+[INFO ] 2016-11-17 22:02:18.992 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:19.125 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 22:02:19.224 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:19.349 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 22:02:19.581 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:22.662 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 22:02:22.662 [main] SendReceiveModule - MESSAGE #:10
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - SENT DATE:Thu Nov 17 22:02:17 EST 2016
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 22:02:17 EST 2016
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 22:02:22.663 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 22:02:22.664 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:02:22.665 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 22:02:22.665 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 22:02:22.798 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 22:02:22.822 [main] EmailDAOImpl - ID of email inserted: 4
+[INFO ] 2016-11-17 22:02:22.947 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:02:22.969 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:23.103 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@5b7a8434
+[INFO ] 2016-11-17 22:02:23.127 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:23.261 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	<car.png>
+	car.png
+	224140
+[INFO ] 2016-11-17 22:02:23.506 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:02:23.644 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	70909
+[INFO ] 2016-11-17 22:02:23.751 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:32.768 [main] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-17 22:07:32.769 [main] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-17 22:07:32.769 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:07:32.769 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:07:32.769 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 22:07:32.770 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 22:07:32.770 [main] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-17 22:07:32.770 [main] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-17 22:07:32.770 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:32.770 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 22:07:32.770 [main] SendReceiveModule - text/html
+[INFO ] 2016-11-17 22:07:32.771 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 22:07:32.771 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:32.771 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - cid: car.png
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - size: -1
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-17 22:07:32.772 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:32.773 [main] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-17 22:07:32.773 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 22:07:33.165 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 22:07:33.190 [main] EmailDAOImpl - ID of email inserted: 5
+[INFO ] 2016-11-17 22:07:33.313 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:07:33.335 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:33.469 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@7d322cad
+[INFO ] 2016-11-17 22:07:33.493 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:33.630 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-17 22:07:33.742 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:33.869 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	car.png
+	car.png
+	-1
+[INFO ] 2016-11-17 22:07:34.113 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:36.316 [main] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-17 22:07:36.316 [main] SendReceiveModule - MESSAGE #:11
+[INFO ] 2016-11-17 22:07:36.316 [main] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:07:36.317 [main] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:07:36.317 [main] SendReceiveModule - SUBJECT:Test Sending
+[INFO ] 2016-11-17 22:07:36.317 [main] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-17 22:07:36.317 [main] SendReceiveModule - SENT DATE:Thu Nov 17 22:07:31 EST 2016
+[INFO ] 2016-11-17 22:07:36.317 [main] SendReceiveModule - RECEIVE DATE:Thu Nov 17 22:07:32 EST 2016
+[INFO ] 2016-11-17 22:07:36.317 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:36.318 [main] SendReceiveModule - UTF-8
+[INFO ] 2016-11-17 22:07:36.318 [main] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-17 22:07:36.318 [main] SendReceiveModule - <html><META http-equiv=Content-Type content="text/html; charset=utf-8"><body><h1>Here is my photograph embedded in this email.</h1><img src='cid:car.png'><h2>THIS IS A TEST</h2></body></html>
+[INFO ] 2016-11-17 22:07:36.318 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:36.318 [main] SendReceiveModule - name: car.png
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - cid: <car.png>
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - size: 224140
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - name: test.png
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - cid: null
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - size: 70909
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - ------------
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-17 22:07:36.319 [main] SendReceiveModule - -------------------------
+[INFO ] 2016-11-17 22:07:36.447 [main] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Test Sending'}
+[INFO ] 2016-11-17 22:07:36.472 [main] EmailDAOImpl - ID of email inserted: 6
+[INFO ] 2016-11-17 22:07:36.597 [main] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-17 22:07:36.621 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:36.746 [main] EmailDAOImpl - Inserting into EMAILMESSAGE: jodd.mail.EmailMessage@4dd6fd0a
+[INFO ] 2016-11-17 22:07:36.770 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:36.906 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	car.png
+	<car.png>
+	car.png
+	224140
+[INFO ] 2016-11-17 22:07:37.156 [main] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-17 22:07:37.279 [main] EmailDAOImpl - Inserting into ATTACHMENT:
+	test.png
+	null
+	test.png
+	70909
+[INFO ] 2016-11-17 22:07:37.379 [main] EmailDAOImpl - # of records created : 1
+[ERROR] 2016-11-17 22:15:23.392 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:24.378 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:25.393 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:26.403 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:27.364 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:29.214 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:30.306 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:31.276 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:32.288 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:15:33.371 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:17:20.776 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:17:21.771 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:17:22.753 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:17:23.737 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied
+[ERROR] 2016-11-17 22:17:24.724 [JavaFX Application Thread] EmailDAOImpl - Find attachments for error!java.io.IOException: Access is denied

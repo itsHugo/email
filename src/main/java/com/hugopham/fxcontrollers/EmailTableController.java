@@ -33,20 +33,16 @@ public class EmailTableController {
     @FXML
     private TableColumn<ExtendedEmail, String> receiveDate;
 
-    private EmailDAO emailDAO;
-
-    public EmailTableController() {
-        super();
-    }
+    static EmailDAO emailDAO = new EmailDAOImpl();
 
     /**
      * Initializes the controller class. This method is automatically called
      * after the fxml file has been loaded.
+     * @throws java.sql.SQLException
      */
     @FXML
-    public void initialize() {
+    public void initialize() throws SQLException {
 
-        emailDAO = new EmailDAOImpl();
         // Connects the property in the ExtendedEmail object to the column in the
         // table
         senderColumn.setCellValueFactory(cellData -> new SimpleStringProperty(cellData.getValue().
@@ -68,11 +64,8 @@ public class EmailTableController {
                         (observable, oldValue, newValue) -> showEmailDetails(newValue));
         
         // Try to display the table
-        try{
-           displayTheTable(); 
-        } catch(SQLException ex) {
-            
-        }
+
+          displayTheTable(); 
         
     }
 
@@ -84,7 +77,7 @@ public class EmailTableController {
      * @throws SQLException
      */
     public void setEmailDAO(EmailDAO emailDAO) throws SQLException {
-        this.emailDAO = emailDAO;
+        EmailTableController.emailDAO = emailDAO;
     }
 
     /**
@@ -94,8 +87,8 @@ public class EmailTableController {
      */
     public void displayTheTable() throws SQLException {
         ObservableList<ExtendedEmail> observableList = 
-                FXCollections.observableList(this.emailDAO.findAll());
-        
+                FXCollections.observableList(emailDAO.findAll());
+
         // Add observable list data to the table
         emailDataTable.setItems(observableList);
     }

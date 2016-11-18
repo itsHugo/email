@@ -117,7 +117,9 @@ public class ExtendedEmail extends Email {
         }
         
         
-        return true;
+        return (compareAttachment(other) && compareCc(other) 
+                && compareFrom(other) && compareMessage(other) 
+                && compareTos(other) && compareSubject(this));
     }
     
     /**

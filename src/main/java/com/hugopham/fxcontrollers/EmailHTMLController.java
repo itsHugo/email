@@ -1,5 +1,6 @@
 package com.hugopham.fxcontrollers;
 
+import com.hugopham.mailmoduledatabase.EmailDAO;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -7,8 +8,8 @@ import java.util.ResourceBundle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.kenfogel.javafxmulticontainerv4.beans.FishData;
-import com.kenfogel.javafxmulticontainerv4.persistence.FishDAO;
+//import com.kenfogel.javafxmulticontainerv4.beans.FishData;
+//import com.kenfogel.javafxmulticontainerv4.persistence.FishDAO;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -38,10 +39,10 @@ public class EmailHTMLController {
     private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
     // We will need this to read from the database
-    private FishDAO fishDAO;
+    private EmailDAO emailDAO;
 
     @FXML
-    private HTMLEditor fishFXHTMLEditor;
+    private HTMLEditor emailHTMLEditor;
 
     // Resource bundle is injected when controller is loaded
     @FXML
@@ -73,7 +74,7 @@ public class EmailHTMLController {
 		 * Accept it only if it is not dragged from the same control and if it
 		 * has a string data
          */
-        if (event.getGestureSource() != fishFXHTMLEditor && event.getDragboard().hasString()) {
+        if (event.getGestureSource() != emailHTMLEditor && event.getDragboard().hasString()) {
             /*
 			 * allow for both copying and moving, whatever user chooses
              */
@@ -98,7 +99,7 @@ public class EmailHTMLController {
         Dragboard db = event.getDragboard();
         boolean success = false;
         if (db.hasString()) {
-            fishFXHTMLEditor.setHtmlText(db.getString());
+            emailHTMLEditor.setHtmlText(db.getString());
             success = true;
         }
         /*
@@ -115,7 +116,7 @@ public class EmailHTMLController {
      */
     @FXML
     private void handleSave() {
-        System.out.println(fishFXHTMLEditor.getHtmlText());
+        System.out.println(emailHTMLEditor.getHtmlText());
     }
 
     /**
@@ -147,17 +148,17 @@ public class EmailHTMLController {
      * @param fishDAO
      * @throws SQLException
      */
-    public void setFishDAO(FishDAO fishDAO) {
-        this.fishDAO = fishDAO;
+    public void setFishDAO(EmailDAO emailDAO) {
+        this.emailDAO = emailDAO;
     }
 
     /**
      * Convert the first three fields from the first three records into HTML.
-     */
+     *
     public void displayFishAsHTML() {
-        ArrayList<FishData> data = null;
+        ArrayList<String> data = null;
         try {
-            data = fishDAO.findAll();
+            data = null;
         } catch (SQLException e) {
             log.error("Error retrieving records: ", e.getCause());
         }
@@ -173,7 +174,7 @@ public class EmailHTMLController {
 
         fishFXHTMLEditor.setHtmlText(sb.toString());
 
-    }
+    }*/
 
     /**
      * Displays html that contains an embedded image
@@ -183,6 +184,6 @@ public class EmailHTMLController {
                 + "<body><h1>Here is my photograph embedded in this email.</h1><img src=\""
                 + getClass().getResource("/FreeFall.jpg") + "\"><h2>I'm flying!</h2></body></html>";
 
-        fishFXHTMLEditor.setHtmlText(other);
+        emailHTMLEditor.setHtmlText(other);
     }
 }
