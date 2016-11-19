@@ -7,6 +7,7 @@ import javafx.beans.property.StringProperty;
 
 /**
  * Contains the various properties for configuring the email's settings.
+ * 
  * @author Hugo Pham
  * @version 1.0.0
  * @since 1.8

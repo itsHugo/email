@@ -15,7 +15,10 @@ import java.util.Properties;
 /**
  * Class containing methods to load and save a MailConfig object's properties.
  * Supported formats are text, xml, and jar files.
+ * 
  * @author Hugo Pham
+ * @version 1.0.0
+ * @since 1.8
  */
 public class EmailPropertiesManager {
     /**

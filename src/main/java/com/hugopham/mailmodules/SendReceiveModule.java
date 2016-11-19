@@ -4,7 +4,6 @@ import com.hugopham.mailmoduleconfig.ConfigEmail;
 import com.hugopham.mailmodulesinterfaces.Mailer;
 import com.hugopham.propertiesmanager.EmailPropertiesManager;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.mail.Flags;
@@ -27,9 +26,13 @@ import jodd.mail.MailAddress;
 
 /**
  * Module for sending and receiving emails using the Jodd API and the
- * ExtendedEmail class that extends Email. Implements the Mailer interface.
+ * ExtendedEmail class that extends Email. 
+ * 
+ * Implements the Mailer interface.
  *
  * @author Hugo Pham
+ * @version 1.0.0
+ * @since 1.8
  */
 public class SendReceiveModule implements Mailer {
 
@@ -88,6 +91,7 @@ public class SendReceiveModule implements Mailer {
      *
      * @return
      */
+    @Override
     public ExtendedEmail sendEmail() {
         // Create am SMTP server object
         SmtpServer<SmtpSslServer> smtpServer = SmtpSslServer
@@ -112,6 +116,26 @@ public class SendReceiveModule implements Mailer {
         return email;
 
     }
+    
+    /**
+     * Gets the ConfigEmail object.
+     * 
+     * @return 
+     */
+    @Override
+    public ConfigEmail getConfigEmail() {
+        return c;
+    }
+    
+    /**
+     * Sets the ConfigEmail object.
+     * 
+     * @param c 
+     */
+    @Override
+    public void setConfigEmail(ConfigEmail c) {
+        this.c = c;
+    }
 
     /**
      * Send an email with an existing ExtendedEmail object
@@ -121,20 +145,6 @@ public class SendReceiveModule implements Mailer {
      */
     @Override
     public ExtendedEmail sendEmail(ExtendedEmail mail) {
-        //Used to get embedded attachments from sent email, since they disappear afte sending
-        /*
-        List<EmailAttachment> emailAttachments = new ArrayList<>();
-        for(EmailAttachment attachments : mail.getAttachments()){
-            for(EmailMessage message : mail.getAllMessages()){
-                if(attachments.isEmbeddedInto(message)){
-                    emailAttachments.add(attachments);
-                }
-            }
-        }
-        
-        int before = mail.getAttachments().size();
-        */
-
         // Create am SMTP server object
         SmtpServer<SmtpSslServer> smtpServer = SmtpSslServer
                 .create(smtpServerName)
@@ -150,20 +160,6 @@ public class SendReceiveModule implements Mailer {
         mail.setFolder(sentFolder);
 
         session.close();
-        
-        // if size of list of attachment is smaller than before
-        // insert missing attachments
-        /*
-        int after = mail.getAttachments().size();
-        if(before > after){
-            for (EmailAttachment attachment : emailAttachments) {
-                for(EmailMessage message: mail.getAllMessages()){
-                    if(attachment.isEmbeddedInto(message)){
-                        mail.embed(attachment);
-                    } 
-                }
-            }
-        }*/
         
         //Log sent email
         logger.info("-------Sent an email: --------");
@@ -200,10 +196,7 @@ public class SendReceiveModule implements Mailer {
     }
 
 
-    @Override
-    public ConfigEmail getConfigEmail() {
-        return c;
-    }
+    
 
     // Converts ReceivedEmail array to ExtendedEmail array
     private ExtendedEmail[] convertToExtended(ReceivedEmail[] r) {
@@ -296,9 +289,6 @@ public class SendReceiveModule implements Mailer {
         logger.info("-------------------------");
     }
 
-    @Override
-    public void setConfigEmail(ConfigEmail c) {
-        this.c = c;
-    }
+    
 
 }

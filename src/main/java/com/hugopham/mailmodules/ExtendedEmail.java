@@ -11,9 +11,12 @@ import jodd.mail.ReceivedEmail;
 
 /**
  * Extends the Email class from Jodd.
+ * 
  * Adds a field called folder in order to store the emails in an approriate folder.
  * 
  * @author Hugo Pham
+ * @version 1.0.0
+ * @since 1.8
  */
 public class ExtendedEmail extends Email {
     private String folder;

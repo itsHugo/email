@@ -19,6 +19,7 @@ import javafx.scene.layout.AnchorPane;
  *
  * @author Hugo Pham
  * @version 1.0.0
+ * @since 1.8
  */
 public class EmailTableController {
 

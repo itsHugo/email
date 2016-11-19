@@ -9,6 +9,7 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javafx.application.Platform;
 import javafx.scene.control.SplitPane;
 import javafx.scene.layout.BorderPane;
 
@@ -50,6 +51,7 @@ public class RootLayoutController {
         super();
         emailDAO = new EmailDAOImpl();
         sendReceiveModule = new SendReceiveModule();
+        
     }
     
     /**
@@ -72,7 +74,9 @@ public class RootLayoutController {
         try {
             folderTreeController.displayTree();
             emailTableController.displayTheTable("Inbox");
-            emailHTMLController.displayOtherHTML();
+            
+            // For testing purposes.
+            //emailHTMLController.displayOtherHTML();
         } catch (SQLException ex) {
             Logger.getLogger(RootLayoutController.class.getName()).log(Level.SEVERE, null, ex);
         }
@@ -97,6 +101,8 @@ public class RootLayoutController {
             stage.setTitle("Config");
             stage.setScene(scene);
             stage.show();
+            
+            
         } catch (IOException ex) {
             java.util.logging.Logger.getLogger(EmailHTMLController.class.getName()).log(Level.SEVERE, null, ex);
         }

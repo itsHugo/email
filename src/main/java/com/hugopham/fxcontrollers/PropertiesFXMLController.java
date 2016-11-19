@@ -19,9 +19,13 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 /**
- * This is the controller for Scene.fxml
+ * This is the controller for PropertiesFXML.
+ * 
+ * Configures the require properties in order to make the main application 
+ * function.
  *
- * @author Ken Fogel
+ * @author Hugo Pham
+ * @version 1.0.0
  */
 public class PropertiesFXMLController {
 
@@ -79,7 +83,6 @@ public class PropertiesFXMLController {
 
     Scene scene;
     Stage stage;
-    RestOfProgramController rpc;
 
     private ConfigEmail configEmail;
     private ConfigDatabase configDatabase;
@@ -103,12 +106,10 @@ public class PropertiesFXMLController {
      *
      * @param scene
      * @param stage
-     * @param rpc
      */
-    public void setSceneStageController(Scene scene, Stage stage, RestOfProgramController rpc) {
+    public void setSceneStageController(Scene scene, Stage stage) {
         this.scene = scene;
         this.stage = stage;
-        this.rpc = rpc;
     }
 
     /**
@@ -139,6 +140,11 @@ public class PropertiesFXMLController {
         Platform.exit();
     }
     
+    /**
+     * Clears the fields in the database tab.
+     * 
+     * @param event 
+     */
     @FXML
     void onClearDatabase(ActionEvent event) {
         configDatabase.setDatabase("");
@@ -149,6 +155,11 @@ public class PropertiesFXMLController {
         configDatabase.setUser("");
     }
 
+    /**
+     * Clears the fields in the email tab.
+     * 
+     * @param event 
+     */
     @FXML
     void onClearEmail(ActionEvent event) {
         emailAddressTxt.setText("");
@@ -163,7 +174,9 @@ public class PropertiesFXMLController {
     }
 
     /**
-     * Event handler for Save button
+     * Event handler for Save button.
+     * 
+     * Saves the fields in the email tab to a properties file.
      *
      * @param event
      */
@@ -178,6 +191,13 @@ public class PropertiesFXMLController {
         }
     }
     
+    /**
+     * Event handler for Save button.
+     * 
+     * Saves the fields in the database tab to a properties file.
+     *
+     * @param event
+     */
     @FXML
     void onSaveDatabase(ActionEvent event) {
         DatabasePropertiesManager dpm = new DatabasePropertiesManager();
@@ -189,6 +209,10 @@ public class PropertiesFXMLController {
         }
     }
     
+    /**
+     * Display the existing properties if applicable in all the fields in
+     * each tab.
+     */
     private void loadProperties(){
         try{
             configEmail = new EmailPropertiesManager()

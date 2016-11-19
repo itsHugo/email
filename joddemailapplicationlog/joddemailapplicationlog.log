@@ -327,3 +327,2126 @@
 	null
 	car.png
 	-1
+[INFO ] 2016-11-19 03:19:24.095 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:19:24.096 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:19:25.945 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:19:25.945 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:19:29.241 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:29.241 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:29.950 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:29.950 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:29.950 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:29.951 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:19:29.951 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:29.951 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:19:30.894 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:30.894 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:33.011 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:19:33.011 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:19:36.542 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:36.542 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:19:37.158 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:37.158 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:37.814 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:37.814 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:38.430 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:38.430 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:19:39.566 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:39.566 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:39.566 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:39.566 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:19:39.567 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:39.567 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:19:40.910 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:40.910 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:41.229 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:41.229 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:43.729 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:19:43.729 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:19:46.334 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:46.334 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:46.782 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:46.782 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:19:46.782 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:46.782 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:19:46.783 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:46.783 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:19:47.158 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:19:47.158 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:21:04.382 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:21:04.383 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:21:06.209 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:21:06.209 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:23:42.083 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:23:42.085 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:23:43.979 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:23:43.979 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:28:35.651 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:28:35.652 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:28:37.502 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:28:37.502 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:29:08.121 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:29:08.123 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:29:09.983 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:29:09.984 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:29:14.498 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:29:14.498 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:29:45.623 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:29:45.623 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:29:45.624 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:29:45.624 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:29:45.624 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:29:45.624 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:30:25.283 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:30:25.285 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:30:27.140 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:30:27.140 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:30:30.066 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:30.066 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:37.311 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:37.311 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:37.311 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:37.311 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:30:37.312 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:37.312 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:30:42.431 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:42.431 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:44.383 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:44.383 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:44.383 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:44.384 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:30:44.384 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:44.384 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:30:44.951 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:44.951 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:45.575 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:45.575 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:45.575 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:45.576 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:30:45.576 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:45.576 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:30:45.935 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:45.935 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:46.327 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:46.327 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:49.143 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:49.143 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:49.143 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:49.144 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:30:49.144 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:49.144 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:30:49.503 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:49.503 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:30:50.831 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:30:50.831 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:33:06.917 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:33:06.918 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:33:08.773 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:33:08.773 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:33:11.506 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:11.506 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:33:12.591 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:12.591 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:33:12.592 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:12.592 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:33:12.593 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:12.593 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:33:13.479 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:13.479 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:33:14.399 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:14.399 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:33:14.400 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:14.400 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:33:14.401 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:14.401 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:33:15.143 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:33:15.143 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:34:54.584 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:34:54.585 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:34:56.484 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:34:56.484 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:35:00.274 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:00.274 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:35:01.591 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:01.591 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:35:01.592 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:01.592 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:35:01.593 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:01.593 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:35:03.687 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:03.687 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:35:04.351 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:04.351 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:35:04.352 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:04.352 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:35:04.352 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:04.352 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:35:04.935 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:35:04.935 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:35:11.327 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 03:35:11.327 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 03:35:48.928 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 03:35:48.929 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 03:35:50.780 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 03:35:50.780 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 03:36:03.562 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:03.562 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:03.563 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:03.563 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:36:03.563 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:03.563 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:36:04.319 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:04.319 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:04.759 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:04.759 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:04.760 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:04.760 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:36:04.760 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:04.760 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:36:05.207 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:05.207 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:05.807 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:05.807 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:05.808 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:05.808 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:36:05.808 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:05.809 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:36:06.199 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:06.199 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:09.031 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:09.032 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:09.663 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:09.663 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:09.664 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:09.664 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:36:09.664 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:09.665 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:36:10.071 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:10.071 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:10.487 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:10.487 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:10.488 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:10.488 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:36:10.488 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:10.488 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 03:36:10.799 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:10.799 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:11.511 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:11.511 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 03:36:11.512 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:11.512 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 03:36:11.512 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 03:36:11.512 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 12:35:01.709 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:35:01.711 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:35:03.591 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:35:03.591 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:40:49.909 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:40:49.910 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:40:51.774 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:40:51.774 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:41:23.504 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:41:23.506 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:41:25.375 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:41:25.375 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:41:48.997 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:41:48.999 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:41:50.848 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:41:50.848 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:42:23.569 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:42:23.570 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:42:25.424 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:42:25.424 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:42:52.372 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:42:52.372 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 12:42:56.099 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:42:56.099 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 12:42:56.100 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:42:56.100 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 12:42:56.100 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:42:56.101 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 12:44:01.198 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:44:01.200 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:44:03.943 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:44:03.943 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:44:06.902 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:44:06.902 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 12:44:47.291 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:44:47.292 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:44:50.664 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:44:50.664 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:45:40.476 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:45:40.476 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 12:45:41.187 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:45:41.187 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 12:45:41.188 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:45:41.188 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 12:45:41.188 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:45:41.188 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 12:45:41.683 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 12:45:41.683 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 12:46:09.298 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:46:09.300 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:46:12.876 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:46:12.876 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 12:46:42.999 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 12:46:43.000 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 12:46:44.919 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 12:46:44.920 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:01:08.557 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:01:08.558 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:01:10.438 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:01:10.438 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:01:57.862 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:01:57.863 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:01:59.748 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:01:59.748 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:02:49.468 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:02:49.469 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:02:51.329 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:02:51.329 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:03:12.984 [JavaFX Application Thread] EmailHTMLController - Attaching: pokemon.JPG
+[INFO ] 2016-11-19 13:14:32.796 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:14:32.797 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:14:34.663 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:14:34.663 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:16:58.676 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:16:58.677 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:17:00.561 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:17:00.562 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:17:27.055 [JavaFX Application Thread] EmailHTMLController - Attaching: pokemon.JPG
+[INFO ] 2016-11-19 13:17:42.693 [JavaFX Application Thread] EmailHTMLController - Attaching: Class Notes1.docx
+[INFO ] 2016-11-19 13:20:36.896 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:20:36.898 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:20:38.775 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:20:38.775 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:21:06.736 [JavaFX Application Thread] EmailHTMLController - Attaching: DoubleToBytes.java
+[INFO ] 2016-11-19 13:31:21.235 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:31:21.237 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:31:23.097 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:31:23.097 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:31:30.425 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:30.425 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:31:30.426 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:30.426 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 13:31:30.427 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:30.427 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 13:31:38.917 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:38.917 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:31:39.710 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:39.710 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:31:39.710 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:39.710 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 13:31:39.711 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:39.711 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 13:31:42.781 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:31:42.782 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:32:52.010 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:32:52.011 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:32:53.903 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:32:53.903 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:33:30.320 [JavaFX Application Thread] EmailHTMLController - Attaching: pokemon.JPG
+[INFO ] 2016-11-19 13:41:28.532 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:41:28.535 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:41:30.398 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:41:30.398 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:41:36.221 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:41:36.221 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:41:41.090 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:41:41.091 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:42:27.277 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:42:27.279 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:42:33.051 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:42:33.051 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:54:56.319 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:54:56.321 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:54:58.206 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:54:58.206 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:55:03.946 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:55:03.946 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:55:12.598 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 13:55:12.599 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 13:55:18.552 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:55:18.552 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:55:24.700 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:55:24.700 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:56:12.225 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:56:12.227 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:56:14.100 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:56:14.100 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:56:21.095 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 13:56:21.095 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 13:56:23.638 [JavaFX Application Thread] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-19 13:56:23.638 [JavaFX Application Thread] SendReceiveModule - MESSAGE #:6
+[INFO ] 2016-11-19 13:56:23.638 [JavaFX Application Thread] SendReceiveModule - FROM:Hugo Pham <hugo.pham@hotmail.com>
+[INFO ] 2016-11-19 13:56:23.639 [JavaFX Application Thread] SendReceiveModule - TO:"hugo.sender.not.a.bot@gmail.com" <hugo.sender.not.a.bot@gmail.com>
+[INFO ] 2016-11-19 13:56:23.639 [JavaFX Application Thread] SendReceiveModule - SUBJECT:Fw: Don't read this email
+[INFO ] 2016-11-19 13:56:23.639 [JavaFX Application Thread] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-19 13:56:23.641 [JavaFX Application Thread] SendReceiveModule - SENT DATE:Sat Nov 19 13:54:39 EST 2016
+[INFO ] 2016-11-19 13:56:23.641 [JavaFX Application Thread] SendReceiveModule - RECEIVE DATE:Sat Nov 19 13:54:41 EST 2016
+[INFO ] 2016-11-19 13:56:23.641 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 13:56:23.641 [JavaFX Application Thread] SendReceiveModule - iso-8859-1
+[INFO ] 2016-11-19 13:56:23.642 [JavaFX Application Thread] SendReceiveModule - TEXT/PLAIN
+[INFO ] 2016-11-19 13:56:23.642 [JavaFX Application Thread] SendReceiveModule - 
+
+Sent from Outlook<http://aka.ms/weboutlook>
+
+
+________________________________
+From: Hugo Pham <hugo.pham@hotmail.com>
+Sent: November 17, 2016 9:17 PM
+To: Not Abot
+Subject: Don't read this email
+
+
+Pls
+
+[cid:09e4787a-91a1-4478-a8bd-e64f68514262]
+
+Sent from Outlook<http://aka.ms/weboutlook>
+
+[INFO ] 2016-11-19 13:56:23.642 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 13:56:23.642 [JavaFX Application Thread] SendReceiveModule - iso-8859-1
+[INFO ] 2016-11-19 13:56:23.642 [JavaFX Application Thread] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-19 13:56:23.642 [JavaFX Application Thread] SendReceiveModule - <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css" style="display:none;"><!-- P {margin-top:0;margin-bottom:0;} --></style>
+</head>
+<body dir="ltr">
+<div id="divtagdefaultwrapper" style="font-size:12pt;color:#000000;font-family:Calibri,Arial,Helvetica,sans-serif;" dir="ltr">
+<p><br>
+</p>
+<p><br>
+</p>
+<div id="Signature">
+<p>Sent from <a href="http://aka.ms/weboutlook" id="LPNoLP">Outlook</a><br>
+</p>
+</div>
+<br>
+<br>
+<div style="color: rgb(0, 0, 0);">
+<hr tabindex="-1" style="display:inline-block; width:98%">
+<div id="divRplyFwdMsg" dir="ltr"><font face="Calibri, sans-serif" color="#000000" style="font-size:11pt"><b>From:</b> Hugo Pham &lt;hugo.pham@hotmail.com&gt;<br>
+<b>Sent:</b> November 17, 2016 9:17 PM<br>
+<b>To:</b> Not Abot<br>
+<b>Subject:</b> Don't read this email</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div id="divtagdefaultwrapper" dir="ltr" style="font-size:12pt; color:#000000; font-family:Calibri,Arial,Helvetica,sans-serif">
+<p>Pls</p>
+<p><img naturalheight="800" naturalwidth="800" size="169081" id="img270479" tabindex="0" style="max-width: 99.9%; user-select: none;" aria-expanded="false" src="cid:09e4787a-91a1-4478-a8bd-e64f68514262"><br>
+</p>
+<div id="Signature">
+<p>Sent from <a href="http://aka.ms/weboutlook" id="LPNoLP">Outlook</a><br>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - name: feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - cid: <09e4787a-91a1-4478-a8bd-e64f68514262>
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - size: 169081
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 13:56:23.643 [JavaFX Application Thread] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-19 13:56:23.644 [JavaFX Application Thread] SendReceiveModule - -------------------------
+[INFO ] 2016-11-19 13:56:23.771 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAIL: Email{'Hugo Pham <hugo.pham@hotmail.com>', subject='Fw: Don't read this email'}
+[INFO ] 2016-11-19 13:56:23.795 [JavaFX Application Thread] EmailDAOImpl - ID of email inserted: 8
+[INFO ] 2016-11-19 13:56:23.925 [JavaFX Application Thread] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:56:23.948 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 13:56:24.081 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAILMESSAGE: 
+
+Sent from Outlook<http://aka.ms/weboutlook>
+
+
+________________________________
+From: Hugo Pham <hugo.pham@hotmail.com>
+Sent: November 17, 2016 9:17 PM
+To: Not Abot
+Subject: Don't read this email
+
+
+Pls
+
+[cid:09e4787a-91a1-4478-a8bd-e64f68514262]
+
+Sent from Outlook<http://aka.ms/weboutlook>
+
+[INFO ] 2016-11-19 13:56:24.177 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 13:56:24.302 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAILMESSAGE: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css" style="display:none;"><!-- P {margin-top:0;margin-bottom:0;} --></style>
+</head>
+<body dir="ltr">
+<div id="divtagdefaultwrapper" style="font-size:12pt;color:#000000;font-family:Calibri,Arial,Helvetica,sans-serif;" dir="ltr">
+<p><br>
+</p>
+<p><br>
+</p>
+<div id="Signature">
+<p>Sent from <a href="http://aka.ms/weboutlook" id="LPNoLP">Outlook</a><br>
+</p>
+</div>
+<br>
+<br>
+<div style="color: rgb(0, 0, 0);">
+<hr tabindex="-1" style="display:inline-block; width:98%">
+<div id="divRplyFwdMsg" dir="ltr"><font face="Calibri, sans-serif" color="#000000" style="font-size:11pt"><b>From:</b> Hugo Pham &lt;hugo.pham@hotmail.com&gt;<br>
+<b>Sent:</b> November 17, 2016 9:17 PM<br>
+<b>To:</b> Not Abot<br>
+<b>Subject:</b> Don't read this email</font>
+<div>&nbsp;</div>
+</div>
+<div>
+<div id="divtagdefaultwrapper" dir="ltr" style="font-size:12pt; color:#000000; font-family:Calibri,Arial,Helvetica,sans-serif">
+<p>Pls</p>
+<p><img naturalheight="800" naturalwidth="800" size="169081" id="img270479" tabindex="0" style="max-width: 99.9%; user-select: none;" aria-expanded="false" src="cid:09e4787a-91a1-4478-a8bd-e64f68514262"><br>
+</p>
+<div id="Signature">
+<p>Sent from <a href="http://aka.ms/weboutlook" id="LPNoLP">Outlook</a><br>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+[INFO ] 2016-11-19 13:56:24.327 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 13:56:24.450 [JavaFX Application Thread] EmailDAOImpl - Inserting into ATTACHMENT:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	<09e4787a-91a1-4478-a8bd-e64f68514262>
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	169081
+[INFO ] 2016-11-19 13:56:24.782 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 13:56:29.082 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 13:56:30.748 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:56:30.748 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:56:33.256 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:56:33.256 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:59:08.082 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 13:59:08.084 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 13:59:09.151 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 13:59:10.863 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 13:59:10.863 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 13:59:18.600 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:59:18.600 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 13:59:54.353 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 13:59:54.353 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:00:02.798 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:00:04.555 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:00:04.555 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:00:55.122 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:00:55.123 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:00:56.168 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:00:57.910 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:00:57.910 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:01:01.283 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:01:01.283 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:23.007 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:02:23.009 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:02:24.084 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:02:25.894 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:02:25.894 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:02:30.610 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:30.611 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:32.928 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:32.928 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:32.929 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:32.929 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:02:32.929 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:32.930 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:02:36.137 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:36.137 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:37.032 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:37.032 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:37.033 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:37.033 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:02:37.033 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:37.033 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:02:37.665 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:37.665 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:38.296 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:38.296 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:38.297 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:38.297 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:02:38.297 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:38.297 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:02:40.185 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:40.185 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:40.832 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:40.832 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:41.944 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:41.944 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:42.592 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:42.592 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:02:42.593 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:42.593 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:02:42.593 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:02:42.593 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:03:07.389 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:03:07.391 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:03:08.459 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:03:10.155 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:03:10.155 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:03:13.091 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:13.091 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:14.649 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:14.649 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:15.352 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:15.352 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:15.353 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:15.353 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:03:15.354 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:15.354 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:03:16.538 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:16.538 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:17.224 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:17.224 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:17.225 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:17.225 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:03:17.225 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:17.226 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:03:18.080 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:18.080 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:18.696 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:18.696 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:18.697 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:18.697 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:03:18.697 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:18.697 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:03:19.409 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:19.409 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:20.424 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:20.424 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:20.425 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:20.425 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:03:20.425 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:20.425 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:03:21.160 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:21.160 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:21.576 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:03:21.576 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:03:59.932 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:03:59.935 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:04:00.976 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:04:02.685 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:04:02.685 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:04:05.587 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:05.587 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:06.441 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:06.441 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:07.633 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:07.633 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:07.634 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:07.634 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:04:07.634 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:07.634 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:04:08.873 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:08.873 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:09.624 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:09.624 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:09.625 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:09.625 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:04:09.625 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:09.625 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:04:12.912 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:12.913 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:13.401 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:13.401 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:13.401 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:13.402 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:04:13.402 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:13.402 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:04:13.769 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:13.769 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:14.104 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:14.104 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:14.512 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:14.512 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:14.848 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:14.849 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:04:14.849 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:14.850 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:04:14.850 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:04:14.850 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:05:30.040 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:30.040 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:31.376 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:31.376 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:42.811 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:05:42.813 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:05:43.882 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:05:45.596 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:05:45.596 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:05:49.187 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:49.187 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:50.193 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:50.193 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:50.193 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:50.193 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:05:50.194 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:50.194 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:05:51.105 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:51.105 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:51.585 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:51.585 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:51.586 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:51.586 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:05:51.587 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:51.587 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:05:52.121 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:52.121 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:52.552 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:52.552 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:05:52.553 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:52.553 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:05:52.553 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:52.554 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:05:53.016 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:05:53.017 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:07:46.210 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:07:46.211 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:07:47.287 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:07:49.006 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:07:49.006 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:08:02.123 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:02.123 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:03.105 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:03.106 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:04.648 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:04.649 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:05.489 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:05.489 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:05.489 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:05.490 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:08:05.490 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:05.490 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:08:06.329 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:06.329 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:06.744 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:06.744 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:06.745 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:06.745 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:08:06.746 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:06.746 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:08:07.256 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:07.257 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:07.616 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:07.616 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:08.248 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:08.248 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:08.249 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:08.249 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:08:08.249 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:08.250 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:08:09.561 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:09.562 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:10.008 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:10.008 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:10.009 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:10.009 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:08:10.010 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:10.010 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:08:10.305 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:10.305 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:10.928 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:10.928 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:37.167 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:08:37.168 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:08:38.232 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:08:39.943 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:08:39.943 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:08:44.963 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:44.963 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:08:45.849 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:08:45.849 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:10:48.319 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:10:48.321 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:10:49.384 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:10:51.068 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:10:51.068 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:10:54.003 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:10:54.004 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:10:55.329 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:10:55.330 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:10:55.330 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:10:55.330 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:10:55.331 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:10:55.331 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:10:55.994 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:10:55.994 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:13:54.608 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:13:54.610 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:13:55.673 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:13:57.387 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:13:57.387 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:14:12.644 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:12.644 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:14:15.730 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:15.730 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:14:16.305 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:16.305 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:14:16.306 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:16.306 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:14:16.306 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:16.306 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:14:16.962 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:16.963 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:14:18.057 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:18.057 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:14:18.058 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:18.058 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:14:18.058 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:18.058 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:14:22.800 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:14:22.801 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:15:33.073 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:33.073 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:15:33.897 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:33.897 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:15:33.898 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:33.898 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:15:33.899 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:33.899 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:15:35.097 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:35.097 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:15:35.489 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:35.489 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:15:35.489 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:35.489 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:15:35.490 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:35.490 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:15:35.785 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:35.785 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:15:36.417 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:15:36.417 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:10.838 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:22:10.839 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:22:11.893 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:22:13.640 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:22:13.640 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:22:22.756 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:22.757 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:27.145 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:27.145 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:27.146 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:27.146 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:22:27.147 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:27.147 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:22:32.873 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:32.873 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:33.938 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:33.938 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:34.649 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:34.649 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:35.314 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:35.314 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:35.657 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:35.657 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:22:35.658 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:35.658 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:22:35.658 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:22:35.658 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:21.927 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:23:21.928 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:23:22.994 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:23:24.693 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:23:24.693 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:23:28.861 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:28.861 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:31.738 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:31.738 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:32.233 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:32.234 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:32.234 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:32.234 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:23:32.235 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:32.235 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:32.658 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:32.658 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:33.281 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:33.281 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:33.282 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:33.282 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:23:33.282 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:33.282 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:34.505 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:34.505 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:36.289 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:36.289 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:36.785 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:36.786 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:37.170 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:37.170 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:37.171 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:37.171 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:23:37.171 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:37.172 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:37.649 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:37.650 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:38.042 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:38.042 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:38.043 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:38.043 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:23:38.043 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:38.043 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:38.793 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:38.794 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:39.089 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:39.089 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:40.049 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:40.049 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:40.433 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:40.433 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:40.434 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:40.434 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:23:40.434 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:40.434 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:51.593 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:51.593 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:52.145 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:52.145 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:52.145 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:52.145 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:23:52.146 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:52.146 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:23:52.489 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:52.489 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:53.337 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:23:53.337 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:23:55.263 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:23:55.263 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:24:14.329 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:14.329 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:14.329 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:14.329 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:14.329 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:14.330 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:24:15.817 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:15.817 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:16.497 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:16.497 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:17.257 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:17.257 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:18.185 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:18.185 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:18.665 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:18.665 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:19.305 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:19.305 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:19.305 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:19.305 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:19.305 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:19.305 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:24:20.369 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:20.369 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:20.809 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:20.809 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:20.809 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:20.809 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:20.810 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:20.810 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:24:21.425 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:21.425 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:21.969 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:21.969 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:21.969 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:21.969 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:21.969 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:21.969 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:24:23.009 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:23.009 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:23.504 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:23.505 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:25.272 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:25.273 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:30.144 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:30.145 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:30.145 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:30.145 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:30.145 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:30.145 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 14:24:37.441 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:37.441 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:24:42.504 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:42.505 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:24:43.032 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:24:43.033 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:27:23.066 [JavaFX Application Thread] EmailHTMLController - Attaching: pokemon.JPG
+[INFO ] 2016-11-19 14:27:27.392 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:27:33.763 [JavaFX Application Thread] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-19 14:27:33.763 [JavaFX Application Thread] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - TO:hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - SUBJECT:New Email
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - UTF-8
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - text/html
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - <html dir="ltr"><head></head><body contenteditable="true"><p><font face="Segoe UI">Hi Hugo,</font></p><p><font face="Segoe UI">Something in this message.</font></p><p><font face="Segoe UI">Cordially,<br></font><p><font face="Segoe UI">Not Abot</font></p></p></body></html>
+[INFO ] 2016-11-19 14:27:33.764 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - name: pokemon.JPG
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - cid: null
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - size: -1
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-19 14:27:33.765 [JavaFX Application Thread] SendReceiveModule - -------------------------
+[INFO ] 2016-11-19 14:27:33.900 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='New Email'}
+[INFO ] 2016-11-19 14:27:33.925 [JavaFX Application Thread] EmailDAOImpl - ID of email inserted: 9
+[INFO ] 2016-11-19 14:27:34.051 [JavaFX Application Thread] EmailDAOImpl - Inserting into TOEMAIL:hugo.pham@hotmail.com
+[INFO ] 2016-11-19 14:27:34.074 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 14:27:34.200 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAILMESSAGE: <html dir="ltr"><head></head><body contenteditable="true"><p><font face="Segoe UI">Hi Hugo,</font></p><p><font face="Segoe UI">Something in this message.</font></p><p><font face="Segoe UI">Cordially,<br></font><p><font face="Segoe UI">Not Abot</font></p></p></body></html>
+[INFO ] 2016-11-19 14:27:34.226 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 14:27:34.360 [JavaFX Application Thread] EmailDAOImpl - Inserting into ATTACHMENT:
+	pokemon.JPG
+	null
+	pokemon.JPG
+	-1
+[INFO ] 2016-11-19 14:27:34.502 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 14:31:07.880 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:31:07.881 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:31:08.959 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:31:10.669 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:31:10.669 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:31:15.400 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:31:15.401 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 14:34:09.983 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:34:09.985 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:34:11.056 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:34:12.778 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:34:12.779 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:34:16.360 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:34:16.360 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 14:34:22.680 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:34:22.681 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 14:34:37.240 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:34:37.240 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 14:37:04.234 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:37:04.235 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:37:05.326 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:37:07.038 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:37:07.038 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:37:23.337 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:37:23.337 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 14:37:26.912 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:37:26.912 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2016-11-19 14:46:52.436 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:46:52.437 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:46:53.510 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:46:55.208 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:46:55.208 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:48:05.242 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:48:05.244 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:48:06.319 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:48:08.008 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:48:08.008 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:49:01.539 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:49:01.540 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:49:02.602 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:49:04.329 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:49:04.330 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:50:39.841 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:50:39.842 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:50:40.919 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:50:42.646 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:50:42.646 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:52:04.099 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:52:04.100 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:52:05.174 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:52:06.873 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:52:06.874 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:52:14.277 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 14:52:14.277 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 14:54:17.922 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:54:17.924 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:54:19.002 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:54:20.700 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:54:20.700 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:54:44.751 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:54:46.456 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:54:46.456 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 14:57:14.421 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 14:59:12.255 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 14:59:12.257 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 14:59:13.318 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 14:59:15.027 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 14:59:15.027 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:02:35.659 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:02:35.660 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:02:36.727 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:02:38.450 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:02:38.451 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:02:44.058 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 15:03:42.469 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:03:42.471 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:03:43.543 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:03:45.230 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:03:45.230 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:03:51.426 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 15:04:30.347 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:04:30.348 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:04:31.425 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:04:33.105 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:04:33.105 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:05:30.402 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 15:06:10.388 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:06:10.389 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:06:11.429 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:06:13.118 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:06:13.118 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:06:24.954 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 15:09:16.227 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:09:16.229 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:09:17.283 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:09:18.996 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:09:18.997 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:09:26.834 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 15:09:58.537 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:09:58.538 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:09:59.645 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:10:01.369 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:10:01.369 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:10:07.962 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 15:14:38.422 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:14:38.423 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:14:39.494 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:14:41.194 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:14:41.194 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:14:55.164 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:14:55.165 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:26.907 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:45:26.908 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:45:27.990 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:45:29.696 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:45:29.696 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:45:33.184 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:33.185 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:36.262 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:36.262 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:36.263 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:36.263 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:45:36.264 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:36.264 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:45:38.182 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:38.182 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:38.542 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:38.542 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:38.542 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:38.543 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:45:38.543 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:38.543 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:45:38.917 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:38.918 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:39.373 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:45:39.373 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:45:58.427 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:45:58.429 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:45:59.471 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:46:01.177 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:46:01.178 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:46:04.601 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:46:04.601 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:46:08.582 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:46:08.582 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:46:08.583 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:46:08.583 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:46:08.583 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:46:08.584 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:46:57.072 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:46:57.073 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:46:58.150 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:46:59.850 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:46:59.850 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:47:07.590 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:47:07.590 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:47:08.725 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:47:08.725 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:47:08.726 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:47:08.726 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:47:08.726 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:47:08.727 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:51:26.627 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:51:26.628 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:51:27.694 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:51:29.403 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:51:29.403 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:51:32.384 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:32.385 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:51:32.385 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:32.385 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:51:32.386 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:32.386 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:51:38.766 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:38.766 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:51:39.790 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:39.790 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:51:39.790 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:39.791 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:51:39.791 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:39.791 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:51:40.406 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:40.406 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:51:41.382 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:51:41.382 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:52:10.801 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:52:10.803 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:52:11.903 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:52:13.599 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:52:13.599 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:52:16.483 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:52:16.483 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:52:21.430 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:52:21.431 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:52:21.431 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:52:21.431 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:52:21.431 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:52:21.431 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:52:54.658 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:52:54.660 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:52:55.721 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:52:57.452 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:52:57.452 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:53:00.745 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:53:00.745 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:53:02.110 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:53:02.110 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:53:02.942 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:53:02.942 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:53:02.942 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:53:02.943 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:53:02.943 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:53:02.943 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:53:03.606 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:53:03.606 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:56:00.908 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:56:00.910 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:56:01.961 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:56:03.674 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:56:03.674 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:56:06.688 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:06.688 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:56:09.110 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:09.110 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:56:09.111 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:09.111 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:56:09.111 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:09.112 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:56:11.734 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:11.734 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:56:12.670 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:12.670 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:56:12.671 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:12.671 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:56:12.672 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:12.672 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:56:13.096 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:56:13.096 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:56:48.815 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:56:48.816 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:56:49.868 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:56:51.550 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:56:51.550 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:59:05.657 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 15:59:05.659 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 15:59:06.710 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 15:59:08.424 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 15:59:08.425 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 15:59:13.118 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:13.119 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:15.183 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:15.183 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:16.127 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:16.127 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:16.128 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:16.129 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:59:16.129 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:16.129 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:59:16.711 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:16.711 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:19.541 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:19.542 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:19.542 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:19.542 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:59:19.543 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:19.543 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:59:20.119 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:20.119 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:20.486 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:20.486 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:22.638 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:22.639 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:23.582 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:23.582 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:23.583 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:23.583 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:59:23.584 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:23.584 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:59:24.286 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:24.287 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:24.886 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:24.887 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:24.887 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:24.887 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 15:59:24.888 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:24.888 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com
+[INFO ] 2016-11-19 15:59:25.230 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:25.231 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 15:59:25.598 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 15:59:25.598 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 16:09:07.603 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 16:09:07.605 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 16:09:08.672 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 16:09:10.391 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 16:09:10.391 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 16:09:13.585 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 16:09:13.585 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 16:12:51.843 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 16:12:51.845 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 16:12:52.914 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	null
+	feels_bad_man_hd_by_rounindx-d8e7sww.jpg
+	-1
+[INFO ] 2016-11-19 16:12:54.608 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 16:12:54.608 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 16:12:58.730 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 16:12:58.730 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 16:12:59.696 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 16:12:59.696 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 16:13:01.959 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 16:13:01.959 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 16:13:01.959 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 16:13:01.960 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.pham@hotmail.com
+[INFO ] 2016-11-19 16:13:01.960 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2016-11-19 16:13:01.960 [JavaFX Application Thread] EmailHTMLController - Concatenation result: z0mg_a_hugz@hotmail.com

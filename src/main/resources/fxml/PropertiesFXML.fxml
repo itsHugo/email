@@ -184,7 +184,7 @@
         <menus>
           <Menu mnemonicParsing="false" text="%file_menu">
             <items>
-              <MenuItem mnemonicParsing="false" text="%close_menuitem" />
+              <MenuItem mnemonicParsing="false" onAction="#onCancel" text="%close_menuitem" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="%help_menu">
