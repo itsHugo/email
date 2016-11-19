@@ -338,7 +338,7 @@ public class EmailDAOImpl implements EmailDAO {
     public ExtendedEmail findEmailByID(int id) throws SQLException {
         ExtendedEmail email = new ExtendedEmail();
         String readQuery = "SELECT ID, USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS "
-                + "FROM EMAIL WHERE ID = ?";
+                + "FROM EMAIL WHERE ID = ? ORDER BY RECEIVEDATE DESC";
 
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);
@@ -367,7 +367,7 @@ public class EmailDAOImpl implements EmailDAO {
     public ArrayList<ExtendedEmail> findAllEmailsFor(String useremail) throws SQLException {
         ArrayList<ExtendedEmail> emailList = new ArrayList<>();
         String readQuery = "SELECT ID, USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS "
-                + "FROM EMAIL WHERE USEREMAIL = ?";
+                + "FROM EMAIL WHERE USEREMAIL = ? ORDER BY RECEIVEDATE DESC";
 
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);
@@ -398,7 +398,7 @@ public class EmailDAOImpl implements EmailDAO {
     public ArrayList<ExtendedEmail> findAllEmailsInFolder(String useremail, String folder) throws SQLException {
         ArrayList<ExtendedEmail> emailList = new ArrayList<>();
         String readQuery = "SELECT ID, USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS "
-                + "FROM EMAIL WHERE USEREMAIL = ? AND FOLDERNAME = ?";
+                + "FROM EMAIL WHERE USEREMAIL = ? AND FOLDERNAME = ? ORDER BY RECEIVEDATE DESC";
 
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);

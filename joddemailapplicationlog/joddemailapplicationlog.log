@@ -147,3 +147,183 @@
 	null
 	test.png
 	-1
+[INFO ] 2016-11-19 02:36:44.137 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 02:36:44.140 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 02:36:45.985 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:36:45.985 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:37:43.265 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - SUBJECT:Another cool email!
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-19 02:37:49.307 [JavaFX Application Thread] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - UTF-8
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - text/html
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - <html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body contenteditable="true"><h1>Here is my cool email.</h1><img src="cid:test.png" null=""><h2>TEST!</h2></body></html>
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-19 02:37:49.308 [JavaFX Application Thread] SendReceiveModule - -------------------------
+[INFO ] 2016-11-19 02:37:49.444 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Another cool email!'}
+[INFO ] 2016-11-19 02:37:49.469 [JavaFX Application Thread] EmailDAOImpl - ID of email inserted: 5
+[INFO ] 2016-11-19 02:37:49.605 [JavaFX Application Thread] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:37:49.630 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 02:37:49.752 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAILMESSAGE: <html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body contenteditable="true"><h1>Here is my cool email.</h1><img src="cid:test.png" null=""><h2>TEST!</h2></body></html>
+[INFO ] 2016-11-19 02:37:49.776 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 02:37:51.564 [JavaFX Application Thread] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-19 02:39:12.484 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:39:12.484 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:39:14.644 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:39:14.644 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:39:20.533 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:39:20.533 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:41:09.027 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 02:41:09.028 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 02:41:10.895 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:41:10.895 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:42:38.641 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2016-11-19 02:42:44.660 [JavaFX Application Thread] SendReceiveModule - -------Sent an email: --------
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - MESSAGE #:0
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - SUBJECT:Let's try again!
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - SENT DATE:null
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - RECEIVE DATE:null
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - UTF-8
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - text/html
+[INFO ] 2016-11-19 02:42:44.661 [JavaFX Application Thread] SendReceiveModule - <html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body contenteditable="true"><h1>H<font size="6">ello friend.</font></h1></body></html>
+[INFO ] 2016-11-19 02:42:44.662 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:42:44.662 [JavaFX Application Thread] SendReceiveModule - FOLDER:Sent
+[INFO ] 2016-11-19 02:42:44.662 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:42:44.662 [JavaFX Application Thread] SendReceiveModule - FLAGS:null
+[INFO ] 2016-11-19 02:42:44.662 [JavaFX Application Thread] SendReceiveModule - -------------------------
+[INFO ] 2016-11-19 02:42:44.789 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Let's try again!'}
+[INFO ] 2016-11-19 02:42:44.812 [JavaFX Application Thread] EmailDAOImpl - ID of email inserted: 6
+[INFO ] 2016-11-19 02:42:44.937 [JavaFX Application Thread] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:42:44.960 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 02:42:45.086 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAILMESSAGE: <html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body contenteditable="true"><h1>H<font size="6">ello friend.</font></h1></body></html>
+[INFO ] 2016-11-19 02:42:45.109 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 02:42:46.571 [JavaFX Application Thread] SendReceiveModule - -------Converting ReceivedEmail to ExtendedEmail-------
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - MESSAGE #:5
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - FROM:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - TO:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - SUBJECT:Let's try again!
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - PRIORITY:-1
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - SENT DATE:Sat Nov 19 02:42:44 EST 2016
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - RECEIVE DATE:Sat Nov 19 02:42:44 EST 2016
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:42:46.572 [JavaFX Application Thread] SendReceiveModule - UTF-8
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - TEXT/HTML
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - <html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body contenteditable="true"><h1>H<font size="6">ello friend.</font></h1></body></html>
+
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - FOLDER:Inbox
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - ------------
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - FLAGS:javax.mail.Flags@20
+[INFO ] 2016-11-19 02:42:46.573 [JavaFX Application Thread] SendReceiveModule - -------------------------
+[INFO ] 2016-11-19 02:42:46.708 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAIL: Email{'hugo.sender.not.a.bot@gmail.com', subject='Let's try again!'}
+[INFO ] 2016-11-19 02:42:46.734 [JavaFX Application Thread] EmailDAOImpl - ID of email inserted: 7
+[INFO ] 2016-11-19 02:42:46.859 [JavaFX Application Thread] EmailDAOImpl - Inserting into TOEMAIL:hugo.sender.not.a.bot@gmail.com
+[INFO ] 2016-11-19 02:42:46.882 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 02:42:47.007 [JavaFX Application Thread] EmailDAOImpl - Inserting into EMAILMESSAGE: <html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body contenteditable="true"><h1>H<font size="6">ello friend.</font></h1></body></html>
+
+[INFO ] 2016-11-19 02:42:47.031 [JavaFX Application Thread] EmailDAOImpl - # of records created : 1
+[INFO ] 2016-11-19 02:42:52.890 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:42:52.890 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:44:08.056 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2016-11-19 02:44:08.057 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2016-11-19 02:44:09.913 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:44:09.914 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:44:24.991 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:44:24.992 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:44:43.247 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1
+[INFO ] 2016-11-19 02:44:43.247 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:44:55.975 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	test.png
+	null
+	test.png
+	-1
+[INFO ] 2016-11-19 02:44:55.975 [JavaFX Application Thread] EmailDAOImpl - Found attachment:
+	car.png
+	null
+	car.png
+	-1

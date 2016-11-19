@@ -223,9 +223,10 @@ public class SendReceiveModule implements Mailer {
                 for (EmailMessage message : r[i].getAllMessages()) {
                     converted[i].addMessage(message);
                 }
-                for (EmailAttachment attachment : r[i].getAttachments()) {
-                    converted[i].attach(attachment);
-                }
+                if(r[i].getAttachments() != null)
+                    for (EmailAttachment attachment : r[i].getAttachments()) 
+                        converted[i].attach(attachment);
+                    
                 converted[i].setSentDate(r[i].getSentDate());
                 converted[i].setReceiveDate(r[i].getReceiveDate());
                 
