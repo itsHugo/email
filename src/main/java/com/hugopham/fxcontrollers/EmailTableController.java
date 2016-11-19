@@ -1,7 +1,6 @@
 package com.hugopham.fxcontrollers;
 
 import com.hugopham.mailmoduledatabase.EmailDAO;
-import com.hugopham.mailmoduledatabase.EmailDAOImpl;
 import com.hugopham.mailmodules.ExtendedEmail;
 import java.sql.SQLException;
 import javafx.beans.property.SimpleStringProperty;
@@ -13,8 +12,13 @@ import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
 
 /**
+ * FXML Controller class of EmailTableLayout.fxml.
  * 
+ * Used with the RootLayoutController in order to pass functionality to the
+ * EmailHTMLController. Also used by the FolderTreeController.
+ *
  * @author Hugo Pham
+ * @version 1.0.0
  */
 public class EmailTableController {
 
@@ -33,11 +37,14 @@ public class EmailTableController {
     @FXML
     private TableColumn<ExtendedEmail, String> receiveDate;
 
-    static EmailDAO emailDAO = new EmailDAOImpl();
+    private EmailDAO emailDAO;
+    
+    private EmailHTMLController controller;
 
     /**
      * Initializes the controller class. This method is automatically called
      * after the fxml file has been loaded.
+     * 
      * @throws java.sql.SQLException
      */
     @FXML
@@ -63,10 +70,6 @@ public class EmailTableController {
                 .addListener(
                         (observable, oldValue, newValue) -> showEmailDetails(newValue));
         
-        // Try to display the table
-
-          displayTheTable(); 
-        
     }
 
     /**
@@ -77,11 +80,23 @@ public class EmailTableController {
      * @throws SQLException
      */
     public void setEmailDAO(EmailDAO emailDAO) throws SQLException {
-        EmailTableController.emailDAO = emailDAO;
+        this.emailDAO = emailDAO;
     }
 
     /**
-     * The table displays the email data
+     * The RootLayoutController calls this method to provide a reference to the
+     * EmailHTMLController from which it can request a reference to the
+     * HTMLEditor. With the HTMLEditor reference it can display an email's information
+     * in the editor.
+     *
+     * @param controller
+     */
+    public void setHTMLController(EmailHTMLController controller){
+        this.controller = controller;
+    }
+    
+    /**
+     * The table displays all the emails.
      *
      * @throws SQLException
      */
@@ -92,7 +107,22 @@ public class EmailTableController {
         // Add observable list data to the table
         emailDataTable.setItems(observableList);
     }
+    
+    /**
+     * The table displays all the emails in the matching folder.
+     *
+     * @param folder 
+     * @throws SQLException
+     */
+    public void displayTheTable(String folder) throws SQLException {
+        ObservableList<ExtendedEmail> observableList = 
+                FXCollections.observableList(emailDAO.findAllEmailsInFolder("hugo.sender.not.a.bot@gmail.com",folder));
 
+        // Add observable list data to the table
+        emailDataTable.setItems(observableList);
+    }
+
+    
     /**
      * Sets the width of the columns based on a percentage of the overall width
      *
@@ -109,16 +139,11 @@ public class EmailTableController {
     }
 
     /**
-     * To be able to test the selection handler for the table, this method
-     * displays the FishData object that corresponds to the selected row.
+     * Displays the ExtendedEmail object in the HTML editor.
      *
-     * @param fishData
+     * @param email
      */
     private void showEmailDetails(ExtendedEmail email) {
-        System.out.println("showEmailDetails\n"
-                + email.getFrom() + "\n"
-                + email.getTo()[0] + "\n"
-                + email.getSubject() + "\n"
-                + email.getAllMessages().get(0).getContent());
+        controller.displayEmailAsHTML(email);   
     }
 }

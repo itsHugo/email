@@ -4,9 +4,9 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="emailTable" prefHeight="519.0" prefWidth="829.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hugopham.fxcontrollers.EmailTableController">
+<AnchorPane fx:id="emailTable" prefWidth="829.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hugopham.fxcontrollers.EmailTableController">
     <children>
-        <TableView fx:id="emailDataTable" editable="true" layoutX="436.0" layoutY="212.0" prefHeight="700.0" prefWidth="1355.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <TableView fx:id="emailDataTable" editable="true" layoutX="436.0" layoutY="212.0" minWidth="-Infinity" prefWidth="1000.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
             <columns>
                 <TableColumn fx:id="senderColumn" prefWidth="236.0" text="%senderEmail" />
                 <TableColumn fx:id="subjectColumn" prefWidth="309.0" text="%subjectEmail" />

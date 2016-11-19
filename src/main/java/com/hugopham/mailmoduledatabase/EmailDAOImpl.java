@@ -308,6 +308,7 @@ public class EmailDAOImpl implements EmailDAO {
 
     /**
      * Retrieves all the e-mails in the database.
+     * Ordered by most recent emails to oldest.
      *
      * @return ArrayList of e-mails
      * @throws SQLException
@@ -316,7 +317,7 @@ public class EmailDAOImpl implements EmailDAO {
     public ArrayList<ExtendedEmail> findAll() throws SQLException {
         ArrayList<ExtendedEmail> emailList = new ArrayList<>();
         String readQuery = "SELECT ID, USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS "
-                + "FROM EMAIL";
+                + "FROM EMAIL ORDER BY RECEIVEDATE DESC";
 
         // Connection is only open for the operation and then immediately closed
         try (Connection connection = DriverManager.getConnection(url, user, password);
@@ -375,6 +376,38 @@ public class EmailDAOImpl implements EmailDAO {
                 // SQL Injection
                 PreparedStatement ps = connection.prepareStatement(readQuery);) {
             ps.setString(1, useremail);
+            try (ResultSet resultSet = ps.executeQuery()) {
+                while (resultSet.next()) {
+                    emailList.add(createExtendedEmail(resultSet));
+                }
+            }
+        }
+        return emailList;
+    }
+
+    /**
+     * Retrieves all the e-mails with the matching folder field for a user.
+     * Ordered by most recent emails to oldest.
+     *
+     * @param useremail 
+     * @param folder 
+     * @return ArrayList of e-mails
+     * @throws SQLException
+     */
+    @Override
+    public ArrayList<ExtendedEmail> findAllEmailsInFolder(String useremail, String folder) throws SQLException {
+        ArrayList<ExtendedEmail> emailList = new ArrayList<>();
+        String readQuery = "SELECT ID, USEREMAIL, FROMEMAIL, SUBJECT, SENDDATE, RECEIVEDATE, FOLDERNAME, FLAGS "
+                + "FROM EMAIL WHERE USEREMAIL = ? AND FOLDERNAME = ?";
+
+        // Connection is only open for the operation and then immediately closed
+        try (Connection connection = DriverManager.getConnection(url, user, password);
+                // Using a prepared statement to handle the conversion
+                // of special characters in the SQL statement and guard against
+                // SQL Injection
+                PreparedStatement ps = connection.prepareStatement(readQuery);) {
+            ps.setString(1, useremail);
+            ps.setString(2, folder);
             try (ResultSet resultSet = ps.executeQuery()) {
                 while (resultSet.next()) {
                     emailList.add(createExtendedEmail(resultSet));

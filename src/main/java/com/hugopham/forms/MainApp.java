@@ -1,13 +1,13 @@
 package com.hugopham.forms;
 
-import com.hugopham.fxcontrollers.PropertiesFXMLController;
+import com.hugopham.propertiesmanager.DatabasePropertiesManager;
+import com.hugopham.propertiesmanager.EmailPropertiesManager;
 import java.util.ResourceBundle;
 import javafx.application.Application;
 import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
@@ -16,18 +16,39 @@ public class MainApp extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
+        EmailPropertiesManager email = new EmailPropertiesManager();
+        DatabasePropertiesManager database = new DatabasePropertiesManager();
+        
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(this.getClass().getResource("/fxml/EmailTableLayout.fxml"));
-        loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
-        Parent root = (AnchorPane) loader.load();
         
-        
-        Scene scene = new Scene(root);
-        scene.getStylesheets().add("/styles/Styles.css");
-        
-        stage.setTitle("Configure Properties");
-        stage.setScene(scene);
-        stage.show();
+        // Display configurations menu if no properties are found
+        // else displays email application.
+        if(email.loadTextProperties("", "EmailProperties") == null || database.loadTextProperties("", "DatabaseProperties") == null){
+            
+            loader.setLocation(this.getClass().getResource("/fxml/PropertiesFXML.fxml"));
+            loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
+            Parent root = (BorderPane) loader.load();
+            
+            
+            Scene scene = new Scene(root);
+            scene.getStylesheets().add("/styles/Styles.css");
+            
+            stage.setTitle("Config");
+            stage.setScene(scene);
+            stage.show();
+        } else {
+            loader.setLocation(this.getClass().getResource("/fxml/RootLayout.fxml"));
+            loader.setResources(ResourceBundle.getBundle("MessagesBundle"));
+            Parent root = (BorderPane) loader.load();
+
+
+            Scene scene = new Scene(root);
+            scene.getStylesheets().add("/styles/Styles.css");
+
+            stage.setTitle("My Email Program");
+            stage.setScene(scene);
+            stage.show();
+        }
     }
 
     /**

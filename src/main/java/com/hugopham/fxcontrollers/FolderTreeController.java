@@ -19,27 +19,18 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 
 import com.hugopham.mailmoduledatabase.EmailDAO;
-import com.hugopham.mailmoduledatabase.EmailDAOImpl;
+import java.util.logging.Level;
 
 /**
- * This controller began its life as part of a standalone display of a container
- * with a menu, tool bar and HTML editor. It is now part of another container.
+ * FXML Controller class of FolderTreeLayout.fxml.
+ * 
+ * Used with the RootLayoutController in order to pass functionality to the
+ * EmailTableController.
  *
- * A method was added to allow the RootLayoutController to pass in a reference
- * to the FishFXTableController
- *
- * i18n added
- *
- * Added drag and drop
- *
- * @author Ken Fogel
- * @version 1.2
- *
+ * @author Hugo Pham
+ * @version 1.0.0
  */
 public class FolderTreeController {
-
-    private EmailDAO emailDAO;
-    //private FishFXTableController fishFXTableController;
 
     private final Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
@@ -49,6 +40,9 @@ public class FolderTreeController {
     // Resource bundle is injected when controller is loaded
     @FXML
     private ResourceBundle resources;
+    
+    private EmailDAO emailDAO;
+    private EmailTableController controller;
 
     /**
      * Initializes the controller class. This method is automatically called
@@ -56,19 +50,12 @@ public class FolderTreeController {
      */
     @FXML
     private void initialize() {
-
-        //emailDAO = new EmailDAOImpl();
-        // We need a root node for the tree and it must be the same type as all
-        // nodes
-        String root = "Folder";
-
         // The tree will display common name so we set this for the root
         // Because we are using i18n the root name comes from the resource
         // bundle
-        folderTreeView.setRoot(new TreeItem<>(root));
+        folderTreeView.setRoot(new TreeItem<>(resources.getString("folder_root")));
 
-        // This cell factory is used to choose which field in the FihsData object
-        // is used for the node name
+        // This cell factory is used to choose the nodes' name.
         folderTreeView.setCellFactory((e) -> new TreeCell<String>() {
             @Override
             protected void updateItem(String item, boolean empty) {
@@ -101,12 +88,28 @@ public class FolderTreeController {
                 event.consume();
             }
         });
-        
-        try{
-            displayTree();
-        } catch(SQLException ex) {
-            
-        }
+    }
+    
+    /**
+     * The RootLayoutController calls this method to provide a reference to the
+     * Email object.
+     *
+     * @param emailDAO
+     */
+    public void setEmailDAO(EmailDAO emailDAO) {
+        this.emailDAO = emailDAO;
+    }
+    
+    /**
+     * The RootLayoutController calls this method to provide a reference to the
+     * EmailTableController from which it can request a reference to the
+     * TreeView. With the TreeView reference it can change the selection in the
+     * TableView.
+     *
+     * @param controller
+     */
+    public void setTableController(EmailTableController controller){
+        this.controller = controller;
     }
 
     /**
@@ -137,77 +140,44 @@ public class FolderTreeController {
     }
 
     /**
-     * The RootLayoutController calls this method to provide a reference to the
-     * Email object.
-     *
-     * @param emailDAO
-     */
-    public void setEmailDAO(EmailDAO emailDAO) {
-        this.emailDAO = emailDAO;
-    }
-
-    /**
-     * The RootLayoutController calls this method to provide a reference to the
-     * FishFXTableController from which it can request a reference to the
-     * TreeView. With theTreeView reference it can change the selection in the
-     * TableView.
-     *
-     * @param fishFXTableController
-     */
-    /* TO DO:
-	public void setTableController(FishFXTableController fishFXTableController) {
-		this.fishFXTableController = fishFXTableController;
-	}*/
-    /**
      * Build the tree from the database
      *
      * @throws SQLException
      */
     public void displayTree() throws SQLException {
-        // Retrieve the list of fish
-        // Change later
-        emailDAO = new EmailDAOImpl();
-        //ObservableList<String> folders = (ObservableList<String>) emailDAO.findAllFolders();
+        // Retrieve the list of folders
 
-        // Build an item for each fish and add it to the root
-        //if (folders != null) {
-            for (String folder : emailDAO.findAllFolders()) {
-                log.info(folder);
-                TreeItem<String> item = new TreeItem<>(folder);
-                //item.setGraphic(new ImageView(getClass().getResource("/images/fish.png").toExternalForm()));
-                item.setGraphic(null);
-                folderTreeView.getRoot().getChildren().add(item);
-            //}
+        // Build an item for each folder and add it to the root
+        for (String folder : emailDAO.findAllFolders()) {
+            log.info(folder);
+            TreeItem<String> item = new TreeItem<>(folder);
+            item.setGraphic(null);
+            folderTreeView.getRoot().getChildren().add(item);
         }
 
         // Open the tree
         folderTreeView.getRoot().setExpanded(true);
 
-        // Listen for selection changes and show the fishData details when
-        // changed.
-        /* TO DO:
-                fishFXTreeView.getSelectionModel().selectedItemProperty()
-				.addListener((observable, oldValue, newValue) -> showFishDetailsTree(newValue));
-         */
+        // Listen for selection changes and show the emails from the associated folder
+        // in the table.
+        folderTreeView.getSelectionModel().selectedItemProperty()
+                .addListener((observable, oldValue, newValue) -> showEmailsInTable(newValue));
+
     }
+    
+    
 
     /**
-     * Using the reference to the FishFXTableController it can change the
-     * selected row in the TableView It also displays the FishData object that
-     * corresponds to the selected node.
+     * Using the reference to the EmailTableController it can change the
+     * emails displayed in the table depending on which folder they are in.
      *
-     * @param fishData
+     * @param folder
      */
-    /* TO DO:
-	private void showFishDetailsTree(TreeItem<FishData> fishData) {
-
-		// Select the row that contains the FishData object from the Tree
-		fishFXTableController.getfishDataTable().getSelectionModel().select(fishData.getValue());
-		// Get the row number
-		int x = fishFXTableController.getfishDataTable().getSelectionModel().getSelectedIndex();
-		// Scroll the table so that the row is at the top of the displayed table
-		fishFXTableController.getfishDataTable().scrollTo(x);
-
-		System.out.println("showFishDetailsTree\n" + fishData.getValue());
-	}*/
+    private void showEmailsInTable(TreeItem<String> folder) {
+        try {
+            controller.displayTheTable(folder.getValue());
+        } catch (SQLException ex) {
+            java.util.logging.Logger.getLogger(FolderTreeController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 }
