@@ -4,10 +4,8 @@ com\hugopham\fxcontrollers\FolderTreeController$1.class
 com\hugopham\fxcontrollers\EmailTableController.class
 com\hugopham\fxcontrollers\EmailHTMLController.class
 com\hugopham\fxcontrollers\FolderTreeController.class
-com\hugopham\fxcontrollers\FXMLController.class
 com\hugopham\mailmoduleconfig\ConfigEmail.class
 com\hugopham\fxcontrollers\FolderTreeController$2.class
-com\hugopham\fxcontrollers\RestOfProgramController.class
 com\hugopham\mailmoduleconfig\ConfigDatabase.class
 com\hugopham\mailmodulesinterfaces\Mailer.class
 com\hugopham\forms\MainApp.class

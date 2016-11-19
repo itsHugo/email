@@ -204,6 +204,7 @@ public class EmailHTMLController {
     @FXML
     private void handleSend() {
         log.info("Send pressed.");
+        receiveEmails();
         if (!toTextField.getText().equals("") && !subjectTextField.getText().equals("")) {
             sendEmail();
         } else {
@@ -214,7 +215,7 @@ public class EmailHTMLController {
             dialog.setHeaderText(resources.getString("to_or_subject"));
             dialog.show();
         }
-        receiveEmails();
+        
 
     }
 
@@ -363,6 +364,7 @@ public class EmailHTMLController {
      * Routine for receiving emails and storing them into the database.
      */
     private void receiveEmails() {
+        log.info("Receiving emails");
         ExtendedEmail[] receivedEmails = sendReceiveModule.receiveEmail();
         if (receivedEmails != null) {
             for (ExtendedEmail receivedEmail : receivedEmails) {
