@@ -3202,3 +3202,24 @@ Sent from Outlook<http://aka.ms/weboutlook>
 [INFO ] 2016-11-19 16:44:57.759 [JavaFX Application Thread] EmailHTMLController - Send pressed.
 [INFO ] 2016-11-19 16:44:57.759 [JavaFX Application Thread] EmailHTMLController - Receiving emails
 [INFO ] 2016-11-19 16:44:59.077 [JavaFX Application Thread] EmailHTMLController - To or Subject not set.
+[INFO ] 2017-10-14 21:27:02.568 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2017-10-14 21:27:02.594 [JavaFX Application Thread] EmailHTMLController - Receiving emails
+[INFO ] 2017-10-15 12:09:29.319 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2017-10-15 12:09:29.320 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2017-10-15 12:09:36.571 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2017-10-15 12:09:36.571 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2017-10-15 12:10:17.748 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2017-10-15 12:10:17.748 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2017-10-15 12:10:54.493 [JavaFX Application Thread] EmailHTMLController - Concatenating emails.
+[INFO ] 2017-10-15 12:10:54.493 [JavaFX Application Thread] EmailHTMLController - Concatenation result: hugo.sender.not.a.bot@gmail.com
+[INFO ] 2017-10-15 12:11:28.101 [JavaFX Application Thread] EmailHTMLController - Attaching: 239px-Brown_Leghorn_rooster_in_Australia.jpg
+[INFO ] 2017-10-15 12:11:32.686 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2017-10-15 12:11:32.687 [JavaFX Application Thread] EmailHTMLController - Receiving emails
+[INFO ] 2017-10-15 12:12:29.617 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2017-10-15 12:12:29.619 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2017-10-15 12:12:46.286 [JavaFX Application Thread] EmailHTMLController - Send pressed.
+[INFO ] 2017-10-15 12:12:46.286 [JavaFX Application Thread] EmailHTMLController - Receiving emails
+[INFO ] 2017-10-15 14:21:56.379 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2017-10-15 14:21:56.391 [JavaFX Application Thread] FolderTreeController - Sent
+[INFO ] 2017-10-15 16:30:04.614 [JavaFX Application Thread] FolderTreeController - Inbox
+[INFO ] 2017-10-15 16:30:04.617 [JavaFX Application Thread] FolderTreeController - Sent

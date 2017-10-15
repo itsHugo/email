@@ -108,6 +108,8 @@ public class EmailPropertiesManager {
             throws IOException {
 
         Properties prop = new Properties();
+        
+        prop.setProperty("kek", "kek");
 
         prop.setProperty("userEmailAddress", mailConfig.getEmailSend());
         prop.setProperty("password", mailConfig.getEmailSendPwd());

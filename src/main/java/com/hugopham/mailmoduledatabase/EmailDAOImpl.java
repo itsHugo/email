@@ -3,13 +3,7 @@ package com.hugopham.mailmoduledatabase;
 import com.hugopham.mailmoduleconfig.ConfigDatabase;
 import com.hugopham.mailmodules.ExtendedEmail;
 import com.hugopham.propertiesmanager.DatabasePropertiesManager;
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.sql.Blob;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -272,7 +266,7 @@ public class EmailDAOImpl implements EmailDAO {
     }
 
     /**
-     * Inserts a an attachment into the database.
+     * Inserts an attachment into the database.
      *
      * @param attachment
      * @param emailID
@@ -329,6 +323,7 @@ public class EmailDAOImpl implements EmailDAO {
                 while (resultSet.next()) {
                     emailList.add(createExtendedEmail(resultSet));
                 }
+                resultSet.close();
             }
         }
         return emailList;
